@@ -1,5 +1,6 @@
 inoremap jk <ESC>
 "let mapleader = "\<Space>"
+
 syntax on
 set encoding=utf-8
 
@@ -98,6 +99,14 @@ else
     colorscheme zenburn
 endif
 
+" Syntastic settings
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
+" Set tab setting
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -134,4 +143,7 @@ set clipboard=unnamed
 
 " Map short cut to tagbar toogle
 nmap <F8> :TagbarToggle<CR>
+
+" Set numbering relatively
+set relativenumber
 
