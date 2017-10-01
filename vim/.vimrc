@@ -1,5 +1,5 @@
 inoremap jk <ESC>
-"let mapleader = "\<Space>"
+let mapleader = ","
 
 syntax on
 set encoding=utf-8
@@ -151,3 +151,9 @@ set nu
 
 " Map F7 to indent the whole file
 map <F7> mzgg=G`z
+
+" Map <leader>W to for removing all trailing space
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+
+
