@@ -1,5 +1,5 @@
 inoremap jk <ESC>
-"let mapleader = "\<Space>"
+let mapleader = ","
 
 syntax on
 set encoding=utf-8
@@ -104,7 +104,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
 " Set tab setting
 set tabstop=4
@@ -146,4 +147,13 @@ nmap <F8> :TagbarToggle<CR>
 
 " Set numbering relatively
 set relativenumber
+set nu
+
+" Map F7 to indent the whole file
+map <F7> mzgg=G`z
+
+" Map <leader>W to for removing all trailing space
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+
 
