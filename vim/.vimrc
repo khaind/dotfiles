@@ -1,10 +1,9 @@
-inoremap jk <ESC>
-let mapleader = ","
+inoremap jk <Esc>
+let mapleader = '-'
 
 syntax on
 set encoding=utf-8
 
-"set nu
 "set spell spelllang=en_us
 
 set nocompatible              " be iMproved, required
@@ -91,6 +90,9 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
 syntax enable
+" 256 color
+set t_Co=256
+
 " color mode setting
 if has('gui_running')
     set background=dark
@@ -149,11 +151,24 @@ nmap <F8> :TagbarToggle<CR>
 set relativenumber
 set nu
 
+" Set highlight search
+set hlsearch
+set incsearch
+
 " Map F7 to indent the whole file
 map <F7> mzgg=G`z
 
 " Map <leader>W to for removing all trailing space
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
+" Show matching brances
+set showmatch
+set matchtime=3
 
+" Handle multiple buffer better
+set hidden
+
+" Enhance command line completion
+set wildmenu
+set wildmode=list:longest
 
