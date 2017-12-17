@@ -172,3 +172,10 @@ set hidden
 set wildmenu
 set wildmode=list:longest
 
+" Paste command. Set to paste mode, paste from clipboard, then re-set to
+" nopaste mode
+map <leader>pp :set paste<CR>o<esc>"+p:set nopaste<CR>
+
+" toogle paste mode
+set pastetoggle=<F2>
+
