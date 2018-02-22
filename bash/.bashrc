@@ -10,14 +10,10 @@ esac
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
-HISTCONTROL=ignoreboth
+# HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
-
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000000
-HISTFILESIZE=200000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -91,6 +87,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -118,15 +116,31 @@ fi
 
 stty -ixon
 
-export HISTCONTROL=ignoreboth:erasedups
-
 cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
 
 export PATH=/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/khaind/.vimpkg/bin
 
 # Hide long path name in terminal
-#PS1='${debian_chroot:+($debian_chroot)}\u@\h: \W\$ '
-PROMPT_DIRTRIM=2
+# MY_PROMPT=$'\[\e[34m\u\e[0m@\e[36m\h\e[0m:\e[33m\w\]\n'
+# MY_PROMPT=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \w'
+# MY_PROMPT+=$'\n> '
+# export PS1=$MY_PROMPT
+PS1=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\e[0m\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \u \w \n$ '
+PROMPT_DIRTRIM=3
+
+# USER ENVIRONMENT & SHELL VARIABLES
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=500000
+HISTFILESIZE=500000
+
+# Erase duplicate in history
+export HISTCONTROL="ignoreboth:erasedups"
+
+# Do not save history of history or ls command
+export HISTIGNORE="history*"
+
+# Add time stampt to history file
+export HISTTIMEFORMAT="%D %H:%M:%S>  "
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/path.bash.inc' ]; then source '/home/khaind/FILES/05_Setup/google-cloud-sdk/path.bash.inc'; fi
@@ -136,3 +150,22 @@ if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/completion.bash.inc' ]; th
 
 # Alias tmux for screen-256color
 alias tmux='tmux -2'
+
+# Alias for pbcopy functioned as in OSX
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+# Virtual Environment Wrapper
+source /usr/local/bin/virtualenvwrapper.sh
+
+############################# FUNCTION #################################
+function gentag()
+{
+    # clean older info
+    rm -rf tags
+    rm -rf cscope.files
+    rm -rf cscope.out
+    # generate new info
+    find $PWD | egrep -i "\.(c|h|cpp)$" > cscope.files
+    ctags -R . *.c *.h *.cpp --tag-relative=yes ./
+}
