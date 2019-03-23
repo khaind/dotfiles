@@ -1,5564 +1,3 @@
-ip addr
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517235951
-ping google.com
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236199
-sudo ifdown eth1
-#1517236216
-sudo ifup eth1
-#1517236228
-ifconfig -a
-#1517236233
-exit
-#1517111688
-echo $PATH
-#1517129381
-exit
-#1517130815
-cd FILES/03_SourceCode/MyProjects/Github/My-Notes/
-#1517130819
-git st
-#1517130821
-git br
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517235628
-ping google.com -t
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236233
-exit
-#1517236351
-sudo apt-get install git build-essential
-#1517236372
-cd FILES/05_Setup/
-#1517236379
-git clone https://github.com/lwfinger/rtl8188eu.git
-#1517236400
-cd rtl8188eu/
-#1517236405
-make all
-#1517236476
-sudo modprobe 8188eu 
-#1517236550
-ip addr
-#1517236879
-man modprobe
-#1517237066
-lsmod | grep rtl
-#1517237116
-sudo modprobe rtl8192cu
-#1517237119
-clear
-#1517237149
-sudo modprobe -r rtl8192cu
-#1517237222
-sudo modprobe rtl8188ee 
-#1517237266
-ping 192.168.1.1
-#1517237368
-ping google.com
-#1517237495
-vim /etc/network/interfaces
-#1517237528
-cat /etc/network/interfaces
-#1517237532
-sudo vim /etc/network/interfaces
-#1517237569
-ifconfig -a
-#1517237631
-
-#1517237668
-sudo ifdown eth1
-#1517237672
-sudo ifup eth1
-#1517237906
-usb-devices 
-#1517238058
-sudo modprobe -v 8188eu
-#1517238069
-ls
-#1517238077
-sudo make install
-#1517238109
-sudo modprobe -r rtl8188ee
-#1517238120
-sudo modprobe 8188eu
-#1517238126
-lsmod | grep rt
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517235628
-ping google.com -t
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236351
-sudo apt-get install git build-essential
-#1517236379
-git clone https://github.com/lwfinger/rtl8188eu.git
-#1517236405
-make all
-#1517236476
-sudo modprobe 8188eu 
-#1517236550
-ip addr
-#1517236879
-man modprobe
-#1517237066
-lsmod | grep rtl
-#1517237116
-sudo modprobe rtl8192cu
-#1517237119
-clear
-#1517237149
-sudo modprobe -r rtl8192cu
-#1517237222
-sudo modprobe rtl8188ee 
-#1517237495
-vim /etc/network/interfaces
-#1517237528
-cat /etc/network/interfaces
-#1517237532
-sudo vim /etc/network/interfaces
-#1517238109
-sudo modprobe -r rtl8188ee
-#1517238408
-tracepath google.com
-#1517238449
-cd FILES/05_Setup/
-#1517238451
-cd rtl8188eu/
-#1517238458
-sudo make install
-#1517238633
-ls
-#1517238637
-sudo make install 
-#1517238649
-ls /lib/firmware/rtlwifi/
-#1517238698
-sudo modprobe -v rtl8188ee
-#1517238715
-sudo modprobe -v 8188
-#1517238718
-sudo modprobe -v 8188eu
-#1517238726
-sudo modprobe 8188eu
-#1517238733
-lsmod | grep rt
-#1517238772
-usb-devices 
-#1517238912
-sudo ifdown wlan0
-#1517238936
-ping 192.168.1.1
-#1517239144
-ifconfig -a
-#1517239151
-sudo ifdown eth1
-#1517239159
-sudo ifup eth0
-#1517239163
-sudo ifup eth1
-#1517239182
-ping google.com
-#1517239184
-exit
-#1517239202
-shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239984
-update-manager 
-#1517238458
-sudo make install
-#1517238637
-sudo make install 
-#1517238649
-ls /lib/firmware/rtlwifi/
-#1517238698
-sudo modprobe -v rtl8188ee
-#1517238715
-sudo modprobe -v 8188
-#1517238718
-sudo modprobe -v 8188eu
-#1517238726
-sudo modprobe 8188eu
-#1517238733
-lsmod | grep rt
-#1517238912
-sudo ifdown wlan0
-#1517239159
-sudo ifup eth0
-#1517239182
-ping google.com
-#1517239184
-exit
-#1517239202
-shutdown -r now
-#1517240462
-dmesg | grep rtl8
-#1517240480
-lsmod 
-#1517240566
-cd FILES/05_Setup/
-#1517240573
-git clone https://github.com/pvaret/rtl8192cu-fixes.git
-#1517240661
-df -h
-#1517240685
-modprobe -c | grep -i "2001.*3310"
-#1517240719
-sudo modprobe -r 8188eu 
-#1517240732
-sudo modprobe r8188eu
-#1517240784
-lsmod | grep r
-#1517241016
-lsmod
-#1517241029
-dmesg | grep 81
-#1517241033
-dmesg | grep 8192
-#1517241578
-ping 192.168.1.1
-#1517241605
-usb-devices 
-#1517241610
-iwconfig 
-#1517241631
-dmesg | grep 8188
-#1517241659
-ifconfig -a
-#1517241678
-cat /etc/resolv.conf 
-#1517241685
-iwlist chan
-#1517241703
-sudo ifdown eth1
-#1517241707
-sudo ifup eth1
-#1517241725
-sudo apt-get install --reinstall linux-headers-$(uname -r) linux-headers-generic build-essential dkms git 
-#1517241764
-ls
-#1517241781
-sudo dkms add ./rtl8192cu-fixes/
-#1517241812
-sudo dkms install 8192cu/1.8
-#1517241825
-sudo dkms install 8192cu/1.10
-#1517241890
-cat /etc/modprobe.d/blacklist.conf 
-#1517241904
-echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
-#1517241921
-echo 'install 8192cu modprobe --ignore-install 8192cu ; /bin/echo "2001 3310" > /sys/bus/usb/drivers/rtl8192cu/new_id' | sudo tee /etc/modprobe.d/8192cu.conf
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517239831
-usb-devices 
-#1517240004
-update-manager 
-#1517243844
-vim sysinfo_page
-#1517240004
-update-manager 
-#1517244498
-./ls
-#1517244502
-ls
-#1517244509
-chmod 644 checkParam.sh 
-#1517244512
-ll
-#1517244524
-chmod a+x checkParam.sh 
-#1517244525
-l
-#1517244535
-./checkParam.sh p1 p2 p3 p4 p5
-#1517241825
-sudo dkms install 8192cu/1.10
-#1517241890
-cat /etc/modprobe.d/blacklist.conf 
-#1517241904
-echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
-#1517241921
-echo 'install 8192cu modprobe --ignore-install 8192cu ; /bin/echo "2001 3310" > /sys/bus/usb/drivers/rtl8192cu/new_id' | sudo tee /etc/modprobe.d/8192cu.conf
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517239831
-usb-devices 
-#1517240004
-update-manager 
-#1517243432
-cd FILES
-#1517243449
-cd 03_SourceCode/
-#1517243457
-cd MyProjects/Github/
-#1517243460
-cd My-Notes/
-#1517243466
-cd src/
-#1517243477
-...
-#1517243479
-..
-#1517243795
-find . | grep -i "sysinfo_page"
-#1517243804
-cd 03_SourceCode/Training/
-#1517243804
-ls
-#1517243839
-tmux
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517242044
-lsmod 
-#1517242051
-lsmod  | grep 81
-#1517242099
-sudo ifdown eht1
-#1517242105
-sudo ifdown eth1
-#1517242113
-dmesg | grep 8192
-#1517242122
-cat /etc/resolv.conf 
-#1517242128
-iwlist chan
-#1517242137
-iwconfig
-#1517242154
-modprobe -c | grep -i "2001.*3310"
-#1517242171
-ifconfig -a
-#1517242176
-ping 192.168.1.1
-#1517242183
-ping google.com
-#1517242276
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517242277
-ls
-#1517242280
-cat README.md 
-#1517242320
-ifconfig
-#1517242330
-usb-devices 
-#1517242356
-update-manager 
-#1517330210
-lsmod | grep rt
-#1517330229
-iwconfig
-#1517330248
-usb-devices 
-#1517330282
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517330284
-ls
-#1517330292
-less README.md 
-#1517330394
-cat README.md 
-#1517330410
-sudo cp ./rtl8192cu-fixes/8192cu-disable-power-management.conf /etc/modprobe.d/
-#1517330425
-sudo cp 8192cu-disable-power-management.conf /etc/modprobe.d/
-#1517330437
-ls /etc/modprobe.d/
-#1517330450
-tmux
-#1517242099
-sudo ifdown eht1
-#1517242105
-sudo ifdown eth1
-#1517242122
-cat /etc/resolv.conf 
-#1517242154
-modprobe -c | grep -i "2001.*3310"
-#1517242171
-ifconfig -a
-#1517242183
-ping google.com
-#1517242276
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517242320
-ifconfig
-#1517242356
-update-manager 
-#1517330500
-iwconfig
-#1517330548
-vim /etc/NetworkManager/NetworkManager.conf 
-#1517330671
-cat 8192cu-disable-power-management.conf 
-#1517330719
-
-#1517330812
-cd ..
-#1517330814
-sudo dkms add ./rtl8192cu-fixes
-#1517330862
-ls /etc/modprobe.d/
-#1517330888
-sudo cp ./rtl8192cu-fixes/blacklist-native-rtl8192.conf /etc/modprobe.d/
-#1517330896
-cd /etc/modprobe.d/
-#1517330906
-cat blacklist-native-rtl8192.conf 
-#1517330956
-ip addr
-#1517330985
-iwlist chan
-#1517330997
-dmesg | grep 8192
-#1517331019
-iwconfig 
-#1517331025
-ping 192.168.1.1
-#1517331039
-lsmod | grep rt
-#1517331063
-modprobe -r 8188eu 
-#1517331070
-sudo modprobe -r 8188eu 
-#1517331105
-cd -
-#1517331112
-cd rtl8192cu-fixes/
-#1517331140
-sudo modprobe rtl8xxxu 
-#1517331157
-usb-devices 
-#1517331171
-ls
-#1517331176
-cat README.md 
-#1517331187
-sudo dkms install 8192cu/1.10
-#1517331195
-sudo depmod -a
-#1517331225
-sudo shutdown -r now
-#1517331039
-lsmod | grep rt
-#1517331063
-modprobe -r 8188eu 
-#1517331070
-sudo modprobe -r 8188eu 
-#1517331105
-cd -
-#1517331112
-cd rtl8192cu-fixes/
-#1517331140
-sudo modprobe rtl8xxxu 
-#1517331171
-ls
-#1517331195
-sudo depmod -a
-#1517331300
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517331330
-usb-devices 
-#1517331469
-iwconfig 
-#1517331488
-sudo dkms install 8192cu/1.10
-#1517331536
-cat README.md 
-#1517331572
-sudo ifdown eth1
-#1517331574
-sudo ifup eth1
-#1517331578
-ifconfig -a
-#1517331706
-ping 192.168.1.1
-#1517331709
-ping google.com
-#1517331721
-sudo shutdown -r now
-#1517331793
-ping google.com
-#1517331536
-cat README.md 
-#1517331574
-sudo ifup eth1
-#1517331721
-sudo shutdown -r now
-#1517415649
-iwconfig 
-#1517415660
-ifconfig -a
-#1517415688
-lsmod | grep rt
-#1517415693
-usb-devices 
-#1517415720
-cd FILES/05_Setup/rtl8188eu/
-#1517415720
-ls
-#1517415844
-sudo modprobe -r 8188eu 
-#1517415856
-sudo modprobe rtl8xxxu 
-#1517415866
-sudo modprobe 8188eu 
-#1517415893
-sudo ifdown eth1
-#1517415902
-ping 192.168.1.1
-#1517415912
-ping google.com
-#1517493043
-exit
-#1517415856
-sudo modprobe rtl8xxxu 
-#1517415866
-sudo modprobe 8188eu 
-#1517493043
-exit
-#1517493150
-sudo modprobe -r 8188eu 
-#1517493164
-sudo modprobe 8188eu
-#1517493192
-iwconfig 
-#1517493204
-lsmod | grep -i rt
-#1517493209
-usb-devices 
-#1517493270
-sudo ifdown eth1
-#1517493276
-sudo ifup eth1
-#1517493290
-ping 192.168.1.1
-#1517493295
-ping google.com
-#1517493209
-usb-devices 
-#1517493270
-sudo ifdown eth1
-#1517493276
-sudo ifup eth1
-#1517493290
-ping 192.168.1.1
-#1517493295
-ping google.com
-#1517752176
-df -h
-#1517752599
-stardict - how
-#1517752651
-stardict &
-#1517752660
-jobs 
-#1517752673
-killall stardict 
-#1517752683
-stardict how
-#1517760045
-pidof stardict 
-#1517842825
-exit
-#1517842881
-clear
-#1517842887
-exit
-#1517843010
-cd FILES
-#1517843033
-ls
-#1517843036
-cd 05_Setup/
-#1517843071
-tmux
-#1517843091
-exit
-#1517843337
-clear
-#1517843375
-exit
-#1517843327
-tmux
-#1517843377
-exit
-#1517842636
-vim ~/.bashrc
-#1517843268
-cd /usr/local/lib/python3.4/dist-packages/powerline/bindings/tmux
-#1517843268
-ls
-#1517843273
-cat powerline.conf 
-#1517842628
-pip3 show powerline-status
-#1517842628
-pip3 show powerline-status
-#1517843573
-cd FILES
-#1517843573
-ls
-#1517843574
-vim
-#1517843615
-:q
-#1517843418
-vim ~/.vimrc 
-#1517843929
-vim ~/.bashrc
-#1517843962
-exit
-#1517843644
-man vim
-#1517843660
-help vim
-#1517843664
-vim --h
-#1517843668
-vim help
-#1517843671
-ls
-#1517843762
-update-manager 
-#1517752673
-killall stardict 
-#1517752683
-stardict how
-#1517760045
-pidof stardict 
-#1517842251
-sudo apt-get install python-pip git
-#1517842270
-cd FILES
-#1517842275
-cd 05_Setup/
-#1517842277
-ls
-#1517842282
-sudo pip install git+git://github.com/Lokaltog/powerline
-#1517842329
-pip show powerline-status
-#1517842503
-sudo pip3 install git+git://github.com/Lokaltog/powerline
-#1517842513
-pip3 show powerline-status
-#1517842610
-tmux
-#1517752683
-stardict how
-#1517760045
-pidof stardict 
-#1517842251
-sudo apt-get install python-pip git
-#1517842270
-cd FILES
-#1517842275
-cd 05_Setup/
-#1517842282
-sudo pip install git+git://github.com/Lokaltog/powerline
-#1517842329
-pip show powerline-status
-#1517842503
-sudo pip3 install git+git://github.com/Lokaltog/powerline
-#1517842513
-pip3 show powerline-status
-#1517842610
-tmux
-#1517848865
-cp ~/.bashrc FILES/03_SourceCode/MyProjects/Github/
-#1517848875
-cd FILES/03_SourceCode/MyProjects/Github/
-#1517848889
-ls dotFile
-#1517848893
-ls dotFiles
-#1517848898
-cd dotFiles/
-#1517848906
-..
-#1517848913
-vim bash/.bashrc 
-#1517848936
-ls -la ~/
-#1517848989
-cd bash/
-#1517848997
-ls -la
-#1517849008
-cp ~/.bash* .
-#1517849009
-ls
-#1517849017
-rm .bashrc~
-#1517849019
-ll
-#1517849032
-exit
-#1517845413
-sudo apt-get update
-#1517845445
-sudo apt-get upgrade
-#1517845453
-sudo do-release-upgrade 
-#1517850390
-exit
-#1517874998
-shutdown -h now
-#1517875020
-sudo shutdown -h now
-#1517848913
-vim bash/.bashrc 
-#1517848936
-ls -la ~/
-#1517848989
-cd bash/
-#1517848997
-ls -la
-#1517849008
-cp ~/.bash* .
-#1517849017
-rm .bashrc~
-#1517849019
-ll
-#1517849032
-exit
-#1517845445
-sudo apt-get upgrade
-#1517845453
-sudo do-release-upgrade 
-#1517850390
-exit
-#1517874998
-shutdown -h now
-#1517875020
-sudo shutdown -h now
-#1517932125
-vim /etc/apt/sources.list
-#1517932133
-vi /etc/apt/sources.list
-#1517932138
-nano
-#1517932150
-nano /etc/apt/sources.list
-#1517932249
-sudo apt-get update
-#1517932277
-ping google.com
-#1517932290
-sudp do-release-upgrade
-#1517932296
-sudo do-release-upgrade
-#1517932350
-sudo apt-get install -f
-#1517932454
-mkdir test
-#1517932545
-wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.3_amd64.deb
-#1517932551
-wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.2_amd64.deb
-#1517932604
-sudo apt install ppa-purge
-#1517932623
-sudo ppa-purge ppa:ubuntu-toolchain-r/test
-#1517932658
-sudo apt-add-repository --remove ppa:ubuntu-toolchain-r/test
-#1517932667
-sudo apt-get clean
-#1517932749
-ls /usr/lib/x86_64-linux-gnu/libstdc++.so.6*
-#1517932772
-ls /usr/lib/x86_64-linux-gnu/libstdc++.so.6* -la
-#1517932828
-uname -a
-#1517933028
-wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb
-#1517933057
-dpkg -i libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb 
-#1517933060
-sudo dpkg -i libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb 
-#1517933475
-cd
-#1517933491
-cd anki-2.0.41/
-#1517933495
-cd ..
-#1517933504
-ls Desktop/
-#1517933542
-/media/khaind/Data/
-#1517933545
-cd /media/khaind/Data/
-#1517933552
-sudo cd /media/khaind/
-#1517933562
-cd /media/
-#1517933565
-cd khaind/
-#1517933568
-cd Data/
-#1517933573
-sudo ls Data/
-#1517933579
-df -h
-#1517933667
-wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb
-#1517933699
-pwd
-#1517933701
-cd 
-#1517933702
-cd test/
-#1517933705
-wget http://security.ubuntu.com/ubuntu/pool/main/g/gcc-4.8/libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb
-#1517933716
-dpkg -i libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb 
-#1517933719
-sudo dpkg -i libstdc++6_4.8.4-2ubuntu1~14.04.3_amd64.deb 
-#1517933802
-ls
-#1517933825
-sudo dpkg -i libstdc++6_5.4.0-6ubuntu1~16.04.4_amd64.deb --force-all
-#1517933932
-update-manager -d
-#1517934088
-reboot
-#1517934095
-logout
-ls
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get -f install
-shutdown -h now
-clear
-ls
-sudo apt-get -f install
-sudo apt remove libreoffice*
-sudo apt-get upgrade
-sudo apt-get upgrade -f
-sudo apt remove libreoffice-core 
-sudo apt remove libreoffice-common
-sudo apt install libreoffice-common
-sudo apt autoremove
-sudo apt remove openoffice
-sudo apt-get remove --purge libreoffice*
-sudo apt-get clean
-sudo apt-get autoremove
-sudo apt-get autoremove -f
-sudo apt-get clean
-sudo apt-get update
-sudo apt-get install -f
-sudo apt-get upgrade
-sudo apt-get update
-
-sudo apt-get upgrade
-sudo apt remove --purge ack-grep 
-sudo apt-get upgrade
-sudo apt autoremove
-sudo apt-get dist-upgrade 
-sudo apt-get clean
-sudo apt autoremove
-clear
-sudo apt-get update
-clear
-sudo apt-get clean
-reboot
-#1518012916
-sudo apt remove openoffice
-#1518012916
-sudo apt-get remove --purge libreoffice*
-#1518012916
-sudo apt-get autoremove -f
-#1518012916
-sudo apt-get upgrade
-#1518012916
-sudo apt-get upgrade
-#1518012916
-sudo apt remove --purge ack-grep 
-#1518012916
-sudo apt-get upgrade
-#1518012916
-sudo apt autoremove
-#1518012916
-sudo apt-get dist-upgrade 
-#1518012916
-sudo apt autoremove
-#1518012916
-clear
-#1518012916
-clear
-#1518012916
-reboot
-#1518012939
-vim --version
-#1518012949
-vi
-#1518013289
-sudo apt-get install libreoffice
-#1518013544
-sudo apt-get update
-#1518013613
-sudo apt remove --purge libreoffice
-#1518013617
-sudo apt-get -f install
-#1518013707
-sudo dpkg --purge --force-all openoffice-debian-menus
-#1518013719
-sudo dpkg --purge --force-all libreoffice-core
-#1518013849
-sudo apt-get autoremove 
-#1518013878
-sudo apt-get clean
-#1518013900
-sudo apt-get upgrade --fix-missing
-#1518013926
-sudo apt-get upgrade 
-#1518014029
-sudo apt-get autoremove
-#1518014094
-sudo apt-get update –fix-missing
-#1518014103
-sudo apt-get update --fix-missing
-#1518014116
-sudo dpkg --configure -a
-#1518014122
-sudo apt-get install -f
-#1518014150
-sudo apt-get remove vim-common 
-#1518014166
-sudo apt-get autoclean 
-#1518014175
-sudo apt-get install vim
-#1518014205
-vim
-#1518014238
-exit
-#1518013374
-df -h
-#1518013386
-ls
-#1518013389
-du -sh
-#1518014240
-exit
-#1518014256
-vim ~/.tmux.conf 
-#1518014440
-exit
-#1518014029
-sudo apt-get autoremove
-#1518014094
-sudo apt-get update –fix-missing
-#1518014103
-sudo apt-get update --fix-missing
-#1518014116
-sudo dpkg --configure -a
-#1518014150
-sudo apt-get remove vim-common 
-#1518014175
-sudo apt-get install vim
-#1518014205
-vim
-#1518014238
-exit
-#1518013374
-df -h
-#1518013389
-du -sh
-#1518014240
-exit
-#1518014440
-exit
-#1518014458
-vim ~/.tmux.conf 
-#1518016706
-dpkg-divert --package ack-grep --local --remove --rename --divert /usr/bin/ack /usr/bin/ack-grep
-#1518016713
-sudo dpkg-divert --package ack-grep --local --remove --rename --divert /usr/bin/ack /usr/bin/ack-grep
-#1518016744
-sudo apt autoremove 
-#1518016755
-sudo apt-get autoclean 
-#1518016763
-sudo apt-get install -f
-#1518016770
-sudo apt-get upgrade
-#1518016776
-sudo apt-get install ack-grep
-#1518017074
-ifconfig
-#1518017089
-vim /etc/network/interfaces
-#1518021182
-lsmod | grep -i rt
-#1518021192
-sudo modprobe 8188eu
-#1518021265
-sudo modprobe rtl8xxxu 
-#1518021455
-sudo systemctl restart NetworkManager.service 
-#1518021460
-ip addr
-#1518021467
-ping google.com
-#1518021805
-usb-devices 
-#1518022047
-sudo apt-get update
-#1518022155
-sudo modprobe rtl8192cu 
-#1518022172
-cd FILES/05_Setup/
-#1518022191
-cd rtl8188eu/
-#1518022191
-ls
-#1518022197
-less README.md 
-#1518022235
-cat README.md 
-#1518022238
-cd ..
-#1518022255
-sudo dkms add ./rtl8188eu
-#1518022269
-sudo dkms build 8188eu/1.0
-#1518022308
-sudo dkms install 8188eu/1.0
-#1518022339
-iwconfig 
-#1518022355
-reboot
-#1518012907
-ls
-#1518012915
-tmux
-#1518022191
-cd rtl8188eu/
-#1518022197
-less README.md 
-#1518022255
-sudo dkms add ./rtl8188eu
-#1518022269
-sudo dkms build 8188eu/1.0
-#1518022308
-sudo dkms install 8188eu/1.0
-#1518022339
-iwconfig 
-#1518012915
-tmux
-#1518022769
-cd ..
-#1518022782
-dkms add ./rtl8192cu-fixes
-#1518022823
-lsmod | grep rtl
-#1518022827
-lsmod | grep rt
-#1518022831
-lsmod | grep 81
-#1518022874
-sudo modprobe -r 8188eu 
-#1518022891
-sudo modprobe 8192cu 
-#1518022911
-sudo systemctl restart NetworkManager.service 
-#1518022972
-usb-devices 
-#1518022991
-sudo dkms add ./rtl8192cu-fixes
-#1518023002
-cd rtl8192cu-fixes/
-#1518023003
-ls
-#1518023006
-cat README.md 
-#1518023022
-sudo dkms install 8192cu/1.10
-#1518023032
-sudo depmod -a
-#1518023048
-sudo cp blacklist-native-rtl8192.conf /etc/modprobe.d/
-#1518023112
-reboot
-#1518022308
-sudo dkms install 8188eu/1.0
-#1518022355
-reboot
-#1518022408
-iwconfig 
-#1518022416
-ip addr
-#1518022426
-ping google.com
-#1518022481
-usb-devices 
-#1518022498
-ping 192.168.1.1
-#1518022545
-cd FILES/05_Setup/
-#1518022549
-cd rtl8192cu-fixes/
-#1518022550
-ls
-#1518022560
-cat README.md 
-#1518022702
-tmux
-#1518022710
-ip addr
-#1518022717
-ping 192.168.1.1
-#1518022269
-sudo dkms build 8188eu/1.0
-#1518012915
-tmux
-#1518022782
-dkms add ./rtl8192cu-fixes
-#1518022823
-lsmod | grep rtl
-#1518022991
-sudo dkms add ./rtl8192cu-fixes
-#1518023022
-sudo dkms install 8192cu/1.10
-#1518023032
-sudo depmod -a
-#1518023048
-sudo cp blacklist-native-rtl8192.conf /etc/modprobe.d/
-#1518023112
-reboot
-#1518022355
-reboot
-#1518022416
-ip addr
-#1518022498
-ping 192.168.1.1
-#1518022545
-cd FILES/05_Setup/
-#1518022702
-tmux
-#1518022710
-ip addr
-#1518022717
-ping 192.168.1.1
-#1518023297
-;s
-#1518023307
-cd FILES/
-#1518023310
-cd 05_Setup/
-#1518023315
-cd rtl8192cu-fixes/
-#1518023332
-lsmod | grep rt
-#1518023349
-sudo modprobe -r 8188eu 
-#1518023353
-
-#1518023375
-sudo modprobe 8192cu 
-#1518023385
-sudo systemctl restart NetworkManager.service 
-#1518023423
-lsmod | grep 81
-#1518023440
-./runwpa 
-#1518023492
-iwconfig 
-#1518023521
-sudo modprobe -r 8192cu 
-#1518023557
-sudo modprobe rtl8xxxu 
-#1518023605
-cd ..
-#1518023611
-cd rtl8188eu/
-#1518023613
-cat README.md 
-#1518023624
-sudo dkms install 8188eu/1.0
-#1518023672
-cp rtl8188eufw.bin /lib/firmware/rtlwifi/
-#1518023675
-sudo cp rtl8188eufw.bin /lib/firmware/rtlwifi/
-#1518023689
-ls
-#1518023704
-sudo modprobe 8188eu
-#1518023709
-usb-devices 
-#1518023805
-ping google.com
-#1518023224
-usb-devices 
-#1518023239
-ip addr
-#1518023277
-ping 192.168.1.1
-#1518023293
-tmux
-#1518023881
-exit
-#1518023950
-sudo systemctl restart NetworkManager.service 
-#1518023957
-ip addr
-#1518023963
-ping google.com
-#1518023969
-exit
-#1518023492
-iwconfig 
-#1518023521
-sudo modprobe -r 8192cu 
-#1518023557
-sudo modprobe rtl8xxxu 
-#1518023605
-cd ..
-#1518023611
-cd rtl8188eu/
-#1518023613
-cat README.md 
-#1518023624
-sudo dkms install 8188eu/1.0
-#1518023672
-cp rtl8188eufw.bin /lib/firmware/rtlwifi/
-#1518023675
-sudo cp rtl8188eufw.bin /lib/firmware/rtlwifi/
-#1518023704
-sudo modprobe 8188eu
-#1518023709
-usb-devices 
-#1518023805
-ping google.com
-#1518023224
-usb-devices 
-#1518023239
-ip addr
-#1518023277
-ping 192.168.1.1
-#1518023293
-tmux
-#1518023950
-sudo systemctl restart NetworkManager.service 
-#1518023957
-ip addr
-#1518023963
-ping google.com
-#1518258319
-cd FILES
-#1518258336
-cd 03_SourceCode/Training/MachineLearning/
-#1518258342
-cd opencv-machine-learning/
-#1518258353
-workon opencv-py3
-#1518258358
-cd notebooks/
-#1518258372
-sudo apt-get update
-#1518258387
-sudo apt-get upgrade
-#1518258450
-jupyter
-#1518258525
-..
-#1518258525
-ls
-#1518258751
-cd 01_Courses/03_PluralSight/
-#1518258782
-sudo apt-get install jupyter
-#1518258788
-deactivate 
-#1518258791
-ipython
-#1518258799
-sudo apt-get install ipython
-#1518258827
-sudo apt-get install -f
-#1518258829
-clear
-#1518258837
-sudo apt autoremove
-#1518258843
-exit
-#1518280421
-opera 
-sudo pip install 'requests[security]'
-sudo pip3 install virtualenv virtualenvwrapper
-echo "# Virtual Environment Wrapper"  >> ~/.bashrc
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-source ~/.bashrc
-ls ..
-cd ../04_Works/
-mkdir virtualEnv
-mkvirtualenv facecourse-py2 -p python2
-ll
-ls -la
-...
-cd
-cd FILES/04_Works/
-cd Fpt/
-cd ..
-cd virtualEnv/
-wget https://www.learnopencv.com/wp-content/uploads/2017/06/RedEyeRemover.zip
-cd RedEyeRemover/
-g++ -std=c++11 removeRedEyes.cpp `pkg-config --libs --cflags opencv` -o removeRedEyes
-ls
-./removeRedEyes 
-xdg-open .
-workon facecourse-py3
-ipython
-workon facecourse-py2
-python removeRedEyes.py 
-killall python
-python3 removeRedEyes.py 
-killall python3
-sudo killall python3
-clear
-deactivate 
-ebook-viewer Dipanjan\ Sarkar\,\ Raghav\ Bali\,\ Tushar\ Sharma-Practical\ Machine\ Learning\ with\ Python-Apress\ \(2018\).pdf 
-ps aux 
-bash
-vim ~/.vimrc 
-bash
-vim ~/.bashrc
-cd  Desktop/
-ebook-viewer 
-ebook-viewer Dipanjan\ Sarkar\,\ Raghav\ Bali\,\ Tushar\ Sharma-Practical\ Machine\ Learning\ with\ Python-Apress\ \(2018\).pdf 
-ps aux 
-bash
-sudo pip2 install virtualenv virtualenvwrapper
-pip install 'requests[security]'
-sudo pip install 'requests[security]'
-sudo pip3 install virtualenv virtualenvwrapper
-echo "# Virtual Environment Wrapper"  >> ~/.bashrc
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-source ~/.bashrc
-ls ..
-mkdir virtualEnv
-mkvirtualenv facecourse-py2 -p python2
-ll
-cd ../04_Works/
-workon facecourse-py2
-pip install numpy scipy matplotlib scikit-image scikit-learn ipython
-deactivate
-mkvirtualenv facecourse-py3 -p python3
-workon facecourse-py3
-pip3 install numpy scipy matplotlib scikit-image scikit-learn ipython
-deactivate 
-cd virtualEnv/
-ls -la
-cd ..
-git clone https://github.com/opencv/opencv.git
-cd opencv/
-git br
-git clone https://github.com/opencv/opencv_contrib.git
-cd opencv
-mkdir build
-cd build/
-...
-cd opencv_contrib/
-git co 3.3.1
-..
-cd opencv/build/
-cmake -D CMAKE_BUILD_TYPE=RELEASE       -D CMAKE_INSTALL_PREFIX=/usr/local       -D INSTALL_C_EXAMPLES=ON       -D INSTALL_PYTHON_EXAMPLES=ON       -D WITH_TBB=ON       -D WITH_V4L=ON       -D WITH_QT=ON       -D WITH_OPENGL=ON       -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules       -D BUILD_EXAMPLES=ON ..
-nproc 
-make -j4
-df -h
-sudo make install
-sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
-sudo ldconfig
-find /usr/local/lib/ -type f -name "cv2*.so"
-find /usr/local/lib/ -type f -name "cv*.so"
-cd ~/.virtualenvs/facecourse-py2/lib/python2.7/site-packages/
-ln -s /usr/local/lib/python2.7/dist-packages/cv2.so cv2.so
-cd ~/.virtualenvs/facecourse-py3/lib/python3.4/site-packages/
-ln -s /usr/local/lib/python3.4/dist-packages/cv2.cpython-34m.so cv2.so
-
-clear
-nproc 
-clear
-cd opencv/build/
-clear
-clear
-nproc 
-clear
-cd opencv/build/
-clear
-..
-cd 04_Works/
-cd virtualEnv/
-cd RedEyeRemover/
-ls
-vim
-vim ~/.ctags 
-tmux list--sessions
-tmux list-sessions
-tmux list--sessions
-tmux list-sessions
-cd FILES/03_SourceCode/Training/vim/
-tmux
-exit
-tmux list--sessions
-tmux list-sessions
-cd FILES/03_SourceCode/Training/vim/
-cd makeTest/
-ls -la
-less .test.cpp.swp 
-cat .test.cpp.swp 
-less ~/.vimrc 
-source .vimrc 
-exit
-tmux list-sessions
-tmux
-tmux
-cd FILES/03_SourceCode/Training/vim/
-vim -S ~/latest_session.vim
-cd FILES/03_SourceCode/Training/vim/
-tmux list-sessions
-tmux
-tmux
-cd FILES/03_SourceCode/Training/vim/
-vim -S ~/latest_session.vim
-./makeTest/
-cd makeTest/
-./test
-chmod a+x test
-./test 
-ll
-ls -la
-cd ~/.vim/plugin/
-ls snippets/
-cd -
-find . -type f | grep -i machine
-find . -type f | grep -i master
-stty
-tmux
-cd FILES/03_SourceCode/Training/vim/
-vim -S ~/latest_session.vim
-sudo apt-get install build-essential vim-gnome python2.7 git libclang-dev
-clang-check 
-tmux
-cd 
-cd FILES/02_Documents/
-cd 00
-cd 00_Personal/
-cd blog/
-cd My-Notes/
-git pull
-vi utilSnipVim.md
-vim utilSnipVim.md 
-...
-cd 03_SourceCode/
-cd MyProjects/
-cd ProjectEuler/
-cd demoSTL/
-ls demoSTL
-cd EffectiveCpp/
-ls UnderstandingSmartPointer/
-cd Github/
-cd clang_complete/
-vim
-..
-cd NurikabeSolver/
-cd Colorizer/
-cd ..
-ls c4f/
-ls c4f/brotli/
-ls CLib/
-cd deepLearning/
-ls
-ls deep_trader/
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get remove x264 libx264-dev
-sudo apt-get install build-essential checkinstall cmake pkg-config yasm
-sudo apt-get install git gfortran
-sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev
-sudo apt-get install libtiff4-dev
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
-sudo apt-get install libxine2-dev libv4l-dev
-sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
-sudo apt-get install qt5-default libgtk2.0-dev libtbb-dev
-sudo apt-get install libatlas-base-dev
-sudo apt-get install libfaac-dev libmp3lame-dev libtheora-dev
-sudo apt-get install libvorbis-dev libxvidcore-dev
-sudo apt-get install libopencore-amrnb-dev libopencore-amrwb-dev
-sudo apt-get install x264 v4l-utils
-sudo apt-get install libprotobuf-dev protobuf-compiler
-sudo apt-get install libgoogle-glog-dev libgflags-dev
-sudo apt-get install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
-clear
-bash
-clear
-htop
-vim ~/.bashrc
-tmux
-cd FILES/03_SourceCode/Training/vim/
-vim -S ~/latest_session.vim
-ls
-vim ~/.vimrc 
-clear
-bash
-ip
-ip link
-ip addr
-ifconfig /all
-ifconfig -a
-tmux
-clear
-bash
-clear
-tmux
-clear
-vim ~/.bashrc
-bash
-vim ~/.bashrc
-tmux
-bash
-exit
-bash
-exit
-tmux
-exit
-clear
-exit
-tmux
-cd
-ls
-ll
-cat .ctags 
-cpvirtualenv facecourse-py2 opencv-py2
-cpvirtualenv facecourse-py3 opencv-py3
-rmvirtualenv facecourse-py2
-deactivate 
-rmvirtualenv facecourse-py3
-clear
-lsvirtualenv 
-df -h
-vagrant list
-vagrant global-status
-vagrant up 7282e52
-vagrant ssh 7282e52
-exit
-bash
-htop
-vim ~/.bashrc
-tmux
-cd FILES/03_SourceCode/Training/vim/
-vim -S ~/latest_session.vim
-vim ~/.vimrc 
-bash
-ip
-ip link
-ip addr
-ifconfig /all
-ifconfig -a
-tmux
-bash
-tmux
-vim ~/.bashrc
-bash
-vim ~/.bashrc
-tmux
-bash
-bash
-tmux
-cd Downloads/
-cd Lynda\ -\ Linux\ Multitasking\ at\ the\ Command\ Line/
-cd Ex_Files_Linux_Bash/
-cd Exercise\ Files/
-cat message.sh 
-ll
-bash message.sh 
-bg %1
-ifconfig
-fg %1
-clear
-cd
-cd FILES/
-cd FILES
-cd 03_SourceCode/
-cd Training/
-cd git/
-cd ..
-cd 04_Works/
-cd virtualEnv/
-git clone https://github.com/mbeyeler/opencv-machine-learning.git
-cd opencv-machine-learning/
-ls
-exit
-bash
-clear
-vim ~/.bashrc
-cd FILES/03_SourceCode/Training/cpp/
-ls
-vim
-tmux
-exit
-exit
-man shutdown 
-man shutdown 
-cd Downloads/Lynda\ -\ Linux\ Multitasking\ at\ the\ Command\ Line/
-cd Ex_Files_Linux_Bash/Exercise\ Files/
-ls
-bash message.sh 
-jobs
-jobs -l
-bg %1
-exit
-man shutdown 
-cd FILES/04_Works/virtualEnv/
-rm RedEyeRemover.zip 
-ls
-cd opencv-machine-learning/
-git st
-git br
-clear
-vim
-git clone https://github.com/mbeyeler/opencv-machine-learning.git
-cd opencv-machine-learning/
-exit
-bash
-vim ~/.bashrc
-cd FILES/03_SourceCode/Training/cpp/
-vim
-tmux
-exit
-exit
-man shutdown 
-vagrant global-status
-vagrant ssh 7282e52
-vagrant up 7282e52
-cd ..
-cd 
-cd Downloads/
-cd Lynda\ -\ Linux\ Multitasking\ at\ the\ Command\ Line/
-cd Ex_Files_Linux_Bash/
-cd Exercise\ Files/
-ls
-help jobs 
-man jobs
-cat message.sh 
-bash message.sh 
-bg %1
-jobs -l
-fg %1
-jobs
-clear
-kill 12661
-ps aux | grep bash
-tmux
-bash message.sh 
-bg %1
-jobs -l
-fg %1
-jobs
-kill 12661
-ps aux | grep bash
-tmux
-printenv 
-printenv SHELL
-echo $SHELL
-set
-set -o posix
-set | less
-VAR=TEST
-set | grep VAR
-export VAR
-export VARR=TESTENV
-export VAR=TESTENV
-printenv | grep VAR
-export -n VARR
-printenv | grep VAR 
-history -5
-history -d 4
-history
-clear
-history | head -4
-ls 
-pwd
-ls /home/khaind/FILES
-cd /home/khaind/FILES
-clear
-exit
-#1515771965
-clear
-#1515771986
-exit
-#1515772771
-cd /home/khaind/FILES
-#1515772771
-exit
-#1515771986
-exit
-#1515773722
-cd tensorflow/
-#1515773724
-cd include/
-#1515773729
-cd lib/
-#1515773735
-cd local/
-#1515773737
-..
-#1515773759
-find . -type f | grep *.cpp
-#1515773762
-find . -type f | grep *.h
-#1515773765
-find . -type f | grep *.py
-#1515773773
-find . -type f
-#1515773779
-find . -type f | grep *.txt
-#1515773800
-find . -type f | grep .txt
-#1515773812
-find . -type f | grep .cpp
-#1515773818
-find . -type f | grep .h
-#1515773829
-find . -type f | grep \.h
-#1515773844
-find . -type f | grep -e ".h"
-#1515773848
-find . -type f | grep ".h"
-#1515773859
-find . -type f | grep .py
-#1515773865
-find . -type f | grep ".py"
-#1515773874
-find . -type f | grep '.py'
-#1515773877
-clear
-#1515773898
-find . -type f | grep {.h,.cpp,.py}
-#1515773949
-shopt
-clear
-vim ~/.bashrc
-#1515772066
-cleqar
-#1515772068
-clear
-#1515772770
-bash
-cd /home/khaind/FILES
-man strftime
-bash
-cd /home/khaind/FILES
-printenv HOME
-echo $SHELL
-pwdd
-pwd
-ls FILES
-cd FILES
-clear
-echo HISTCONTROL
-echo H$HISTCONTROL
-echo $HISTCONTROL
-tmux
-#1515831111
-clear
-echo $USER
-echo My Name
-echo My Name is $USER
-echo "My Name is $USER"
-echo 'My Name is $USER'
-grep '.*/udp' /etc/services 
-grep './udp' /etc/services  
-grep "./udp" /etc/services  
-clear
-grep "./udp" /etc/services  
-ls
-]clear
-clear
-history 
-clear
-clear
-clear
-clear
-history 
-tmux
-clear
-history 
-tmux
-#1515831461
-exit
-history 
-exit
-bash
-exit
-#1515831571
-cp 
-#1515831572
-asfd
-#1515831572
-asdf
-#1515831573
-ds
-#1515831573
-fa
-#1515831562
-bash
-#1515831719
-vim
-#1515831485
-ll
-#1515831607
-vim ~/.bash_profile 
-#1515831708
-bash
-#1515831338
-vim
-#1515831404
-tmux
-#1515831426
-pwd
-history 
-history 
-less ~/.bash_history 
-clear
-less ~/.bash_history  | wc -n
-less ~/.bash_history  | wc -l
-less ~/.bash_history  | wc
-tmux
-clear
-vim ~/.bashrc
-ls
-bash
-#1515833131
-exit
-#1515834045
-clear
-#1515834047
-exit
-#1515834672
-mkfifo named_pipe
-#1515834781
-rm named_pipe 
-#1515835261
-exit
-#1515831426
-pwd
-#1515833914
-history 
-#1515833914
-history 
-#1515833914
-less ~/.bash_history 
-#1515833914
-less ~/.bash_history  | wc -n
-#1515833914
-less ~/.bash_history  | wc -l
-#1515833914
-less ~/.bash_history  | wc
-#1515833914
-tmux
-#1515833914
-vim ~/.bashrc
-#1515833914
-bash
-#1515833921
-echo $pdir
-#1515833963
-pdir="/tmp/files/today/"
-#1515833985
-fname="report"
-#1515833990
-ls -d $pdir 
-#1515834000
-ls $pdir 
-#1515834006
-ls -la $pdir
-#1515834011
-hist
-#1515834241
-ls -l /tmp/files/today//report 
-#1515834247
-ls -l /tmp/files/today/report 
-#1515834282
-touch $pdir/$fname_abc
-#1515834288
-ls -l /tmp/files/today/
-#1515834292
-ls files/
-#1515834296
-ls files/today/
-#1515834726
-cat named_pipe 
-#1515835284
-clear
-#1515835292
-ls
-#1515835298
-exit
-#1515833765
-pdir="/tmp/files/today/"
-#1515833770
-fname="report"
-#1515833804
-touch /tmp/files/today//report 
-#1515833876
-vim ~/.bashrc
-#1515833914
-bash
-#1515835310
-exit
-#1515832383
-less ~/.bash_history 
-#1515832383
-less ~/.bash_history  | wc -n
-#1515832383
-less ~/.bash_history  | wc -l
-#1515832383
-less ~/.bash_history  | wc
-#1515832383
-vim ~/.bashrc
-#1515832383
-ls
-#1515832383
-bash
-#1515832416
-echo '\'
-#1515832418
-echo a
-#1515832435
-echo \'abc\'
-#1515832439
-echo \\
-#1515832504
-echo ~
-#1515832511
-echo ~root
-#1515832518
-echo ~kanji
-#1515832606
-cd FILES/03_SourceCode/
-#1515832609
-cd -
-#1515832642
-pushd /etc/python
-#1515832664
-pushd /var/log/
-#1515832668
-dirs
-#1515832696
-echo ~0
-#1515832699
-echo ~1
-#1515832702
-echo ~2
-#1515832704
-echo ~3
-#1515832769
-echo s{pe,pi}ll
-#1515833025
-cd /tmp/
-#1515833039
-pdir="/tmp/files/today"
-#1515833045
-echo $pdir
-#1515833052
-fname="report"
-#1515833058
-echo $fname
-#1515833065
-mkdir -p $pdir
-#1515833089
-touch $pdir/$fname
-#1515833129
-tmux
-#1515835315
-clear
-#1515835321
-exit
-#1515856817
-cd FILES
-#1515856843
-vim ~/.bash_profile 
-#1515856864
-vim ~/.bashrc
-#1515856883
-exit
-#1515856806
-clear
-#1515856808
-tmux
-#1515856884
-exit
-#1515856884
-exit
-#1515858380
-ps
-#1515858454
-ps -eh
-#1515858458
-ps -h
-#1515858493
-ps -e
-#1515858496
-ps -eH
-#1515859031
-top
-#1515856884
-exit
-#1515856979
-vim ~/.bashrc
-#1515857026
-clear
-#1515857668
-vim
-#1515856956
-tmux
-#1515856979
-vim ~/.bashrc
-#1515857668
-vim
-#1515856956
-tmux
-#1515947872
-g++ -o outfirstprogram outfirstprogram.cpp 
-#1515947875
-./outfirstprogram 
-#1515947880
-clear
-#1515947881
-ls
-#1515948144
-exit
-#1515858496
-ps -eH
-#1515859031
-top
-#1515856884
-exit
-#1515856979
-vim ~/.bashrc
-#1515856956
-tmux
-#1515947439
-cd FILES/
-#1515947442
-cd 03_SourceCode/Training/cpp/
-#1515947697
-mkdir UdemyCpp
-#1515947698
-cd UdemyCpp/
-#1515947699
-ls
-#1515947704
-vim
-#1515948146
-clear
-#1515933022
-clear
-#1515947432
-tmux
-#1515948297
-exit
-#1515947439
-cd FILES/
-#1515947442
-cd 03_SourceCode/Training/cpp/
-#1515947697
-mkdir UdemyCpp
-#1515948238
-tmux
-#1515948250
-cd FILES/03_SourceCode/Training/cpp/
-#1515948252
-cd UdemyCpp/
-#1515948252
-ls
-#1515948261
-clear
-#1515948273
-vim
-#1515947432
-tmux
-#1515948301
-ls
-#1515948325
-g++ -o outfirstprogram outfirstprogram.cpp 
-#1515948328
-./outfirstprogram 
-#1515948330
-clear
-#1516031703
-ps
-#1516031935
-clear
-#1516031976
-exit
-#1516032574
-clear
-#1516032795
-top
-#1515948325
-g++ -o outfirstprogram outfirstprogram.cpp 
-#1515948328
-./outfirstprogram 
-#1516031976
-exit
-#1516031990
-ps
-#1516031991
-ls
-#1516032015
-ps --format pid,ppid,%cpu,cmd
-#1516032096
-ps --format pid,ppid,%cpu,cmd -U khaind
-#1516032106
-ps --format pid,ppid,%cpu,cmd -UH khaind
-#1516032111
-ps --format pid,ppid,%cpu,cmd -Uh khaind
-#1516032118
-ps -h --format pid,ppid,%cpu,cmd -U khaind
-#1516032190
-ps -C chrome
-#1516032198
-ps -Cf chrome
-#1516032202
-ps -C -f chrome
-#1516032207
-ps -f -C chrome
-#1516032485
-ps -U khaind --format %mem
-#1516032516
-ps -U khaind --format %mem | awk '{memory +=$1};END {print memory}'
-#1516032521
-top
-#1516032571
-clear
-#1516032573
-tmux
-#1516202317
-df -h
-#1516202320
-exit
-#1516202205
-clear
-#1516202233
-dd if=/dev/zero of=/dev/null
-#1516202749
-exit
-#1516032521
-top
-#1516032573
-tmux
-#1516202047
-pidof chrome
-#1516202054
-pgrep chrome 
-#1516202082
-pidof bash
-#1516202093
-ps -e | grep bash
-#1516202150
-df -h
-#1516202217
-clear
-#1516202256
-ps
-#1516202263
-pidof dd
-#1516202282
-kill -USR1 8304
-#1516202322
-kill -USR1 $(pidof dd)
-#1516202335
-kill $(pidof dd)
-#1516202757
-clear
-#1516295129
-ipython
-#1516032106
-ps --format pid,ppid,%cpu,cmd -UH khaind
-#1516032111
-ps --format pid,ppid,%cpu,cmd -Uh khaind
-#1516032118
-ps -h --format pid,ppid,%cpu,cmd -U khaind
-#1516032190
-ps -C chrome
-#1516032198
-ps -Cf chrome
-#1516032202
-ps -C -f chrome
-#1516032207
-ps -f -C chrome
-#1516032485
-ps -U khaind --format %mem
-#1516032516
-ps -U khaind --format %mem | awk '{memory +=$1};END {print memory}'
-#1516032521
-top
-#1516032573
-tmux
-#1516202317
-df -h
-#1516202320
-exit
-#1516202233
-dd if=/dev/zero of=/dev/null
-#1516202749
-exit
-#1516032521
-top
-#1516032573
-tmux
-#1516202054
-pgrep chrome 
-#1516202082
-pidof bash
-#1516202093
-ps -e | grep bash
-#1516202150
-df -h
-#1516202256
-ps
-#1516202263
-pidof dd
-#1516202282
-kill -USR1 8304
-#1516202322
-kill -USR1 $(pidof dd)
-#1516202335
-kill $(pidof dd)
-#1516289518
-pidof crond
-#1516289527
-pidof chrome
-#1516289535
-kill -l
-#1516291133
-ls /var/spool/cron/
-#1516291145
-ls /var/spool/cron/crontabs/
-#1516291154
-sudo ls /var/spool/cron/crontabs/
-#1516291569
-crontab -e
-#1516292574
-systemctl
-#1516292615
-sysctl list-unit-files -at service
-#1516292637
-sysctl  -a
-#1516293279
-cd MachineLearning/
-#1516293285
-cd practialMLPython/
-#1516293289
-..
-#1516293389
-workon opencv-py2
-#1516293402
-jupyter
-#1516293887
-find /usr/local/bin/ -type f -name "cv2*.so"
-#1516293945
-cat /etc/ld.so.conf.d/opencv.conf 
-#1516294042
-cd ~/.virtualenvs/opencv-py2/lib/python2.7/site-packages/
-#1516294053
-ls -la
-#1516294085
-q
-#1516294092
-cd -
-#1516294098
-workon opencv-py3
-#1516294101
-ipython
-#1516294165
-man virtualenvwrapper
-#1516294174
-virtualenvwrapper
-#1516294287
-deactivate 
-#1516294709
-git clone https://github.com/mbeyeler/opencv-machine-learning.git
-#1516294826
-python3 -m pip install --upgrade pip
-#1516294875
-clear
-#1516294877
-python
-#1516294882
-python3
-#1516294885
-ls
-#1516294902
-opencv_version 
-#1516294913
-python3 -m pip install jupyter
-#1516294923
-sudo python3 -m pip install jupyter
-#1516295000
-jupyter notebook
-#1516031935
-clear
-#1516032574
-clear
-#1516032795
-top
-#1515948325
-g++ -o outfirstprogram outfirstprogram.cpp 
-#1515948328
-./outfirstprogram 
-#1516031990
-ps
-#1516032015
-ps --format pid,ppid,%cpu,cmd
-#1516032096
-ps --format pid,ppid,%cpu,cmd -U khaind
-#1516032106
-ps --format pid,ppid,%cpu,cmd -UH khaind
-#1516032111
-ps --format pid,ppid,%cpu,cmd -Uh khaind
-#1516032118
-ps -h --format pid,ppid,%cpu,cmd -U khaind
-#1516032190
-ps -C chrome
-#1516032198
-ps -Cf chrome
-#1516032202
-ps -C -f chrome
-#1516032207
-ps -f -C chrome
-#1516032485
-ps -U khaind --format %mem
-#1516032516
-ps -U khaind --format %mem | awk '{memory +=$1};END {print memory}'
-#1516032521
-top
-#1516032571
-clear
-#1516032573
-tmux
-#1516202317
-df -h
-#1516202205
-clear
-#1516202233
-dd if=/dev/zero of=/dev/null
-#1516032521
-top
-#1516032573
-tmux
-#1516202047
-pidof chrome
-#1516202054
-pgrep chrome 
-#1516202082
-pidof bash
-#1516202093
-ps -e | grep bash
-#1516202150
-df -h
-#1516202217
-clear
-#1516202256
-ps
-#1516202263
-pidof dd
-#1516202282
-kill -USR1 8304
-#1516202322
-kill -USR1 $(pidof dd)
-#1516202335
-kill $(pidof dd)
-#1516202757
-clear
-#1516288478
-cd FILES
-#1516288520
-cd 03_SourceCode/MyProjects/Github/dotFiles/
-#1516288524
-cd bash/
-#1516288526
-ls -la
-#1516288547
-git br
-#1516288550
-git lg -2
-#1516288557
-vim diff
-#1516288563
-git st
-#1516288573
-git diff
-#1516288732
-cd My-Notes/ls
-#1516288737
-cd My-Notes
-#1516288745
-vim EffectiveCpp.md 
-#1516288795
-git remote -v
-#1516288806
-ls linux/
-#1516288836
-cd python/
-#1516288842
-cd EffectiveCpp/
-#1516288853
-cd NetCore/
-#1516288858
-cd hwapp/
-#1516288869
-ls bin/
-#1516288883
-ls bin/Debug/netcoreapp1.0/
-#1516288891
-cd bin/Debug/netcoreapp1.0/
-#1516288903
-....
-#1516288906
-...
-#1516288911
-cd ..
-#1516288919
-l
-#1516288930
-l deepLearning/
-#1516288939
-cd ProjectEulerGcc/
-#1516288942
-..
-#1516288944
-cd Training/
-#1516288949
-ls Erlang/
-#1516288961
-ls MachineLearning/
-#1516288987
-l oop/
-#1516288993
-ls python/
-#1516289006
-cd cpp/
-#1516289007
-ls
-#1516289011
-vim
-#1516297273
-exit
-#1516288473
-tmux
-#1516297274
-exit
-#1516375457
-clear
-#1516375523
-echo $Abc
-#1516375525
-echo $ABC
-#1516375610
-exit
-#1516375616
-echo $ABC
-#1516375630
-exit
-#1516377308
-echo $ABC
-#1516377310
-exit
-#1516377286
-clear
-#1516377321
-echo $ABC
-#1516377322
-exit
-#1516377328
-echo $ABC
-#1516377336
-exit
-#1516377322
-exit
-#1516377328
-echo $ABC
-#1516377336
-exit
-#1516383542
-ip -4 addr
-#1516383887
-ip link set eth1 down
-#1516383891
-sudo ip link set eth1 down
-#1516383931
-sudo ip link set eth1 up
-#1516383934
-ip addr
-#1516383950
-ethtool eth1
-#1516375616
-echo $ABC
-#1516377308
-echo $ABC
-#1516377321
-echo $ABC
-#1516377328
-echo $ABC
-#1516382819
-ip
-#1516383114
-ifconfig
-#1516383137
-ping 10.0.2.15
-#1516383150
-clear
-#1516383159
-vagrant global-status
-#1516383170
-vagrant up 67b547e
-#1516383218
-vagrant ssh 67b547e
-#1516384101
-vagrant 
-#1516384155
-vagrant suspend 7282e52
-#1516384178
-vagrant suspend 67b547e
-#1516384182
-exit
-#1516288573
-git diff
-#1516288732
-cd My-Notes/ls
-#1516288737
-cd My-Notes
-#1516288745
-vim EffectiveCpp.md 
-#1516288795
-git remote -v
-#1516288806
-ls linux/
-#1516288836
-cd python/
-#1516288842
-cd EffectiveCpp/
-#1516288853
-cd NetCore/
-#1516288858
-cd hwapp/
-#1516288869
-ls bin/
-#1516288883
-ls bin/Debug/netcoreapp1.0/
-#1516288891
-cd bin/Debug/netcoreapp1.0/
-#1516288903
-....
-#1516288906
-...
-#1516288911
-cd ..
-#1516288919
-l
-#1516288930
-l deepLearning/
-#1516288939
-cd ProjectEulerGcc/
-#1516288942
-..
-#1516288944
-cd Training/
-#1516288949
-ls Erlang/
-#1516288961
-ls MachineLearning/
-#1516288987
-l oop/
-#1516288993
-ls python/
-#1516289006
-cd cpp/
-#1516289011
-vim
-#1516288473
-tmux
-#1516372212
-cd ~/Downloads/
-#1516372242
-cd Lynda\ -\ Linux\ Bash\ Shell\ and\ Scripts/
-#1516372247
-cd Exercise\ Files/
-#1516372483
-man bash
-#1516374485
-cd ch01
-#1516374490
-cat shebang.sh 
-#1516374503
-ps -l
-#1516374587
-./shebang.sh
-#1516374596
-chmod +x shebang.sh 
-#1516374598
-ls -l
-#1516374607
-./shebang.sh 
-#1516374785
-time find / -name core
-#1516375444
-ABC="abc"
-#1516375544
-export ABC="123"
-#1516375549
-
-#1516375667
-export
-#1516375887
-enable 
-#1516377300
-export ABC
-#1516377302
-bash
-#1516377333
-echo $ABC
-#1516378129
-alias
-#1516381472
-ls
-#1516381479
-cat prA.sh 
-#1516381484
-echo $A
-#1516381496
-./prA.sh
-#1516381526
-A=1
-#1516381547
-export A=1
-#1516381555
-bash prA.sh 
-#1516381592
-cat set.sh 
-#1516382531
-clear
-#1516382604
-vagrant
-#1516382652
-vagrant ssh-config
-#1516382685
-vagrant ssh-config 7282e52
-#1516382904
-vagrant up 7282e52
-#1516383067
-vagrant ssh 7282e52
-#1516384091
-vagrant status
-#1516384162
-vagrant global-status
-#1516384188
-exit
-#1516372143
-tmux
-#1516384190
-exit
-#1516382652
-vagrant ssh-config
-#1516382685
-vagrant ssh-config 7282e52
-#1516382904
-vagrant up 7282e52
-#1516383067
-vagrant ssh 7282e52
-#1516384091
-vagrant status
-#1516384162
-vagrant global-status
-#1516372143
-tmux
-#1516417608
-cd FILES/
-#1516417841
-sudo apt-get install dconf-cli
-#1516417859
-apt-get autoremove 
-#1516417863
-sudo apt-get autoremove 
-#1516417885
-sudo apt-get update
-#1516418686
-cd 05_Setup/
-#1516418697
-git clone git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418703
-git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418711
-ls
-#1516418712
-./install.sh 
-#1516418791
-clear
-#1516418793
-exit
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418803
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418804
-ls
-#1516418805
-./install.sh 
-#1516418876
-clear
-#1516418879
-exit
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418879
-exit
-#1516418890
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418891
-./install.sh 
-#1516418907
-ls
-#1516418909
-clear
-#1516418891
-./install.sh 
-#1516419782
-cd
-#1516419789
-cd FILES/05_Setup/
-#1516419801
-git clone https://github.com/seebi/tmux-colors-solarized.git
-#1516419806
-cd tmux-colors-solarized/
-#1516419806
-ls
-#1516419819
-cat tmuxcolors-256.conf 
-#1516419860
-clear
-#1516419891
-cat tmuxcolors-256.conf >> ~/.tmux.conf 
-#1516419894
-exit
-#1516419291
-cat tmuxcolors-256.conf
-#1516419895
-exit
-#1516419841
-vim ~/.tmux.conf 
-#1516419897
-exit
-#1516384162
-vagrant global-status
-#1516417608
-cd FILES/
-#1516417841
-sudo apt-get install dconf-cli
-#1516417859
-apt-get autoremove 
-#1516417863
-sudo apt-get autoremove 
-#1516417885
-sudo apt-get update
-#1516418697
-git clone git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418703
-git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418712
-./install.sh 
-#1516418803
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418805
-./install.sh 
-#1516418890
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418891
-./install.sh 
-#1516419076
-cd 05_Setup/
-#1516419082
-cd gnome-terminal-colors-solarized/
-#1516419087
-cd colors/
-#1516419090
-cd dark
-#1516419094
-cat bd_color 
-#1516419097
-...
-#1516419103
-./set_dark.sh 
-#1516419150
-cd
-#1516419152
-cd FILES
-#1516419158
-cd 03_SourceCode/Training/git/
-#1516419160
-cd gitmagic/
-#1516419161
-ls
-#1516419163
-clear
-#1516419165
-git br
-#1516419168
-git remote -v
-#1516419232
-tmux
-#1516419898
-exit
-#1516419946
-clear
-#1516419980
-exit
-#1516420101
-clear
-#1516420188
-:q
-#1516419937
-clear
-#1516419986
-vim ~/.tmux.conf 
-#1516420195
-exit
-#1516419903
-clear
-#1516419928
-tmux
-#1516420196
-exit
-#1516420221
-clear
-#1516420287
-exit
-#1516420201
-clear
-#1516420290
-exit
-#1516420199
-tmux
-#1516420293
-exit
-#1516420427
-clear
-#1516420431
-exit
-#1516420426
-tmux
-#1516420432
-exit
-#1516420417
-iterm
-#1516420424
-xterm 
-#1516420440
-exit
-#1516420199
-tmux
-#1516420308
-vim ~/.tmux.conf 
-#1516420375
-clear
-#1516420511
-vim
-#1516420582
-vim ~/.bashrc
-#1516420724
-exit
-#1516420296
-tmux
-#1516420725
-exit
-#1516420822
-vim
-#1516420199
-tmux
-#1516420582
-vim ~/.bashrc
-#1516420296
-tmux
-#1516420744
-source ~/.bashrc
-#1516420753
-clea
-#1516420755
-clear
-#1516420760
-vim
-#1516420804
-vim ~/.tmux.conf 
-#1516420894
-exit
-#1516420728
-clear
-#1516420731
-tmux
-#1516420895
-exit
-#1516420897
-vim
-#1516420911
-clear
-#1516420916
-tmux
-#1516420933
-exit
-#1516419103
-./set_dark.sh 
-#1516419150
-cd
-#1516419152
-cd FILES
-#1516419158
-cd 03_SourceCode/Training/git/
-#1516419160
-cd gitmagic/
-#1516419165
-git br
-#1516419168
-git remote -v
-#1516419232
-tmux
-#1516419898
-exit
-#1516419980
-exit
-#1516420188
-:q
-#1516419986
-vim ~/.tmux.conf 
-#1516420195
-exit
-#1516419928
-tmux
-#1516420196
-exit
-#1516420287
-exit
-#1516420290
-exit
-#1516420199
-tmux
-#1516420293
-exit
-#1516420431
-exit
-#1516420426
-tmux
-#1516420432
-exit
-#1516420417
-iterm
-#1516420424
-xterm 
-#1516420440
-exit
-#1516420199
-tmux
-#1516420308
-vim ~/.tmux.conf 
-#1516420511
-vim
-#1516420582
-vim ~/.bashrc
-#1516420724
-exit
-#1516420296
-tmux
-#1516420725
-exit
-#1516420822
-vim
-#1516420199
-tmux
-#1516420582
-vim ~/.bashrc
-#1516420296
-tmux
-#1516420744
-source ~/.bashrc
-#1516420753
-clea
-#1516420760
-vim
-#1516420804
-vim ~/.tmux.conf 
-#1516420894
-exit
-#1516420731
-tmux
-#1516420895
-exit
-#1516420897
-vim
-#1516420916
-tmux
-#1516420933
-exit
-#1516437418
-pidof vagrant
-#1516437681
-ssh vagrant@127.0.0.1:2222
-#1516438123
-cd ~/FILES/04_Works/
-#1516438655
-vagrant ssh linuxserver
-#1516438831
-vagrant
-#1516438874
-vagrant port 
-#1516438917
-vagrant port 7282e52
-#1516439892
-vagrant halt default
-#1516440007
-vagrant validate
-#1516440052
-vagrant ssh
-#1516440070
-clear
-#1516440073
-cd ..
-#1516440166
-vagrant up 7282e52
-#1516440385
-cd LinuxServer/
-#1516440574
-ls
-#1516440632
-vim Vagrantfile 
-#1516440650
-vagrant validate 
-#1516440688
-ip route
-#1516440707
-vagrant global-status
-#1516440771
-vagrant halt ssh 7282e52
-#1516442089
-vagrant up
-#1516442123
-vagrant ssh 7282e52
-#1516445365
-vagrant halt 7282e52
-#1516420753
-clea
-#1516420760
-vim
-#1516420804
-vim ~/.tmux.conf 
-#1516420894
-exit
-#1516420731
-tmux
-#1516420895
-exit
-#1516420897
-vim
-#1516420916
-tmux
-#1516420933
-exit
-#1516438016
-vagrant
-#1516439026
-vagrant up 7282e52
-#1516439051
-clear
-#1516439063
-vagrant box list
-#1516439787
-vagrant halt 7282e52
-#1516440277
-vagrant halt linuxserver
-#1516440301
-vagrant halt c84a9b7
-#1516440426
-vagrant global status
-#1516440449
-vagrant destroy c84a9b7
-#1516440584
-vagrant global-status
-#1516420946
-tmux
-#1516439787
-vagrant halt 7282e52
-#1516440277
-vagrant halt linuxserver
-#1516440301
-vagrant halt c84a9b7
-#1516440426
-vagrant global status
-#1516440449
-vagrant destroy c84a9b7
-#1516440584
-vagrant global-status
-#1516446677
-ls
-#1516446681
-cd FILES
-#1516446714
-top
-#1516446750
-ps -e
-#1516446813
-ps -e -u khaind
-#1516446829
-ps -el
-#1516446834
-ps -el -u khaind
-#1516446872
-pidof chrome
-#1516446898
-ps -u khaind --format uuid,%cpu
-#1516446914
-man ps
-#1516446940
-ps ax
-#1516446948
-ps -ef
-#1516446955
-ps -ef -u khaind
-#1516446961
-ps -ef -U khaind
-#1516446983
-ps -efh | grep khaind
-#1516446993
-ps -efh
-#1516447013
-ps -efH | grep khaind
-#1516447024
-ps -efH | grep -i "chrome"
-#1516447026
-clear
-#1516447031
-ps -efH
-#1516447220
-sudo service gdm restart
-#1516447346
-killall -3 gnome-shell
-#1516447357
-ps aux | grep -i gnome
-#1516447485
-gnome-shell replace
-#1516447517
-restart 
-#1516447527
-man shutdown
-#1516447539
-shutdown -r now
-#1516447543
-sudo shutdown -r now
-#1516374607
-./shebang.sh 
-#1516374785
-time find / -name core
-#1516375444
-ABC="abc"
-#1516375544
-export ABC="123"
-#1516375667
-export
-#1516375887
-enable 
-#1516377300
-export ABC
-#1516377302
-bash
-#1516377333
-echo $ABC
-#1516378129
-alias
-#1516381479
-cat prA.sh 
-#1516381484
-echo $A
-#1516381496
-./prA.sh
-#1516381526
-A=1
-#1516381547
-export A=1
-#1516381555
-bash prA.sh 
-#1516381592
-cat set.sh 
-#1516382604
-vagrant
-#1516382652
-vagrant ssh-config
-#1516382685
-vagrant ssh-config 7282e52
-#1516382904
-vagrant up 7282e52
-#1516383067
-vagrant ssh 7282e52
-#1516384091
-vagrant status
-#1516384188
-exit
-#1516372143
-tmux
-#1516384190
-exit
-#1516382652
-vagrant ssh-config
-#1516382685
-vagrant ssh-config 7282e52
-#1516382904
-vagrant up 7282e52
-#1516383067
-vagrant ssh 7282e52
-#1516384091
-vagrant status
-#1516372143
-tmux
-#1516417608
-cd FILES/
-#1516417841
-sudo apt-get install dconf-cli
-#1516417859
-apt-get autoremove 
-#1516417863
-sudo apt-get autoremove 
-#1516417885
-sudo apt-get update
-#1516418686
-cd 05_Setup/
-#1516418697
-git clone git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418703
-git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418712
-./install.sh 
-#1516418793
-exit
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418803
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418805
-./install.sh 
-#1516418879
-exit
-#1516418710
-cd gnome-terminal-colors-solarized/
-#1516418879
-exit
-#1516418890
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418891
-./install.sh 
-#1516418891
-./install.sh 
-#1516419782
-cd
-#1516419789
-cd FILES/05_Setup/
-#1516419801
-git clone https://github.com/seebi/tmux-colors-solarized.git
-#1516419806
-cd tmux-colors-solarized/
-#1516419819
-cat tmuxcolors-256.conf 
-#1516419891
-cat tmuxcolors-256.conf >> ~/.tmux.conf 
-#1516419894
-exit
-#1516419291
-cat tmuxcolors-256.conf
-#1516419895
-exit
-#1516419841
-vim ~/.tmux.conf 
-#1516419897
-exit
-#1516417608
-cd FILES/
-#1516417841
-sudo apt-get install dconf-cli
-#1516417859
-apt-get autoremove 
-#1516417863
-sudo apt-get autoremove 
-#1516417885
-sudo apt-get update
-#1516418697
-git clone git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418703
-git clone https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-#1516418712
-./install.sh 
-#1516418803
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418805
-./install.sh 
-#1516418890
-cd FILES/05_Setup/gnome-terminal-colors-solarized/
-#1516418891
-./install.sh 
-#1516419076
-cd 05_Setup/
-#1516419082
-cd gnome-terminal-colors-solarized/
-#1516419087
-cd colors/
-#1516419090
-cd dark
-#1516419094
-cat bd_color 
-#1516419097
-...
-#1516419103
-./set_dark.sh 
-#1516419150
-cd
-#1516419152
-cd FILES
-#1516419158
-cd 03_SourceCode/Training/git/
-#1516419160
-cd gitmagic/
-#1516419168
-git remote -v
-#1516419232
-tmux
-#1516419898
-exit
-#1516419980
-exit
-#1516420188
-:q
-#1516419986
-vim ~/.tmux.conf 
-#1516420195
-exit
-#1516419928
-tmux
-#1516420196
-exit
-#1516420287
-exit
-#1516420290
-exit
-#1516420199
-tmux
-#1516420293
-exit
-#1516420431
-exit
-#1516420426
-tmux
-#1516420432
-exit
-#1516420417
-iterm
-#1516420424
-xterm 
-#1516420440
-exit
-#1516420199
-tmux
-#1516420308
-vim ~/.tmux.conf 
-#1516420511
-vim
-#1516420582
-vim ~/.bashrc
-#1516420724
-exit
-#1516420296
-tmux
-#1516420725
-exit
-#1516420822
-vim
-#1516420199
-tmux
-#1516420582
-vim ~/.bashrc
-#1516420296
-tmux
-#1516420744
-source ~/.bashrc
-#1516420753
-clea
-#1516420760
-vim
-#1516420804
-vim ~/.tmux.conf 
-#1516420894
-exit
-#1516420731
-tmux
-#1516420895
-exit
-#1516420897
-vim
-#1516420916
-tmux
-#1516420933
-exit
-#1516421718
-asdfasdf
-#1516432890
-cat Makefile 
-#1516435796
-git diff "@{yesterday}"
-#1516435819
-git lg -10
-#1516435915
-git instaweb
-#1516435944
-vagrant global-status
-#1516436140
-git co master
-#1516436154
-git pull
-#1516436159
-git diff
-#1516436173
-git checkout master
-#1516436178
-gi tst
-#1516436186
-cd sample/
-#1516436203
-kls
-#1516436219
-mkdir ch2
-#1516436225
-git init
-#1516436235
-touch a
-#1516436241
-touch a1
-#1516436244
-touch a2
-#1516436249
-touch a0
-#1516436260
-git commit -m "A"
-#1516436267
-git lg -2
-#1516436271
-git reflog
-#1516436282
-ls -la
-#1516436305
-cat hooks/commit-msg.sample 
-#1516436380
-git rm a a0
-#1516436392
-git cm -m "B"
-#1516436402
-touch c
-#1516436432
-git cm -m "C"
-#1516436491
-touch d
-#1516436495
-git add d
-#1516436500
-git cm -m "D"
-#1516436533
-git co -b solution1
-#1516436559
-git diff :/"B" :/"A"
-#1516436586
-git diff :/"B" :/"A" | git apply
-#1516436602
-cd ..
-#1516436613
-cd ch2/
-#1516436632
-git add .
-#1516436671
-git cm -m "Diff B&A -> apply"
-#1516436687
-git co -b solution2
-#1516436708
-git co :/"A" a a0
-#1516436713
-git lg 
-#1516436723
-git log
-#1516436800
-git cm -m "checkout A a a0"
-#1516436826
-git co master 
-#1516436839
-git co -b solution3
-#1516436854
-git revert :/"B"
-#1516436913
-cd .git/
-#1516437017
-git hash-object objects/03/c60d85550f18255c7109f88e118034f59e1013
-#1516437059
-git cat-file blob objects/03/c60d85550f18255c7109f88e118034f59e1013
-#1516437066
-tree
-#1516437182
-..
-#1516437185
-git br
-#1516437214
-git revert dbd6b90
-#1516437231
-git st
-#1516437232
-git lg
-#1516437236
-ls
-#1516437744
-ping 10.0.2.15
-#1516437771
-ping 10.0.2.15/24
-#1516437775
-ping 10.0.2.15:24
-#1516437804
-telnet 10.0.2.15 24
-#1516437945
-telnet 127.0.0.1 2222
-#1516445375
-lcear
-#1516445376
-clear
-#1516420916
-tmux
-#1516420933
-exit
-#1516421411
-cd FILES/04_Works/
-#1516421414
-..
-#1516421424
-cd 03_SourceCode/Training/git/
-#1516421425
-cd git
-#1516421428
-cd gitmagic/
-#1516421428
-ls
-#1516421429
-clear
-#1516421456
-vim
-#1516465919
-tmux
-#1516421425
-cd git
-#1516421428
-cd gitmagic/
-#1516465920
-clear
-#1516465921
-vim
-#1516468651
-cd FILES/03_SourceCode/Training/git/gitmagic/
-#1516468653
-..
-#1516468658
-cd ch2/
-#1516468659
-ls
-#1516468660
-git st
-#1516468661
-git b
-#1516468663
-git br
-#1516468672
-git symbolic-ref HEAD
-#1516506775
-exit
-#1516506775
-exit
-#1516507039
-df -h
-#1516522243
-clear
-#1516528541
-type type
-#1516528561
-type ls
-#1516528570
-type cp
-#1516528631
-which ls
-#1516528644
-help cd
-#1516528675
-help -m cd
-#1516528844
-ls -lt
-#1516528850
-ls -lt | head
-#1516528855
-ls -lt | head -3
-#1516528865
-ls -lt | head --3
-#1516528873
-du
-#1516528880
-du | sort -nr
-#1516528899
-du -h | sort -nr
-#1516528941
-find . -type f -print | wc -l
-#1516529217
-echo Front-{A,B,C}-Back
-#1516529225
-echo Number_{1..5}
-#1516529241
-echo $(((5**2) * 3))
-#1516529258
-echo {Z..A}
-#1516529260
-echo {Z..a}
-#1516529507
-ls -l `which cp`
-#1516529562
-echo $(cal)
-#1516529576
-echo "$(cal)"
-#1516529597
-date 
-#1516529764
-echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
-#1516529776
-echo "text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER"
-#1516530027
-echo -e "Inserting several blank lines\n\n\n"
-#1516530039
-echo -e "Words\tseparated\tby\thorizontal\ttabs."
-#1516530052
-echo -e "\aMy computer went \"beep\"."
-#1516530912
-ls
-#1516421428
-cd gitmagic/
-#1516465920
-clear
-#1516465921
-vim
-#1516468651
-cd FILES/03_SourceCode/Training/git/gitmagic/
-#1516468658
-cd ch2/
-#1516468660
-git st
-#1516468661
-git b
-#1516468663
-git br
-#1516468672
-git symbolic-ref HEAD
-#1516506713
-cd FILES/03_SourceCode/
-#1516506716
-ls deepLearning/
-#1516506718
-..
-#1516506723
-cd 03_SourceCode/
-#1516506727
-cd Training/
-#1516506730
-cd MachineLearning/
-#1516506735
-cd opencv-machine-learning/
-#1516506764
-workon opencv-py3
-#1516506766
-ls
-#1516506780
-deactivate 
-#1516506782
-tmux
-#1516506775
-exit
-#1516506836
-ls
-#1516506838
-clear
-#1516506987
-jupyter notebook
-#1516549475
-top
-#1516555581
-ls
-#1516555591
-workon opencv-py3
-#1516555620
-pip3 install scikit-learn
-#1516555643
-pip3 install --upgrade pip
-#1516555657
-python3
-#1516555665
-pip3
-#1516555724
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-#1516555756
-sudo -H pip3 install -U pip numpy
-#1516555762
-sudo -H pip3 install -U pip sklearn
-#1516555803
-sudo -H pip3 install -U pip scipy
-#1516556159
-pip install numpy scipy matplotlib scikit-image scikit-learn
-#1516556181
-pip install --user numpy scipy matplotlib scikit-image scikit-learn
-#1516556198
-sudo -H pip3 install -U pip matplotlib scikit-image
-#1516557725
-deactivate 
-#1516557726
-exit
-#1516506730
-cd MachineLearning/
-#1516506782
-tmux
-#1516546315
-clear
-#1516546326
-cd FILES/03_SourceCode/Training/MachineLearning/
-#1516546329
-cd opencv-machine-learning/
-#1516546329
-ls
-#1516546335
-workon opencv-py3
-#1516546342
-jupyter notebook
-#1516557733
-deactivate 
-#1516557735
-exit
-#1516546313
-tmux
-#1516557736
-exit
-#1516632079
-ps -auxw | grep hello
-#1516632098
-gdb ./hello 5679
-#1516632246
-clear
-#1516632248
-exit
-#1516557733
-deactivate 
-#1516546313
-tmux
-#1516631574
-ls
-#1516631581
-make hello
-#1516631625
-clear
-#1516631677
-ps -auxw
-#1516632064
-ps -auxw | grep hello
-#1516632070
-./hello 
-#1516632249
-exit
-#1516632254
-clear
-#1516506735
-cd opencv-machine-learning/
-#1516506764
-workon opencv-py3
-#1516506780
-deactivate 
-#1516506782
-
-#1516506775
-exit
-#1516506987
-jupyter notebook
-#1516549475
-top
-#1516555591
-workon opencv-py3
-#1516555620
-pip3 install scikit-learn
-#1516555643
-pip3 install --upgrade pip
-#1516555657
-python3
-#1516555665
-pip3
-#1516555724
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-#1516555756
-sudo -H pip3 install -U pip numpy
-#1516555762
-sudo -H pip3 install -U pip sklearn
-#1516555803
-sudo -H pip3 install -U pip scipy
-#1516556159
-pip install numpy scipy matplotlib scikit-image scikit-learn
-#1516556181
-pip install --user numpy scipy matplotlib scikit-image scikit-learn
-#1516556198
-sudo -H pip3 install -U pip matplotlib scikit-image
-#1516557725
-deactivate 
-#1516557726
-exit
-#1516506730
-cd MachineLearning/
-#1516506782
-tmux
-#1516546326
-cd FILES/03_SourceCode/Training/MachineLearning/
-#1516546329
-cd opencv-machine-learning/
-#1516546335
-workon opencv-py3
-#1516546342
-jupyter notebook
-#1516557733
-deactivate 
-#1516557735
-exit
-#1516546313
-tmux
-#1516557736
-exit
-#1516633399
-
-#1516633475
-alsle
-#1516633787
-cd 03_SourceCode/
-#1516633797
-vim ~/.bashrc
-#1516633839
-source ~/.bashrc
-#1516633840
-clear
-#1516639575
-..
-#1516639587
-mkdir Rust
-#1516639589
-cd Rust/
-#1516639589
-ls
-#1516639591
-curl https://sh.rustup.rs -sSf | sh
-#1516631677
-ps -auxw
-#1516632070
-./hello 
-#1516632249
-exit
-#1516634824
-ps -auxw | grep hello
-#1516635057
-g++ -g hello.cpp 
-#1516635065
-gdb a.out 
-#1516635339
-gdb --tui a.out 
-#1516635407
-clear
-#1516635414
-sudo apt-get install ddd
-#1516635622
-ls
-#1516635628
-ddd a.out 
-#1516557736
-exit
-#1516631233
-...
-#1516631236
-cd cpp/
-#1516631237
-ls
-#1516631422
-vim
-#1516546313
-tmux
-#1516557736
-exit
-#1516630528
-clear
-#1516630561
-cd FILES/03_SourceCode/Training/MachineLearning/
-#1516630571
-cd opencv-machine-learning/
-#1516630572
-ls
-#1516630577
-jupyter notebook
-#1516630525
-tmux
-#1516546313
-tmux
-#1516630561
-cd FILES/03_SourceCode/Training/MachineLearning/
-#1516630571
-cd opencv-machine-learning/
-#1516630577
-jupyter notebook
-#1516630525
-tmux
-#1516874959
-cd FILES
-#1516875005
-ls
-#1516875011
-askldf
-#1516875438
-gconftool
-#1516875506
-gconftool --set /desktop/gnome/interface/cursor_blink_time 2000
-#1516875515
-man gconftool
-#1516875569
-gconftool --set /desktop/gnome/interface/cursor_blink_time 2000 -t int
-#1516875573
-gconftool --get /desktop/gnome/interface/cursor_blink_time
-#1516880235
-vim ~/.bashrc
-#1516880246
-source ~/.bashrc
-#1516880249
-clear
-#1516880272
-exit
-#1517065417
-tmux
-#1517066019
-telnet 127.0.0.1 2222
-#1517066212
-cd ~/.ssh/
-#1517066212
-ls
-#1517066244
-cat ~/.ssh/known_hosts 
-#1517065441
-vagrant global-status
-#1517065461
-vagrant up 7282e52
-#1517065503
-vagrant ssh 7282e52
-#1517126397
-exit
-#1517066019
-telnet 127.0.0.1 2222
-#1517066212
-cd ~/.ssh/
-#1517066244
-cat ~/.ssh/known_hosts 
-#1517065441
-vagrant global-status
-#1517065461
-vagrant up 7282e52
-#1517065503
-vagrant ssh 7282e52
-#1517126397
-exit
-#1517126431
-chmod 644 sysinfo_page 
-#1517126434
-ll
-#1517126456
-chmod a+x sysinfo_page 
-#1517126479
-sysinfo_page > sysinfo_page.html
-#1517126486
-./sysinfo_page > sysinfo_page.html
-#1517126519
-cat sysinfo_page.html 
-#1517127085
-xdg-open .
-#1517127257
-./sysinfo_page sysinfo_page2.html
-#1517127313
-./sysinfo_page > sysinfo_page2.html
-#1517127393
-vimdiff sysinfo_page.html sysinfo_page2.html 
-#1517128198
-ls
-#1517128207
-./sysinfo_page > sysinfo_page3.html
-#1517128362
-./sysinfo_page > sysinfo_page4.html
-#1517128713
-exit 0
-#1516880235
-vim ~/.bashrc
-#1516880246
-source ~/.bashrc
-#1516880249
-clear
-#1516880272
-exit
-#1517065417
-tmux
-#1517066019
-telnet 127.0.0.1 2222
-#1517066212
-cd ~/.ssh/
-#1517066244
-cat ~/.ssh/known_hosts 
-#1517065441
-vagrant global-status
-#1517065461
-vagrant up 7282e52
-#1517065503
-vagrant ssh 7282e52
-#1517113851
-less history.db 
-#1517113877
-rm latest_session.vim\ \! 
-#1517113880
-ll
-#1517113896
-cat q 
-#1517113911
-rm q 
-#1517113916
-cat TEST0 
-#1517113927
-rm TEST0 
-#1517113940
-cd apps/
-#1517113946
-cd ..
-#1517113991
-rm -r apps/
-#1517114010
-cat nohup.out 
-#1517114041
-cat dic.txt 
-#1517114065
-ls -a
-#1517114069
-ls -l
-#1517114107
-cd scikit_learn_data/
-#1517114111
-cd mldata/
-#1517114117
-cd
-#1517114215
-mkdir bin
-#1517114216
-ls
-#1517114284
-export PATH=$PATH:/home/khaind/bin
-#1517114292
-echo $PATH
-#1517125915
-vim ~/.bash_profile 
-#1517128504
-uptime 
-#1517128525
-df
-#1517128530
-df -h
-#1517128599
-help test 
-#1517128739
-id
-#1517128742
-id -u
-#1517114155
-echo $PATH
-#1517126343
-ls
-#1517126370
-vim sysinfo_page
-#1517129379
-exit
-#1517066244
-cat ~/.ssh/known_hosts 
-#1517065441
-vagrant global-status
-#1517065461
-vagrant up 7282e52
-#1517065503
-vagrant ssh 7282e52
-#1517110845
-cd FILES
-#1517110854
-cd 03_SourceCode/Training/
-#1517110857
-la
-#1517110868
-mkdir cmake
-#1517110870
-cd cmake/
-#1517110879
-git clone https://gitlab.kitware.com/cmake/cmake.git
-#1517110935
-ls
-#1517110940
-..
-#1517110960
-mv cmake/ cMake
-#1517110962
-ll
-#1517110976
-less debian.dot 
-#1517111688
-echo $PATH
-#1517113815
-tmux
-#1517129381
-exit
-#1517134093
-vim effectivecpp00.cpp 
-#1517110879
-git clone https://gitlab.kitware.com/cmake/cmake.git
-#1517110940
-..
-#1517110960
-mv cmake/ cMake
-#1517110962
-ll
-#1517110976
-less debian.dot 
-#1517111688
-echo $PATH
-#1517113815
-tmux
-#1517129381
-exit
-#1517134189
-g++ effectivecpp00.cpp 
-#1517134344
-rm a.out 
-#1517134348
-ls
-#1517135461
-clear
-#1517135473
-g++ -o test effectivecpp00.cpp 
-#1517135477
-./test 
-#1517111688
-echo $PATH
-#1517129381
-exit
-#1517130815
-cd FILES/03_SourceCode/MyProjects/Github/My-Notes/
-#1517130819
-git st
-#1517130821
-git br
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134081
-ls
-#1517134084
-tmux
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134081
-ls
-#1517134084
-tmux
-#1517235628
-ping google.com -t
-#1517235826
-ip addr
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517235951
-ping google.com
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236199
-sudo ifdown eth1
-#1517236216
-sudo ifup eth1
-#1517236228
-ifconfig -a
-#1517236233
-exit
-#1517111688
-echo $PATH
-#1517129381
-exit
-#1517130815
-cd FILES/03_SourceCode/MyProjects/Github/My-Notes/
-#1517130819
-git st
-#1517130821
-git br
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517130825
-git remote -v
-#1517130831
-git pull
-#1517130839
-git lg -2
-#1517130876
-vim EffectiveCpp.md 
-#1517133922
-mkdir src
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517235628
-ping google.com -t
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236233
-exit
-#1517236351
-sudo apt-get install git build-essential
-#1517236372
-cd FILES/05_Setup/
-#1517236379
-git clone https://github.com/lwfinger/rtl8188eu.git
-#1517236400
-cd rtl8188eu/
-#1517236405
-make all
-#1517236476
-sudo modprobe 8188eu 
-#1517236550
-ip addr
-#1517236879
-man modprobe
-#1517237066
-lsmod | grep rtl
-#1517237116
-sudo modprobe rtl8192cu
-#1517237119
-clear
-#1517237149
-sudo modprobe -r rtl8192cu
-#1517237222
-sudo modprobe rtl8188ee 
-#1517237266
-ping 192.168.1.1
-#1517237368
-ping google.com
-#1517237495
-vim /etc/network/interfaces
-#1517237528
-cat /etc/network/interfaces
-#1517237532
-sudo vim /etc/network/interfaces
-#1517237569
-ifconfig -a
-#1517237631
-
-#1517237668
-sudo ifdown eth1
-#1517237672
-sudo ifup eth1
-#1517237906
-usb-devices 
-#1517238058
-sudo modprobe -v 8188eu
-#1517238069
-ls
-#1517238077
-sudo make install
-#1517238109
-sudo modprobe -r rtl8188ee
-#1517238120
-sudo modprobe 8188eu
-#1517238126
-lsmod | grep rt
-#1517133923
-cd src/
-#1517133941
-vim effectivecpp00.cpp
-#1517134084
-tmux
-#1517235628
-ping google.com -t
-#1517235916
-man ip
-#1517235938
-ifconfig eth1 up
-#1517235942
-sudo ifconfig eth1 up
-#1517236114
-ip addr flush eth1
-#1517236118
-sudo ip addr flush eth1
-#1517236179
-ifdown eth1 && ifup eth1
-#1517236183
-sudo ifdown eth1 && ifup eth1
-#1517236351
-sudo apt-get install git build-essential
-#1517236379
-git clone https://github.com/lwfinger/rtl8188eu.git
-#1517236405
-make all
-#1517236476
-sudo modprobe 8188eu 
-#1517236550
-ip addr
-#1517236879
-man modprobe
-#1517237066
-lsmod | grep rtl
-#1517237116
-sudo modprobe rtl8192cu
-#1517237119
-clear
-#1517237149
-sudo modprobe -r rtl8192cu
-#1517237222
-sudo modprobe rtl8188ee 
-#1517237495
-vim /etc/network/interfaces
-#1517237528
-cat /etc/network/interfaces
-#1517237532
-sudo vim /etc/network/interfaces
-#1517238109
-sudo modprobe -r rtl8188ee
-#1517238408
-tracepath google.com
-#1517238449
-cd FILES/05_Setup/
-#1517238451
-cd rtl8188eu/
-#1517238458
-sudo make install
-#1517238633
-ls
-#1517238637
-sudo make install 
-#1517238649
-ls /lib/firmware/rtlwifi/
-#1517238698
-sudo modprobe -v rtl8188ee
-#1517238715
-sudo modprobe -v 8188
-#1517238718
-sudo modprobe -v 8188eu
-#1517238726
-sudo modprobe 8188eu
-#1517238733
-lsmod | grep rt
-#1517238772
-usb-devices 
-#1517238912
-sudo ifdown wlan0
-#1517238936
-ping 192.168.1.1
-#1517239144
-ifconfig -a
-#1517239151
-sudo ifdown eth1
-#1517239159
-sudo ifup eth0
-#1517239163
-sudo ifup eth1
-#1517239182
-ping google.com
-#1517239184
-exit
-#1517239202
-shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239984
-update-manager 
-#1517238458
-sudo make install
-#1517238637
-sudo make install 
-#1517238649
-ls /lib/firmware/rtlwifi/
-#1517238698
-sudo modprobe -v rtl8188ee
-#1517238715
-sudo modprobe -v 8188
-#1517238718
-sudo modprobe -v 8188eu
-#1517238726
-sudo modprobe 8188eu
-#1517238733
-lsmod | grep rt
-#1517238912
-sudo ifdown wlan0
-#1517239159
-sudo ifup eth0
-#1517239182
-ping google.com
-#1517239184
-exit
-#1517239202
-shutdown -r now
-#1517240462
-dmesg | grep rtl8
-#1517240480
-lsmod 
-#1517240566
-cd FILES/05_Setup/
-#1517240573
-git clone https://github.com/pvaret/rtl8192cu-fixes.git
-#1517240661
-df -h
-#1517240685
-modprobe -c | grep -i "2001.*3310"
-#1517240719
-sudo modprobe -r 8188eu 
-#1517240732
-sudo modprobe r8188eu
-#1517240784
-lsmod | grep r
-#1517241016
-lsmod
-#1517241029
-dmesg | grep 81
-#1517241033
-dmesg | grep 8192
-#1517241578
-ping 192.168.1.1
-#1517241605
-usb-devices 
-#1517241610
-iwconfig 
-#1517241631
-dmesg | grep 8188
-#1517241659
-ifconfig -a
-#1517241678
-cat /etc/resolv.conf 
-#1517241685
-iwlist chan
-#1517241703
-sudo ifdown eth1
-#1517241707
-sudo ifup eth1
-#1517241725
-sudo apt-get install --reinstall linux-headers-$(uname -r) linux-headers-generic build-essential dkms git 
-#1517241764
-ls
-#1517241781
-sudo dkms add ./rtl8192cu-fixes/
-#1517241812
-sudo dkms install 8192cu/1.8
-#1517241825
-sudo dkms install 8192cu/1.10
-#1517241890
-cat /etc/modprobe.d/blacklist.conf 
-#1517241904
-echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
-#1517241921
-echo 'install 8192cu modprobe --ignore-install 8192cu ; /bin/echo "2001 3310" > /sys/bus/usb/drivers/rtl8192cu/new_id' | sudo tee /etc/modprobe.d/8192cu.conf
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517239831
-usb-devices 
-#1517240004
-update-manager 
-#1517243844
-vim sysinfo_page
-#1517240004
-update-manager 
-#1517244498
-./ls
-#1517244502
-ls
-#1517244509
-chmod 644 checkParam.sh 
-#1517244512
-ll
-#1517244524
-chmod a+x checkParam.sh 
-#1517244525
-l
-#1517244535
-./checkParam.sh p1 p2 p3 p4 p5
-#1517241825
-sudo dkms install 8192cu/1.10
-#1517241890
-cat /etc/modprobe.d/blacklist.conf 
-#1517241904
-echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
-#1517241921
-echo 'install 8192cu modprobe --ignore-install 8192cu ; /bin/echo "2001 3310" > /sys/bus/usb/drivers/rtl8192cu/new_id' | sudo tee /etc/modprobe.d/8192cu.conf
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517239831
-usb-devices 
-#1517240004
-update-manager 
-#1517243432
-cd FILES
-#1517243449
-cd 03_SourceCode/
-#1517243457
-cd MyProjects/Github/
-#1517243460
-cd My-Notes/
-#1517243466
-cd src/
-#1517243477
-...
-#1517243479
-..
-#1517243795
-find . | grep -i "sysinfo_page"
-#1517243804
-cd 03_SourceCode/Training/
-#1517243804
-ls
-#1517243839
-tmux
-#1517241956
-sudo shutdown -r now
-#1517239205
-sudo shutdown -r now
-#1517239321
-sudo apt-get install update
-#1517239332
-sudo apt-get update
-#1517242044
-lsmod 
-#1517242051
-lsmod  | grep 81
-#1517242099
-sudo ifdown eht1
-#1517242105
-sudo ifdown eth1
-#1517242113
-dmesg | grep 8192
-#1517242122
-cat /etc/resolv.conf 
-#1517242128
-iwlist chan
-#1517242137
-iwconfig
-#1517242154
-modprobe -c | grep -i "2001.*3310"
-#1517242171
-ifconfig -a
-#1517242176
-ping 192.168.1.1
-#1517242183
-ping google.com
-#1517242276
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517242277
-ls
-#1517242280
-cat README.md 
-#1517242320
-ifconfig
-#1517242330
-usb-devices 
-#1517242356
-update-manager 
-#1517330210
-lsmod | grep rt
-#1517330229
-iwconfig
-#1517330248
-usb-devices 
-#1517330282
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517330284
-ls
-#1517330292
-less README.md 
-#1517330394
-cat README.md 
-#1517330410
-sudo cp ./rtl8192cu-fixes/8192cu-disable-power-management.conf /etc/modprobe.d/
-#1517330425
-sudo cp 8192cu-disable-power-management.conf /etc/modprobe.d/
-#1517330437
-ls /etc/modprobe.d/
-#1517330450
-tmux
-#1517242099
-sudo ifdown eht1
-#1517242105
-sudo ifdown eth1
-#1517242122
-cat /etc/resolv.conf 
-#1517242154
-modprobe -c | grep -i "2001.*3310"
-#1517242171
-ifconfig -a
-#1517242183
-ping google.com
-#1517242276
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517242320
-ifconfig
-#1517242356
-update-manager 
-#1517330500
-iwconfig
-#1517330548
-vim /etc/NetworkManager/NetworkManager.conf 
-#1517330671
-cat 8192cu-disable-power-management.conf 
-#1517330719
-
-#1517330812
-cd ..
-#1517330814
-sudo dkms add ./rtl8192cu-fixes
-#1517330862
-ls /etc/modprobe.d/
-#1517330888
-sudo cp ./rtl8192cu-fixes/blacklist-native-rtl8192.conf /etc/modprobe.d/
-#1517330896
-cd /etc/modprobe.d/
-#1517330906
-cat blacklist-native-rtl8192.conf 
-#1517330956
-ip addr
-#1517330985
-iwlist chan
-#1517330997
-dmesg | grep 8192
-#1517331019
-iwconfig 
-#1517331025
-ping 192.168.1.1
-#1517331039
-lsmod | grep rt
-#1517331063
-modprobe -r 8188eu 
-#1517331070
-sudo modprobe -r 8188eu 
-#1517331105
-cd -
-#1517331112
-cd rtl8192cu-fixes/
-#1517331140
-sudo modprobe rtl8xxxu 
-#1517331157
-usb-devices 
-#1517331171
-ls
-#1517331176
-cat README.md 
-#1517331187
-sudo dkms install 8192cu/1.10
-#1517331195
-sudo depmod -a
-#1517331225
-sudo shutdown -r now
-#1517331039
-lsmod | grep rt
-#1517331063
-modprobe -r 8188eu 
-#1517331070
-sudo modprobe -r 8188eu 
-#1517331105
-cd -
-#1517331112
-cd rtl8192cu-fixes/
-#1517331140
-sudo modprobe rtl8xxxu 
-#1517331171
-ls
-#1517331195
-sudo depmod -a
-#1517331300
-cd FILES/05_Setup/rtl8192cu-fixes/
-#1517331330
-usb-devices 
-#1517331469
-iwconfig 
-#1517331488
-sudo dkms install 8192cu/1.10
-#1517331536
-cat README.md 
-#1517331572
-sudo ifdown eth1
-#1517331574
-sudo ifup eth1
-#1517331578
-ifconfig -a
-#1517331706
-ping 192.168.1.1
-#1517331709
-ping google.com
-#1517331721
-sudo shutdown -r now
-#1517331793
-ping google.com
-#1517331536
-cat README.md 
-#1517331574
-sudo ifup eth1
-#1517331721
-sudo shutdown -r now
-#1517415649
-iwconfig 
-#1517415660
-ifconfig -a
-#1517415688
-lsmod | grep rt
-#1517415693
-usb-devices 
-#1517415720
-cd FILES/05_Setup/rtl8188eu/
-#1517415720
-ls
-#1517415844
-sudo modprobe -r 8188eu 
-#1517415856
-sudo modprobe rtl8xxxu 
-#1517415866
-sudo modprobe 8188eu 
-#1517415893
-sudo ifdown eth1
-#1517415902
-ping 192.168.1.1
-#1517415912
-ping google.com
-#1517493043
-exit
-#1517415856
-sudo modprobe rtl8xxxu 
-#1517415866
-sudo modprobe 8188eu 
-#1517493043
-exit
-#1517493150
-sudo modprobe -r 8188eu 
-#1517493164
-sudo modprobe 8188eu
-#1517493192
-iwconfig 
-#1517493204
-lsmod | grep -i rt
-#1517493209
-usb-devices 
-#1517493270
-sudo ifdown eth1
-#1517493276
-sudo ifup eth1
-#1517493290
-ping 192.168.1.1
-#1517493295
-ping google.com
-#1517493209
-usb-devices 
-#1517493270
-sudo ifdown eth1
-#1517493276
-sudo ifup eth1
-#1517493290
-ping 192.168.1.1
-#1517493295
-ping google.com
-#1517752176
-df -h
-#1517752599
-stardict - how
-#1517752651
-stardict &
-#1517752660
-jobs 
-#1517752673
-killall stardict 
-#1517752683
-stardict how
-#1517760045
-pidof stardict 
-#1517842825
-exit
-#1517842881
-clear
-#1517842887
-exit
-#1517843010
-cd FILES
-#1517843033
-ls
-#1517843036
-cd 05_Setup/
-#1517843071
-tmux
-#1517843091
-exit
-#1517843337
-clear
-#1517843375
-exit
-#1517843327
-tmux
-#1517843377
-exit
-#1517842636
-vim ~/.bashrc
-#1517843268
-cd /usr/local/lib/python3.4/dist-packages/powerline/bindings/tmux
-#1517843268
-ls
-#1517843273
-cat powerline.conf 
-#1517842628
-pip3 show powerline-status
-#1517842628
-pip3 show powerline-status
-#1517843573
-cd FILES
-#1517843573
-ls
-#1517843574
-vim
-#1517843615
-:q
-#1517843418
-vim ~/.vimrc 
-#1517843929
-vim ~/.bashrc
-#1517843962
-exit
-#1517843644
-man vim
-#1517843660
-help vim
-#1517843664
-vim --h
-#1517843668
-vim help
-#1517843671
-ls
-#1517843762
-update-manager 
-#1517752673
-killall stardict 
-#1517752683
-stardict how
-#1517760045
-pidof stardict 
-#1517842251
-sudo apt-get install python-pip git
-#1517842270
-cd FILES
-#1517842275
-cd 05_Setup/
-#1517842277
-ls
-#1517842282
-sudo pip install git+git://github.com/Lokaltog/powerline
-#1517842329
-pip show powerline-status
-#1517842503
-sudo pip3 install git+git://github.com/Lokaltog/powerline
-#1517842513
-pip3 show powerline-status
-#1517842610
-tmux
-#1518258799
-sudo apt-get install ipython
-#1518258827
-sudo apt-get install -f
-#1518258829
-clear
-#1518258837
-sudo apt autoremove
-#1518258843
-exit
-#1518280421
-opera 
-#1518364374
-cd FILES/04_Works/
-#1518364377
-cd virtualEnv/
-#1518364382
-cd RedEyeRemover/
-#1518364385
-./removeRedEyes 
-#1518364420
-workon opencv-py2
-#1518364429
-pip install numpy scipy matplotlib scikit-image scikit-learn ipython
-#1518364457
-deactivate 
-#1518364460
-sudo -H pip2 install -U pip numpy
-#1518364475
-python
-#1518364488
-python3
-#1518364503
-sudo -H pip3 install -U pip numpy
-#1518364537
-sudo apt-get update
-#1518364546
-sudo apt-get upgrade
-#1518364555
-sudo apt-get remove x264 libx264-dev
-#1518364574
-sudo apt autoremove 
-#1518364591
-sudo apt-get install build-essential checkinstall cmake pkg-config yasm
-#1518364598
-sudo apt-get install git gfortran
-#1518364609
-git 
-#1518364619
-cd ..
-#1518364619
-ls
-#1518364626
-git init testXenial
-#1518364653
-sudo apt-get remove git
-#1518364667
-sudo apt-get autoclean 
-#1518364950
-cat ~/FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history >> ~/.bash_history 
-#1518363269
-sudo apt-get install libtiff5-dev
-#1518363293
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-#1518363303
-uname
-#1518363325
-lsb_release -a
-#1518363360
-less /etc/os-release 
-#1518364181
-wc -l FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364328
-less FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364367
-tmux 
-#1518364382
-cd RedEyeRemover/
-#1518364385
-./removeRedEyes 
-#1518364420
-workon opencv-py2
-#1518364460
-sudo -H pip2 install -U pip numpy
-#1518364475
-python
-#1518364488
-python3
-#1518364503
-sudo -H pip3 install -U pip numpy
-#1518364537
-sudo apt-get update
-#1518364546
-sudo apt-get upgrade
-#1518364555
-sudo apt-get remove x264 libx264-dev
-#1518364574
-sudo apt autoremove 
-#1518364591
-sudo apt-get install build-essential checkinstall cmake pkg-config yasm
-#1518364598
-sudo apt-get install git gfortran
-#1518364609
-git 
-#1518364619
-cd ..
-#1518364626
-git init testXenial
-#1518364653
-sudo apt-get remove git
-#1518364667
-sudo apt-get autoclean 
-#1518364950
-cat ~/FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history >> ~/.bash_history 
-#1518363269
-sudo apt-get install libtiff5-dev
-#1518363293
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-#1518363303
-uname
-#1518363325
-lsb_release -a
-#1518363360
-less /etc/os-release 
-#1518364181
-wc -l FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364328
-less FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364367
-tmux 
-#1518365533
-vim
-#1518365560
-cd FILES/03_SourceCode/Training/
-#1518365601
-mkdir scripts
-#1518365609
-cd scripts/
-#1518365617
-vim opencvInstall.sh
-#1518365875
-chmod a+x opencvInstall.sh 
-#1518365876
-ll
-#1518365879
-./opencvInstall.sh 
-#1518365957
-sudo pip2 install virtualenv virtualenvwrapper
-#1518365997
-sudo -H pip2 install virtualenv virtualenvwrapper
-#1518366006
-sudo pip3 install virtualenv virtualenvwrapper
-#1518366014
-sudo -H pip3 install virtualenv virtualenvwrapper
-#1518366024
-vim ~/.bashrc
-#1518366064
-cd virtualEnv/
-#1518366093
-mkvirtualenv --h
-#1518366116
-mkvirtualenv --version
-#1518366172
-mkvirtualenv --relocatable
-#1518366220
-rmvirtualenv opencv-py2
-#1518366223
-rmvirtualenv opencv-py3
-#1518366244
-mkvirtualenv cv-py2 -p python2
-#1518366270
-pip install numpy scipy matplotlib scikit-image scikit-learn ipython
-#1518366308
-pip install jupyter
-#1518366344
-mkvirtualenv cv-py3 -p python3
-#1518366357
-workon cv-py3
-#1518366367
-pip3 install numpy scipy matplotlib scikit-image scikit-learn ipython
-#1518366483
-...
-#1518366486
-cd 05_Setup/
-#1518366495
-..
-#1518366504
-locate . | grep opencv
-#1518366576
-find . | grep -i opencv
-#1518366586
-cd 04_Works/
-#1518366675
-cd opencv
-#1518366685
-rm -rf build/
-#1518366691
-mkdir build
-#1518366694
-cd build/
-#1518366708
-git br
-#1518366716
-cmake -D CMAKE_BUILD_TYPE=RELEASE       -D CMAKE_INSTALL_PREFIX=/usr/local       -D INSTALL_C_EXAMPLES=ON       -D INSTALL_PYTHON_EXAMPLES=ON       -D WITH_TBB=ON       -D WITH_V4L=ON       -D WITH_QT=ON       -D WITH_OPENGL=ON       -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules       -D BUILD_EXAMPLES=ON ..
-#1518366913
-nproc 
-#1518366923
-make -j4
-#1518367747
-sudo make install
-#1518367777
-sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
-#1518367784
-sudo ldconfig
-#1518367797
-find /usr/local/lib/ -type f -name "cv2*.so"
-#1518367879
-cd ~/.virtualenvs/cv-py2/lib/python2.7/site-packages/
-#1518367895
-ln -s /usr/local/lib/python2.7/dist-packages/cv2.so cv2.so
-#1518367920
-cd ~/.virtualenvs/cv-py3/lib/python3.5/site-packages/
-#1518367953
-ln -s /usr/local/lib/python3.5/dist-packages/cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
-#1518368003
-workon cv-py2
-#1518368044
-cd
-#1518368047
-ipython
-#1518368159
-cd FILES/04_Works/virtualEnv/RedEyeRemover/
-#1518368160
-ls
-#1518368163
-python removeRedEyes.py 
-#1518368187
-killall python
-#1518368194
-deactivate 
-#1518363293
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-#1518363303
-uname
-#1518363325
-lsb_release -a
-#1518363360
-less /etc/os-release 
-#1518364181
-wc -l FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364328
-less FILES/03_SourceCode/MyProjects/Github/dotFiles/bash/.bash_history 
-#1518364367
-tmux 
-#1518364999
-git
-#1518365196
-sudo apt remove git-man
-#1518365219
-sudo apt autoremove
-#1518365230
-sudo apt-get clean
-#1518365237
-sudo apt-get install -f
-#1518365244
-
-#1518365281
-sudo apt-get install git
-#1518365380
-cat /proc/version
-#1518365451
-sudo apt-get install build-essential checkinstall cmake pkg-config yasm
-#1518365458
-sudo apt-get install git gfortran
-#1518365463
-sudo apt-get install libjpeg8-dev libjasper-dev libpng12-dev
-#1518365493
-sudo apt-get install libtiff5-dev
-#1518365501
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
-#1518366606
-cd FILES/04_Works/virtualEnv/
-#1518366609
-cd RedEyeRemover/
-#1518366957
-ls
-#1518367965
-g++ -std=c++11 removeRedEyes.cpp `pkg-config --libs --cflags opencv` -o removeRedEyes
-#1518367970
-./removeRedEyes 
-#1518364987
-tmux
-#1518543632
-gvim
-#1518544713
-exit
-#1518366609
-cd RedEyeRemover/
-#1518367965
-g++ -std=c++11 removeRedEyes.cpp `pkg-config --libs --cflags opencv` -o removeRedEyes
-#1518367970
-./removeRedEyes 
-#1518364987
-tmux
-#1518542212
-python2
-#1518542323
-python3
-#1518542367
-pip3 install python3-tk
-#1518542747
-vim --version
-#1518542866
-echo $VIM
-#1518545609
-sudo apt-get install python-pil
-#1518545637
-sudo apt-get install python3-pil
-#1518545646
-sudo apt-get install python3-pil.imagetk
-#1518545831
-ls
-#1518545952
-sudo apt-get install python-pil.imagetk
-#1518545967
-python labeling.py 
-#1518542195
-vim labeling.py
-#1518365493
-sudo apt-get install libtiff5-dev
-#1518365501
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev
-#1518366606
-cd FILES/04_Works/virtualEnv/
-#1518366609
-cd RedEyeRemover/
-#1518367965
-g++ -std=c++11 removeRedEyes.cpp `pkg-config --libs --cflags opencv` -o removeRedEyes
-#1518367970
-./removeRedEyes 
-#1518542036
-cd FILES
-#1518542043
-cd 04_Works/Fpt/
-#1518542047
-ls\
-#1518542056
-cd AutoParking/
-#1518542062
-mkdir Source
-#1518542064
-cd Source/
-#1518542070
-mkdir tools
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542179
-ls
-#1518542182
-tmux
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542182
-tmux
-#1518627047
-clear
-#1518628115
-
-#1518628115
-
-#1518628233
-
-#1518631021
-ls
-#1518631024
-python labeling.py 
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542182
-tmux
-#1518625600
-ls
-#1518625603
-vim labeling.py 
-#1518622985
-cd FILES/04_Works/Fpt/AutoParking/Source/tools/
-#1518622985
-ls
-#1518622990
-python labeling.py 
-#1518623324
-vim labeling.py 
-#1518624527
-tmux
-#1518791379
-asdf
-#1518791384
-vim ~/.bashrc
-#1518791659
-exit
-#1518791664
-asdf
-#1518791679
-
-#1518791708
-vim ~/.bashrc
-#1518791783
-exit
-#1518542070
-mkdir tools
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542182
-tmux
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542182
-tmux
-#1518627047
-clear
-#1518628115
-
-#1518628115
-
-#1518631024
-python labeling.py 
-#1518542072
-cd tools/
-#1518542173
-vim labeling.py
-#1518542182
-tmux
-#1518625603
-vim labeling.py 
-#1518622985
-cd FILES/04_Works/Fpt/AutoParking/Source/tools/
-#1518622990
-python labeling.py 
-#1518623324
-vim labeling.py 
-#1518624527
-tmux
-#1518791379
-asdf
-#1518791384
-vim ~/.bashrc
-#1518791659
-exit
-#1518791664
-asdf
-#1518791708
-vim ~/.bashrc
-#1518791783
-exit
-#1518792529
-vim-gtk
-#1518792533
-vim-gtx
-#1518792536
-vim-gnome
-#1518792580
-sudo apt-get update
-#1518792600
-sudo apt-get install vim-gnome
-#1518792639
-sudo apt-get install vim-gtx
-#1518792642
-sudo apt-get install vim-gtk
-#1518792690
-vim --version
-#1518792695
-vim --version | grep clip
-#1518792738
-cd FILES/03_SourceCode/Training/python/gui/
-#1518792745
-chmod u+x wxwidget.py 
-#1518793015
-apt-cache show transmission-gtk 
-#1518793113
-pip install -U     -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04     wxPython
-#1518793140
-sudo pip install -U     -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04     wxPython
-#1518793250
-python3
-#1518793513
-sudo apt-get install python-wxgtk3.0
-#1518793537
-./wxwidget.py 
-#1518793548
-python3 test.py 
-#1518793555
-python test.py 
-#1518793606
-python
-#1518796428
-mv test.py testwx.py
-#1518796520
-chmod u+x testwx.py 
-#1518796522
-./testwx.py `
-#1518796526
-./testwx.py
-#1518796567
-chmod u+x testtk.py 
-#1518796783
 ls
 #1518799565
 ./testtk.py 
@@ -6280,3 +719,4344 @@ ls parking06 | wc -l
 ls parking0* | wc -l
 #1519131059
 tmux 
+#1538144776
+s
+#1538144829
+brew install cowsay
+#1538144871
+brew install cowthink
+df -h
+cd Code/
+ls
+cd config/
+ls
+ll
+ls -a
+git clone git@github.com:khaind/dotfiles.git
+cat ~/.ssh/id_rsa.pub 
+pbcopy < ~/.ssh/id_rsa.pub
+git clone git@github.com:khaind/dotfiles.git
+cd dotfiles/
+ls
+chmod a+x installEnv.sh 
+ls
+./installEnv.sh 
+ls
+pwd
+ls
+git st
+git status
+git reset --hard
+git st
+git status
+git clean
+git clean -n
+git status
+git clean -fd
+git status
+git lg
+git log
+git log -2
+ls
+./installEnv.sh 
+cd ~/.vim_runtime/
+ls
+vim install_basic_vimrc.sh 
+ls
+rm ~/.vimrc 
+ls
+mv ~/.bash_profile ~/.bash_profile_bak
+mv ~/.bash_history ~/.bash_history_bak
+ls
+vim 
+ls
+cd Code/
+ls
+cd config/
+vim
+tmu
+tmux
+cows
+brew install cowsay
+find . -type f -iname "cowsay"
+find . -type d -iname "cowsay"
+find . -type d -iname "cowsay" | xargs cd
+ls
+find . -type d -iname "cowsay" | xargs cd
+find . -type d -iname "cowsay"
+find . -type d -iname "cowsay" | cd
+ls
+cd ./Library/Logs/Homebrew/cowsay/
+ls
+ls
+ls -a
+cd -
+cowsay 
+cowsay 
+cowsay
+vim ~/.bash_aliases 
+vim ~/.bash_aliases 
+bash
+ssh khaind@192.168.1.88
+ssh kaiji@192.168.1.88
+ping 192.168.1.88
+ip a
+ip -a
+ifconfig -a
+brew install open-ssh
+brew install openssh
+telnet 192.168.1.1
+brew install telnet
+telnet 192.168.1.88
+telnet 192.168.1.88 23
+telnet 192.168.1.88 80
+telnet 192.168.1.88 21
+telnet 192.168.1.88 22
+telnet 192.168.1.88 22
+ssh-copy-id khaind@192.168.1.88
+ssh khaind@192.168.1.88
+ssh khaind@192.168.1.88
+ssh-copy-id khaind@192.168.1.88
+vim /Users/khaind/.ssh/config 
+ssh-copy-id khaind@192.168.1.88
+ssh-copy-id  kaiji@192.168.1.88
+ssh-copy-id  kaiji@192.168.1.88
+ssh-copy-id khaind@192.168.1.88
+ssh khaind@192.168.1.88
+vim /Users/khaind/.ssh/config 
+ssh khaind@192.168.1.88
+ssh-copy-id khaind@192.168.1.88
+
+ssh khaind@192.168.1.88
+ssh kaiji@192.168.1.88
+ssh-copy-id kaiji@192.168.1.88
+ssh kaiji@192.168.1.88
+cowsay
+brew uninstall cowsay
+cowsay
+exit
+#1538149993
+vim ~/.bash_profile
+#1538150212
+ssh kaiji@192.168.1.88
+#1538150212
+exit
+#1538149993
+vim ~/.bash_profile
+#1538150322
+cd Code/
+#1538150338
+cd Desktop
+#1538150342
+cd ~/Desktop/
+#1538150343
+ls
+#1538150347
+mkdir Ongoing
+#1538150380
+scp khaind@192.168.1.88:~/Desktop/Ongoing/* Ongoing/
+#1538150737
+cowsay
+#1538150756
+cowthink
+#1538150774
+brew uninstall cowsay
+#1538149993
+vim ~/.bash_profile
+#1538150093
+cowsay
+#1538150135
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+#1538150194
+brew uninstall cowsay
+#1538150199
+brew install cowsay
+#1538150212
+tmux
+#1538151511
+df -h
+vim
+ls
+ssh 192.168.1.88
+ssh khaind@192.168.1.88
+tmux
+vim ~/.bash_history
+#1538150756
+cowthink
+#1538150774
+brew uninstall cowsay
+#1538149993
+vim ~/.bash_profile
+#1538150093
+cowsay
+#1538150135
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+#1538150194
+brew uninstall cowsay
+#1538150199
+brew install cowsay
+#1538150212
+tmux
+#1538151511
+df -h
+#1538227446
+ssh 192.168.1.88
+#1538227446
+ssh khaind@192.168.1.88
+#1538227446
+tmux
+#1538227446
+vim ~/.bash_history
+#1538227453
+cd 
+#1538228229
+cd Code/Documents/
+#1538228230
+..
+#1538228257
+;s
+#1538228259
+cd config/
+#1538228263
+cd doq
+#1538228266
+cd dotfiles/
+#1538228268
+git st
+#1538228270
+git status
+#1538228536
+git pull
+#1538228577
+source ~/.vimrc
+#1538228585
+vim
+#1538228663
+...
+#1538228676
+cd /
+#1538228686
+cd
+#1538228691
+cd Code/
+#1538228696
+mkdir Courses
+#1538228698
+cd Courses/
+#1538228870
+scp -r khaind@192.168.1.88:~/FILES/01_Courses/07_Lynda/UnderstandingSsh .
+#1538228885
+cd UnderstandingSsh/
+#1538228885
+ls
+#1538230471
+man ssh
+#1538230756
+quit
+#1538230760
+exit
+#1538216889
+vim
+#1538216889
+ssh 192.168.1.88
+#1538216889
+ssh khaind@192.168.1.88
+#1538216889
+vim ~/.bash_history
+#1538216905
+pwd
+#1538216907
+cd /
+#1538216911
+cd Applications/
+#1538216913
+cd Unity/
+#1538216921
+cd Documentation
+#1538216924
+cd en/
+#1538216925
+ls
+#1538224854
+df -h
+#1538227267
+url -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+#1538227289
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+#1538227373
+echo 'source ~/.iterm2_shell_integration.bash' >> ~/.bash_profile
+#1538227382
+cat ~/.bash_profile
+#1538227429
+vim ~/.bash_profile
+#1538227446
+tmux
+#1538230855
+sudo vim /etc/hosts
+#1538230941
+sudo killall -HUP mDNSResponder
+#1538230947
+ssh khaind@ubuntu
+#1538230994
+ping ubuntu
+#1538231012
+ping 192.168.1.88
+#1538231031
+ssh khaind@ubuntu
+#1538231052
+ssh khaind@192.168.1.88
+#1538230947
+ssh khaind@ubuntu
+#1538230994
+ping ubuntu
+#1538231012
+ping 192.168.1.88
+#1538231031
+ssh khaind@ubuntu
+#1538231052
+ssh khaind@192.168.1.88
+#1538231375
+ifconfig -a
+#1538231606
+vim ~/.ssh/known_hosts
+#1538231668
+ssh 192.168.1.88
+#1538232232
+cd .ssh/
+#1538232232
+ls
+#1538232368
+sudo vim /etc/hosts
+#1538232386
+vim config 
+#1538232400
+ssh ubuntuPc
+#1538232439
+ssh ubuntupc
+#1538232444
+ssh ubuntu
+#1538232460
+ssh khaind@ubuntuPc
+#1538232471
+vim .ssh/config
+#1538232478
+exit
+#1538232490
+vim .ssh/config 
+#1538232531
+ssh khaind@192.168.1.88
+#1538232540
+ssh ubuntuP
+#1538232542
+ssh ubuntuPc
+#1538232550
+ssh ubuntu
+#1538233929
+ls
+#1538233929
+ls
+#1538234541
+ipconfig
+#1538234545
+ifconfig 
+#1538234600
+ping google.com
+#1538234603
+exit
+#1538227494
+ssh khaind@192.168.1.88
+#1538304827
+exit
+#1538304780
+tmux ls
+#1538305095
+exit
+#1538227494
+ssh khaind@192.168.1.88
+#1538304701
+tmux -V
+#1538304736
+'
+
+
+
+
+
+#1538304741
+tmux new
+#1538305121
+cat .gitconfig 
+#1538305158
+tmux ls
+#1538305160
+tmux
+#1538404890
+kjhk
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006046
+exit
+#1539006047
+exit
+#1539008057
+exite
+#1539008060
+exit
+#1539008971
+ssh kaiji@192.168.1.1
+#1539008984
+ssh kaiji@192.168.1.88
+#1539014012
+exit
+#1539011670
+ls
+#1539011681
+ssh khaind@192.168.1.88
+#1539014016
+exit
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006019
+tmux
+#1539006160
+tmux -ls
+#1539006170
+tmux -a
+#1539006191
+tmux ?
+#1539006195
+tmux -attach
+#1539006200
+man tmux
+#1539006217
+tmux attach
+#1539007296
+tmus ls
+#1539007331
+tmux new session
+#1539007338
+tmux new
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539014018
+exit
+#1539096568
+tmux ls
+#1539097784
+cmake --version
+#1539097789
+exit
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539095108
+df 0-h
+#1539095109
+df -h
+#1539096325
+cd Code/Source/Cpp/Training/
+#1539096334
+unzip lotdd-code.zip 
+#1539096349
+cd code/
+#1539096351
+..
+#1539096361
+mv code/ tdd_code
+#1539096363
+cd tdd_code/
+#1539096364
+vim
+#1539098435
+ls
+#1539098444
+echo $GMOCK_HOME
+#1539098519
+exit
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539096718
+cd tdd_code/
+#1539096718
+ls
+#1539098629
+exit
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539096718
+cd tdd_code/
+#1539098648
+cd Code/Source/Cpp/Training/tdd_code/
+#1539098652
+cd c2/
+#1539098657
+cd 1
+#1539098657
+ls
+#1539098663
+cmake .
+#1539098673
+exit
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539008057
+exite
+#1539008971
+ssh kaiji@192.168.1.1
+#1539008984
+ssh kaiji@192.168.1.88
+#1539011681
+ssh khaind@192.168.1.88
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006019
+tmux
+#1539006160
+tmux -ls
+#1539006170
+tmux -a
+#1539006191
+tmux ?
+#1539006195
+tmux -attach
+#1539006200
+man tmux
+#1539006217
+tmux attach
+#1539007296
+tmus ls
+#1539007331
+tmux new session
+#1539007338
+tmux new
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539096568
+tmux ls
+#1539097480
+cd Code/
+#1539097491
+mkdir Program
+#1539097493
+cd Program/
+#1539097499
+git clone git@github.com:google/googletest.git
+#1539097575
+ls googletest/src/
+#1539097659
+chmod a+x googletest/src/gtest-all.cc 
+#1539097662
+googletest/src/gtest-all.cc
+#1539097741
+cd googletest/
+#1539097748
+mkdir mybuild
+#1539097751
+cd mybuild/
+#1539097762
+cmake ${GTEST_DIR}
+#1539098249
+cd googlemock/
+#1539098260
+make
+#1539098274
+ls bin/
+#1539098321
+cd googlemock/gtest/
+#1539098334
+ls lib/
+#1539098337
+..
+#1539098350
+ls googlemock/
+#1539098359
+ls googlemock/include/
+#1539098414
+export GMOCK_HOME=~/Code/Program/googletest/googlemock/include/
+#1539098457
+echo $GMOCK_HOME
+#1539098584
+pushd 
+#1539098587
+pushd .
+#1539098595
+...
+#1539098605
+cd Source/Cpp/Training/tdd_code/
+#1539098606
+ls
+#1539098607
+vim
+#1539098677
+exit
+#1539093740
+tmux
+#1539098678
+exit
+#1539007396
+tmux attach-session -t sess
+#1539095108
+df 0-h
+#1539095109
+df -h
+#1539096325
+cd Code/Source/Cpp/Training/
+#1539096334
+unzip lotdd-code.zip 
+#1539096349
+cd code/
+#1539096361
+mv code/ tdd_code
+#1539096363
+cd tdd_code/
+#1539096364
+vim
+#1539098444
+echo $GMOCK_HOME
+#1539098519
+exit
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539096718
+cd tdd_code/
+#1539098629
+exit
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539096718
+cd tdd_code/
+#1539098652
+cd c2/
+#1539098657
+cd 1
+#1539098663
+cmake .
+#1539098673
+exit
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539008057
+exite
+#1539008971
+ssh kaiji@192.168.1.1
+#1539008984
+ssh kaiji@192.168.1.88
+#1539011681
+ssh khaind@192.168.1.88
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006019
+tmux
+#1539006160
+tmux -ls
+#1539006170
+tmux -a
+#1539006195
+tmux -attach
+#1539006217
+tmux attach
+#1539007296
+tmus ls
+#1539007331
+tmux new session
+#1539007338
+tmux new
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539097480
+cd Code/
+#1539097491
+mkdir Program
+#1539097493
+cd Program/
+#1539097499
+git clone git@github.com:google/googletest.git
+#1539097575
+ls googletest/src/
+#1539097659
+chmod a+x googletest/src/gtest-all.cc 
+#1539097662
+googletest/src/gtest-all.cc
+#1539097748
+mkdir mybuild
+#1539097762
+cmake ${GTEST_DIR}
+#1539098260
+make
+#1539098321
+cd googlemock/gtest/
+#1539098350
+ls googlemock/
+#1539098359
+ls googlemock/include/
+#1539098457
+echo $GMOCK_HOME
+#1539098584
+pushd 
+#1539098605
+cd Source/Cpp/Training/tdd_code/
+#1539098607
+vim
+#1539098677
+exit
+#1539093740
+tmux
+#1539098678
+exit
+#1539098737
+cd Code/Source/Cpp/Training/tdd_code/
+#1539098741
+cd c2/1
+#1539098803
+export GMOCK_HOME=~/Code/Program/googletest/googlemock/include/
+#1539098808
+g++ -o test SoundexTest.cpp main.cpp  -std=c++11
+#1539098942
+cd ..
+#1539098947
+cd Program/googletest/
+#1539098967
+cd googlemock/
+#1539098985
+cd gtest/
+#1539099002
+cd sample1_unittest 
+#1539099019
+./sample1_unittest 
+#1539099069
+././
+#1539099072
+;s
+#1539099116
+cd googletest/samples/
+#1539099140
+g++ -std=c++11 -stdlib=libc++  sample1_unittest.cc sample1.cc gtest_main.cc -lgtest -lpthread -o sample1
+#1539101849
+ll
+#1539101857
+man ln
+#1539102104
+ls -s ~/Code/Program/googletest/mybuild/lib/libgtest.a /usr/local/lib/libgtest.a
+#1539102132
+ln -s ~/Code/Program/googletest/mybuild/lib/libgtest.a /usr/local/lib/libgtest.a
+#1539102151
+ls /usr/local/lib/ -a
+#1539102157
+ls /usr/local/lib/ -l
+#1539102165
+ls /usr/local/lib/ -la
+#1539102175
+ll /usr/local/lib/ 
+#1539102296
+ln -s ~/Code/Program/googletest/googlemock/include/gmock/ /usr/local/include/gmock
+#1539102595
+ln -s ~/Code/Program/googletest/googletest/include/gtest/ /usr/local/include/gtest
+#1539102856
+..
+#1539102867
+cd mybuild/
+#1539102870
+ls bin/
+#1539102872
+ls lib/
+#1539103020
+ln -s ~/Code/Program/googletest/mybuild/lib/libgtest_dll.dylib /usr/local/lib/libgtest.dylib
+#1539103025
+pushd .
+#1539103030
+...
+#1539103041
+cd googletest/
+#1539103047
+cd samples/
+#1539103048
+
+#1539103054
+g++ -std=c++11 -stdlib=libc++  sample1_unittest.cc sample1.cc -lgtest -lpthread -o sample1 -
+#1539103067
+g++ -std=c++11 -stdlib=libc++  sample1_unittest.cc sample1.cc -lgtest -lpthread -o sample1 -v
+#1539103075
+g++ -std=c++11 -stdlib=libc++  sample1_unittest.cc sample1.cc -lgtest -lpthread -o sample1
+#1539103079
+./sample1 
+#1539103108
+cat ~/.bashrc 
+#1539103139
+cat ~/.bash_profile
+#1539103245
+brew install cmake
+#1539103305
+cmake --version
+#1539103441
+tmux attach-session ses
+#1539103475
+tmux new-session tdd
+#1539103480
+tmux ls
+#1539103497
+tmux ?
+#1539103499
+man tmux
+#1539103578
+tmux new-session -s tdd
+#1539103808
+ls
+#1539103820
+tmux attach-session -t tdd
+#1539105775
+tmux attach-session -t ses
+#1539105811
+vim ~/.bash_profile
+#1539103820
+tmux attach-session -t tdd
+#1539105775
+tmux attach-session -t ses
+#1539105932
+pid 16730
+#1539105994
+rm ~/.bash_profile_bak
+#1539106001
+vim ~/.bash_profile
+#1539106139
+vim ~/.bash_profile 
+#1539106269
+htop
+#1539106326
+pkill 16730
+#1539106336
+ls
+#1539106340
+exit
+#1539106340
+exit
+#1539181934
+tmux a
+#1539181947
+tmux ls
+#1539181950
+tmux sess
+#1539181955
+tmux a -t ses
+#1539385064
+tmux ls
+#1539385074
+tmux a -t ses
+#1539006072
+ping google.com
+#1538227494
+ssh khaind@192.168.1.88
+#1538304701
+tmux -V
+#1538304736
+'
+#1538304741
+tmux new
+#1538305121
+cat .gitconfig 
+#1538305158
+tmux ls
+#1538305160
+tmux
+#1538404890
+kjhk
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006353
+cd Code/Source/Cpp/
+#1539006361
+mkdir Training
+#1539006366
+mv loki-* Training/
+#1539006368
+cd Training/
+#1539006438
+unzip loki-0.1.7.zip 
+#1539006757
+unzip loki-exp-20020718.zip 
+#1539006764
+vim loki-exp
+#1539007032
+vim
+#1539007042
+vim loki-0.1.7
+#1539553690
+,,
+#1539553692
+..
+#1539553695
+...
+#1539553696
+ls
+#1539553711
+find . -type f -iname "*somez"
+#1539553720
+find . -type f -iname "*sommez"
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006046
+exit
+#1539006047
+exit
+#1539007097
+cd Code/Source/Cpp/Training/
+#1539007103
+...
+#1539007106
+..
+#1539007110
+cd temp/
+#1539007110
+ls
+#1539007112
+vim hello.cpp 
+#1539098587
+pushd .
+#1539098677
+exit
+#1539093740
+tmux
+#1539098678
+exit
+#1539103583
+...
+#1539103587
+..
+#1539103596
+cd Source/Cpp/Training/tdd_code/
+#1539103597
+ls
+#1539103598
+vim
+#1538227446
+ssh khaind@192.168.1.88
+#1538227446
+tmux
+#1538227446
+vim ~/.bash_history
+#1538227453
+cd 
+#1538228229
+cd Code/Documents/
+#1538228257
+;s
+#1538228259
+cd config/
+#1538228263
+cd doq
+#1538228266
+cd dotfiles/
+#1538228536
+git pull
+#1538228577
+source ~/.vimrc
+#1538228585
+vim
+#1538228676
+cd /
+#1538228686
+cd
+#1538228691
+cd Code/
+#1538228696
+mkdir Courses
+#1538228698
+cd Courses/
+#1538228870
+scp -r khaind@192.168.1.88:~/FILES/01_Courses/07_Lynda/UnderstandingSsh .
+#1538228885
+cd UnderstandingSsh/
+#1538230471
+man ssh
+#1538230756
+quit
+#1538230760
+exit
+#1538216889
+vim
+#1538216889
+ssh 192.168.1.88
+#1538216889
+ssh khaind@192.168.1.88
+#1538216889
+vim ~/.bash_history
+#1538216905
+pwd
+#1538216907
+cd /
+#1538216911
+cd Applications/
+#1538216913
+cd Unity/
+#1538216921
+cd Documentation
+#1538216924
+cd en/
+#1538224854
+df -h
+#1538227267
+url -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+#1538227289
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+#1538227373
+echo 'source ~/.iterm2_shell_integration.bash' >> ~/.bash_profile
+#1538227382
+cat ~/.bash_profile
+#1538227429
+vim ~/.bash_profile
+#1538227446
+tmux
+#1538230855
+sudo vim /etc/hosts
+#1538230941
+sudo killall -HUP mDNSResponder
+#1538230947
+ssh khaind@ubuntu
+#1538230994
+ping ubuntu
+#1538231012
+ping 192.168.1.88
+#1538231031
+ssh khaind@ubuntu
+#1538231052
+ssh khaind@192.168.1.88
+#1538230947
+ssh khaind@ubuntu
+#1538230994
+ping ubuntu
+#1538231012
+ping 192.168.1.88
+#1538231031
+ssh khaind@ubuntu
+#1538231052
+ssh khaind@192.168.1.88
+#1538231375
+ifconfig -a
+#1538231606
+vim ~/.ssh/known_hosts
+#1538231668
+ssh 192.168.1.88
+#1538232232
+cd .ssh/
+#1538232368
+sudo vim /etc/hosts
+#1538232386
+vim config 
+#1538232400
+ssh ubuntuPc
+#1538232439
+ssh ubuntupc
+#1538232444
+ssh ubuntu
+#1538232460
+ssh khaind@ubuntuPc
+#1538232471
+vim .ssh/config
+#1538232478
+exit
+#1538232490
+vim .ssh/config 
+#1538232531
+ssh khaind@192.168.1.88
+#1538232540
+ssh ubuntuP
+#1538232542
+ssh ubuntuPc
+#1538232550
+ssh ubuntu
+#1538234541
+ipconfig
+#1538234545
+ifconfig 
+#1538234600
+ping google.com
+#1538234603
+exit
+#1538227494
+ssh khaind@192.168.1.88
+#1538304827
+exit
+#1538304780
+tmux ls
+#1538305095
+exit
+#1538227494
+ssh khaind@192.168.1.88
+#1538304701
+tmux -V
+#1538304736
+'
+#1538304741
+tmux new
+#1538305121
+cat .gitconfig 
+#1538305158
+tmux ls
+#1538305160
+tmux
+#1538404890
+kjhk
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006046
+exit
+#1539006047
+exit
+#1539008057
+exite
+#1539008060
+exit
+#1539008971
+ssh kaiji@192.168.1.1
+#1539008984
+ssh kaiji@192.168.1.88
+#1539014012
+exit
+#1539011681
+ssh khaind@192.168.1.88
+#1539014016
+exit
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006019
+tmux
+#1539006160
+tmux -ls
+#1539006170
+tmux -a
+#1539006191
+tmux ?
+#1539006195
+tmux -attach
+#1539006200
+man tmux
+#1539006217
+tmux attach
+#1539007296
+tmus ls
+#1539007331
+tmux new session
+#1539007338
+tmux new
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539014018
+exit
+#1539096568
+tmux ls
+#1539097784
+cmake --version
+#1539097789
+exit
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539095108
+df 0-h
+#1539095109
+df -h
+#1539096325
+cd Code/Source/Cpp/Training/
+#1539096334
+unzip lotdd-code.zip 
+#1539096349
+cd code/
+#1539096361
+mv code/ tdd_code
+#1539096364
+vim
+#1539098444
+echo $GMOCK_HOME
+#1539098519
+exit
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539098629
+exit
+#1539093749
+ping google.com
+#1539096714
+cd Code/Source/Cpp/Training/
+#1539098648
+cd Code/Source/Cpp/Training/tdd_code/
+#1539098652
+cd c2/
+#1539098657
+cd 1
+#1539098673
+exit
+#1538404905
+g++ -version
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539008057
+exite
+#1539008971
+ssh kaiji@192.168.1.1
+#1539008984
+ssh kaiji@192.168.1.88
+#1539011681
+ssh khaind@192.168.1.88
+#1538406123
+clang --version
+#1538406257
+df -h
+#1539002589
+ping google.com
+#1539006019
+tmux
+#1539006160
+tmux -ls
+#1539006170
+tmux -a
+#1539006191
+tmux ?
+#1539006195
+tmux -attach
+#1539006200
+man tmux
+#1539006217
+tmux attach
+#1539007296
+tmus ls
+#1539007331
+tmux new session
+#1539007338
+tmux new
+#1539007363
+tmux ls
+#1539007373
+tmux attach ses
+#1539007390
+tmux attach-session -t 0
+#1539007396
+tmux attach-session -t sess
+#1539096568
+tmux ls
+#1539097480
+cd Code/
+#1539097491
+mkdir Program
+#1539097493
+cd Program/
+#1539097499
+git clone git@github.com:google/googletest.git
+#1539097575
+ls googletest/src/
+#1539097659
+chmod a+x googletest/src/gtest-all.cc 
+#1539097662
+googletest/src/gtest-all.cc
+#1539097741
+cd googletest/
+#1539097748
+mkdir mybuild
+#1539097762
+cmake ${GTEST_DIR}
+#1539098274
+ls bin/
+#1539098321
+cd googlemock/gtest/
+#1539098334
+ls lib/
+#1539098350
+ls googlemock/
+#1539098359
+ls googlemock/include/
+#1539098414
+export GMOCK_HOME=~/Code/Program/googletest/googlemock/include/
+#1539098457
+echo $GMOCK_HOME
+#1539098584
+pushd 
+#1539098607
+vim
+#1539098677
+exit
+#1539093740
+tmux
+#1539098678
+exit
+#1539103731
+cd Source/Cpp/Training/tdd_code/
+#1539103940
+g++ -std=c++11 -stdlib=libc++ SoundexTest.cpp  main.cpp -lgtest -lpthread -o out
+#1539104020
+cd c2/1/
+#1539104297
+pushd .
+#1539104301
+...
+#1539104313
+cd Program/googletest/
+#1539104325
+cd googlemock/
+#1539104407
+brew install cpputest
+#1539182266
+cd mybuild/
+#1539182273
+cd lib/
+#1539182340
+ln -s /usr/local/lib/libgmock.a libgmock.a 
+#1539182358
+ln -s libgmock.a /usr/local/lib/libgmock.a
+#1539182376
+ls /usr/local/lib/ -la
+#1539182390
+ll /usr/local/lib/
+#1539182441
+man ln
+#1539182484
+ln -sf ~/Code/Program/googletest/mybuild/lib/libgmock.a /usr/local/lib/libgmock.a
+#1539182512
+ln -sf ~/Code/Program/googletest/mybuild/lib/libshared_gmock_main.dylib /usr/local/lib/libgmock.dylib
+#1539182995
+popd
+#1539183827
+cd 2
+#1539184740
+..
+#1539184744
+cd tdd_code/
+#1539184998
+mkdir own_repo
+#1539185014
+cp -r c2/1/* own_repo/
+#1539185016
+cd own_repo/
+#1539185026
+cmake clean
+#1539185063
+rm Makefile 
+#1539185067
+rm cmake_install.cmake 
+#1539185108
+make clean
+#1539185128
+make distclean
+#1539185145
+rm CMakeFiles/
+#1539185162
+rm -rf CMakeFiles/
+#1539185165
+git init
+#1539185172
+git add .
+#1539185190
+git commit "First Commit"
+#1539185200
+git commit -m "First Commit"
+#1539185326
+git status -s
+#1539185374
+git status -s | grep -e "^\?\?"
+#1539185384
+git status -s | grep -e "^\?\?" | cut -c 4-
+#1539185404
+git status -s | grep -e "^\?\?" | cut -c 4- >> .gitignore
+#1539185407
+ll
+#1539185620
+git alias
+#1539185623
+git --help
+#1539185650
+git br
+#1539185687
+git branch ch2
+#1539185746
+git cp ../c2/2/* .
+#1539185758
+cp ../c2/2/* .
+#1539185786
+echo "test" >> .gitignore 
+#1539185833
+git commit -am "Ch2-2 Add Soundex class"
+#1539185844
+rm test
+#1539185892
+git cp ../c2/3/* .
+#1539185901
+cp ../c2/3/* .
+#1539185918
+git statis
+#1539185971
+git commit -m "Ch2-3 Add initial encode() function"
+#1539185982
+cmake
+#1539186010
+cp ../c2/4/* .
+#1539186087
+git commit -am "Ch2-4 Add function encode() to class Soundex"
+#1539186153
+cp ../c2/5/* .
+#1539186217
+git comit -am "Ch2-5 Add ASSERT to test"
+#1539186226
+git commit -am "Ch2-5 Add ASSERT to test"
+#1539186231
+rm CMakeCache.txt 
+#1539300824
+cp ../c2/6/* .
+#1539300862
+git commit -am "Ch2-6 Add return "A" for encode()"
+#1539301276
+cp ../c2/7/* .
+#1539301312
+git commit -am "Ch2-7 add using ::testing::Eq"
+#1539301426
+cp ../c2/8/* .
+#1539301451
+git commit -am "Ch2-8 return word"
+#1539301962
+cp ../c2/9/* .
+#1539383024
+find ~ -type f -iname "*git*"
+#1539383187
+git commit -am "Ch2-9 add PadsWithZerosToEnsureThreeDigits test"
+#1539383206
+cp ../c2/10/* .
+#1539383313
+git commit -am "Ch2-9 add zeroPad() + fixture TEST_F"
+#1539383855
+git lg -2
+#1539384107
+git commit --amend
+#1539384739
+git checkout HEAD~1
+#1539384784
+git checkout
+#1539384855
+git branch
+#1539384860
+git checkout ch2
+#1539385299
+cp ../c2/11/* .
+#1539385373
+ls
+#1539385901
+git add Soundex.h 
+#1539385908
+git add SoundexTest.cpp 
+#1539385943
+git commit -m  "Ch2-11 Separate soundex.h"
+#1539386656
+
+#1539386673
+cp ../c2/12/* .
+#1539386692
+echo .swp >> .gitignore 
+#1539386693
+git st
+#1539386706
+cat .gitignore 
+#1539386731
+vim .gitignore 
+#1539386906
+git commit -am  "Ch2-12 ReplacesConsonantsWithAppropriateDigits"
+#1539386909
+git stastus
+#1539387082
+cp ../c2/13/* .
+#1539387221
+git commit -am  "Ch2-13"
+#1539387226
+cp ../c2/14/* .
+#1539387276
+git commit -am  "Ch2-14 zeropad based on word lenght"
+#1539387493
+cp ../c2/15/* .
+#1539387519
+git commit -am  "Ch2-15 refactor soundex.h"
+#1539387789
+cp ../c2/17/* .
+#1539387815
+git commit -am  "Ch2-16, 17 define constant"
+#1539476494
+git log -2
+#1539476510
+cp ../c2/18/* .
+#1539476513
+git status
+#1539476579
+git commit -am  "Ch2-18 use EXPECT_THAT"
+#1539476599
+./test
+#1539477039
+cp ../c2/19/* .
+#1539477042
+git diff
+#1539477066
+git commit -am  "Ch2-19 third consonant test"
+#1539477069
+cmake .
+#1539477072
+make
+#1539477082
+./test 
+#1539496135
+brew install folly
+#1539098678
+exit
+#1539104550
+cd
+#1539104565
+cd Code/Source/Cpp/Training/tdd_code/
+#1539104565
+ls
+#1539104580
+vim cpputest0.cpp
+#1539093740
+tmux
+#1539098678
+exit
+#1539104737
+cd ~/Code/Source/Cpp/Training/tdd_code/
+#1539104770
+g++ -std=c++11 -stdlib=libc++ cpputest0.cpp -o out
+#1539104846
+g++ -std=c++11 -stdlib=libc++ cpputest0.cpp -lCppUTest -lCppUTestExt -o out
+#1539105142
+brew install curl
+#1539105274
+brew install jsoncpp
+#1539105353
+brew install rlog
+#1539182012
+ls /usr/local/Cellar/rlog/1.4/lib/
+#1539182253
+ls
+#1539105353
+brew install rlog
+#1539182012
+ls /usr/local/Cellar/rlog/1.4/lib/
+#1539182253
+ls
+#1539641559
+tmux
+#1539641564
+tmus ls
+#1539641567
+tmux ls
+#1539641572
+tmux a
+#1539641506
+tmux ls
+#1539641769
+tmux exit
+#1539642996
+ping google.com
+#1539642996
+ping google.com
+#1539731998
+tmux
+#1540200456
+df -h
+#1540211317
+tmux ls
+#1540211320
+tmux a
+#1539732002
+tmux ls
+#1539732026
+ping google.com
+#1539732784
+cd Code/Source/Cpp/Training/tdd_code/own_repo/
+#1539732785
+ls
+#1539732786
+vim
+#1539641506
+tmux ls
+#1539641769
+tmux exit
+#1540476176
+df -h
+#1540737575
+ping google.com
+#1539641564
+tmus ls
+#1539641567
+tmux ls
+#1539641572
+tmux a
+#1539641506
+tmux ls
+#1539641769
+tmux exit
+#1539642996
+ping google.com
+#1539732053
+cd Code/Source/Cpp/Training/tdd_code/
+#1539732055
+cd own_repo/
+#1539732056
+ls
+#1539733413
+cp ../c2/20/* .
+#1539733417
+git diff
+#1539733466
+git commit -am  "Ch2-20 update encoding table"
+#1539733477
+cmake .
+#1539733480
+make
+#1539733483
+./test 
+#1540394562
+git status
+#1540394567
+git log -2
+#1540908173
+tmux ls
+#1540908175
+tmux
+#1540909050
+ping google.com
+#1540908177
+ls
+#1540908180
+df -h
+#1540993903
+tmux
+#1540993906
+tmux ls
+#1540993916
+ping google.com
+#1541296869
+ls
+#1541296872
+tmux ls
+#1541296873
+tmux
+#1540908175
+tmux
+#1540908177
+ls
+#1540993903
+tmux
+#1540993906
+tmux ls
+#1541309622
+df -h
+#1541319478
+ping google.com
+#1541325601
+df -h
+#1541605728
+tmux ls
+#1541605733
+tmux
+#1541296873
+tmux
+#1540908175
+tmux
+#1540993903
+tmux
+#1540993906
+tmux ls
+#1541319478
+ping google.com
+#1541605779
+cd Code/
+#1541605783
+cd Source/
+#1541605792
+mkdir Xamarin
+#1541605794
+cd Xamarin/
+#1541605814
+git clone git@github.com:XamarinUniversity/XAM110.git
+#1541605826
+cd XAM110/
+#1541605827
+ls
+#1541607015
+..
+#1541607020
+git clone git@github.com:XamarinUniversity/XAM250.git
+#1541607040
+git clone git@github.com:XamarinUniversity/XAM301.git
+#1541607049
+df -h
+#1541857098
+ping google.com
+#1541858129
+tmux
+#1541605792
+mkdir Xamarin
+#1541605794
+cd Xamarin/
+#1541605814
+git clone git@github.com:XamarinUniversity/XAM110.git
+#1541605826
+cd XAM110/
+#1541607015
+..
+#1541607020
+git clone git@github.com:XamarinUniversity/XAM250.git
+#1541607040
+git clone git@github.com:XamarinUniversity/XAM301.git
+#1541857098
+ping google.com
+#1541858129
+tmux
+#1541931463
+python3
+#1541931537
+virtualenv -p python3 $HOME/tmp/deepspeech-venv/
+#1541931557
+source /Users/khaind/tmp/deepspeech-venv/bin/activate
+#1541931575
+cd /Users/khaind/tmp/deepspeech-venv/
+#1541931585
+pip3 install deepspeech
+#1541932039
+brew install wget
+#1541942559
+df -u
+#1541942562
+df -h
+#1541942567
+ll
+#1541942864
+du models/
+#1541942870
+du -s
+#1541942889
+du -h models/
+#1541942892
+ls models/
+#1541942911
+wget -O - https://github.com/mozilla/DeepSpeech/releases/download/v0.3.0/deepspeech-0.3.0-models.tar.gz | tar xvfz -
+#1541945373
+rm -rf models/
+#1541945378
+deactivate 
+#1541945379
+ls
+#1541945385
+lsvirtualenv 
+#1541945406
+exit
+#1541931600
+df -h
+#1541934713
+ping google.com
+#1541945408
+exit
+#1541607015
+..
+#1541607020
+git clone git@github.com:XamarinUniversity/XAM250.git
+#1541607040
+git clone git@github.com:XamarinUniversity/XAM301.git
+#1541607049
+df -h
+#1541857098
+ping google.com
+#1541921796
+brew install git-lfs
+#1541921960
+git lfs install
+#1541921975
+git lfs install --system
+#1541922005
+sudo git lfs install --system
+#1541922061
+cd Code/Source/
+#1541922066
+mkdir ML
+#1541922069
+cd ML/
+#1541924900
+git lfs logs last
+#1541924920
+rm -rf DeepSpeech/
+#1541924921
+ls
+#1541924924
+ls lfs/
+#1541924928
+rm -rf lfs/
+#1541924931
+git clone https://github.com/mozilla/DeepSpeech
+#1541931458
+tmux
+#1541945410
+exit
+#1542211562
+cd Code/Source/
+#1542211573
+mkdir Python
+#1542211574
+ls
+#1542211577
+cd Python/
+#1542211579
+tmux
+#1542211737
+mv ~/Desktop/generate_data*.py .
+#1542211738
+ls
+#1542211742
+python generate_data
+#1542211748
+python generate_data_test.py 
+#1542211758
+python3 generate_data_test.py 
+#1542211772
+vim
+#1542211860
+python3 generate_data_test.py 
+#1542211758
+python3 generate_data_test.py 
+#1542211772
+vim
+#1542211860
+python3 generate_data_test.py 
+#1542547015
+cd /Library/Frameworks/
+#1542547023
+cd Mono.framework/
+#1542547032
+cd Versions/
+#1542547037
+ls Cui
+#1542547039
+ls Current
+#1542547077
+ls Current/lib/libgdiplus. -la
+#1542547082
+ls Current/lib/libgdiplus. -l
+#1542547100
+ll Current/lib/libgdiplus.
+#1542547104
+ll Current/lib/libgdiplus.*
+#1542547137
+ls 5.12.0/lib/libgdiplus.*
+#1542547147
+ll 5.12.0/lib/libgdiplus.*
+#1542547180
+cd /Applications/Unity/Unity.app/Contents/Mono/etc/mono/
+#1542547181
+ls
+#1542547183
+ll
+#1542547193
+vim config 
+#1542462959
+tmux ls
+#1542462961
+tmux
+#1542211737
+mv ~/Desktop/generate_data*.py .
+#1542211742
+python generate_data
+#1542211748
+python generate_data_test.py 
+#1542211758
+python3 generate_data_test.py 
+#1542211860
+python3 generate_data_test.py 
+#1542463076
+cd Code/Source/Javascript/
+#1542463082
+vim script.js
+#1542634857
+mkdir javascripting
+#1542634861
+cd javascripting/
+#1542634891
+touch introduction.js
+#1542634915
+ls
+#1542634917
+vim
+#1541942562
+df -h
+#1541942864
+du models/
+#1541942870
+du -s
+#1541942889
+du -h models/
+#1541942892
+ls models/
+#1541942911
+wget -O - https://github.com/mozilla/DeepSpeech/releases/download/v0.3.0/deepspeech-0.3.0-models.tar.gz | tar xvfz -
+#1541945373
+rm -rf models/
+#1541945378
+deactivate 
+#1541945385
+lsvirtualenv 
+#1541945406
+exit
+#1541931600
+df -h
+#1541945408
+exit
+#1541607015
+..
+#1541607020
+git clone git@github.com:XamarinUniversity/XAM250.git
+#1541607040
+git clone git@github.com:XamarinUniversity/XAM301.git
+#1541607049
+df -h
+#1541921796
+brew install git-lfs
+#1541921960
+git lfs install
+#1541921975
+git lfs install --system
+#1541922005
+sudo git lfs install --system
+#1541922066
+mkdir ML
+#1541922069
+cd ML/
+#1541924900
+git lfs logs last
+#1541924920
+rm -rf DeepSpeech/
+#1541924924
+ls lfs/
+#1541924928
+rm -rf lfs/
+#1541924931
+git clone https://github.com/mozilla/DeepSpeech
+#1541931458
+tmux
+#1541945410
+exit
+#1542211573
+mkdir Python
+#1542211577
+cd Python/
+#1542211579
+tmux
+#1542211737
+mv ~/Desktop/generate_data*.py .
+#1542211742
+python generate_data
+#1542211748
+python generate_data_test.py 
+#1542211758
+python3 generate_data_test.py 
+#1542211860
+python3 generate_data_test.py 
+#1542462963
+tmus ls
+#1542462966
+tmux ls
+#1542462981
+cd Code/Source/
+#1542462993
+mkdir Javascript
+#1542462998
+cd Javascript/
+#1542463000
+vim
+#1542463036
+node -v
+#1542463040
+node script.js
+#1542463110
+node script.js 
+#1542463184
+chmod +x script.js 
+#1542463337
+touch my_file.txt
+#1542463338
+lsp
+#1542463349
+echo "abc xyz" >> my_file.txt 
+#1542463352
+cat my_file.txt 
+#1542463358
+./script.js 
+#1542464395
+npm install -g js-beautify
+#1542464421
+sudo npm install -g js-beautify
+#1542465174
+chmod +x index.js 
+#1542465195
+echo "khai dep zai" | ./index.js 
+#1542465246
+ls | ./index.js  | not_found
+#1542465950
+npm login
+#1542466164
+npm about
+#1542466203
+npm whoami
+#1542466439
+node install
+#1542467481
+ll
+#1542468033
+node script_with_arguments.js param1 param2=value
+#1542468051
+chmod +x script_with_arguments.js 
+#1542468059
+./script_with_arguments.js a b c d e f
+#1542468257
+mv *.json json/*.json
+#1542468262
+mkdir json
+#1542468268
+mv *.json json/
+#1542468275
+npm install commander save
+#1542468290
+npm uninstall
+#1542468345
+cp json/package.json .
+#1542468364
+rm -rf node_modules/
+#1542468367
+rm package-lock.json 
+#1542468379
+npm install
+#1542468397
+ls node_modules/
+#1542468457
+npm audit
+#1542468472
+npm audit fix
+#1542468483
+ls
+#1542468585
+node commander_example.js help
+#1542468610
+node commander_example.js
+#1542468808
+npm install -g learnyounonde
+#1542468816
+npm install -g learnyounode
+#1542468905
+sudo npm install -g learnyounode
+#1542469036
+learnyounode 
+#1542469069
+npm install -g javascripting
+#1542469088
+sudo npm install -g javascripting
+#1542469176
+sudo npm install -g learnyoumongo
+#1542469211
+sudo npm install -g js-best-practices
+#1542469798
+ping google.com
+#1542634949
+cd javascripting/
+#1542634975
+javascripting  run introduction.js 
+#1542635011
+javascripting verify introduction.js 
+#1542635420
+javascripting verify variables.js 
+#1542635440
+javascripting run variables.js 
+#1542636997
+javascripting verify strings.js 
+#1542637007
+javascripting 
+#1543029998
+jjjjjk
+#1543030008
+cls
+#1543030011
+clear
+#1543030017
+tmux ls
+#1543030020
+tmux
+#1542468275
+npm install commander save
+#1542468290
+npm uninstall
+#1542468345
+cp json/package.json .
+#1542468364
+rm -rf node_modules/
+#1542468367
+rm package-lock.json 
+#1542468379
+npm install
+#1542468397
+ls node_modules/
+#1542468457
+npm audit
+#1542468472
+npm audit fix
+#1542468585
+node commander_example.js help
+#1542468610
+node commander_example.js
+#1542468808
+npm install -g learnyounonde
+#1542468816
+npm install -g learnyounode
+#1542468905
+sudo npm install -g learnyounode
+#1542469036
+learnyounode 
+#1542469069
+npm install -g javascripting
+#1542469088
+sudo npm install -g javascripting
+#1542469176
+sudo npm install -g learnyoumongo
+#1542469211
+sudo npm install -g js-best-practices
+#1542634949
+cd javascripting/
+#1542634975
+javascripting  run introduction.js 
+#1542635011
+javascripting verify introduction.js 
+#1542635420
+javascripting verify variables.js 
+#1542635440
+javascripting run variables.js 
+#1542636997
+javascripting verify strings.js 
+#1542637007
+javascripting 
+#1543049297
+ping google.com
+#1543049323
+df -h
+#1543052425
+cd ..
+#1543052427
+lks
+#1543052437
+cd Code/Courses/Pluralsight/
+#1543052443
+cd modern-c-plus-plus-secure-coding-practices-const-correctness
+#1543058319
+.,.
+#1543058331
+cd Source/
+#1543058336
+cd Cpp/
+#1543058339
+cd Training/
+#1543058339
+]ls
+#1543058363
+git clone git@github.com:egonSchiele/grokking_algorithms.git
+#1543075037
+cd grokking_algorithms/
+#1543075046
+cat README.md 
+#1543075055
+sls
+#1543075060
+vim
+#1543130173
+cd dp/
+#1543130187
+vim optimalStrategyGame.cpp
+#1543167216
+..
+#1543167216
+ls
+#1543167229
+mkdir hackerrank
+#1543167231
+cd hackerrank/
+#1543167276
+vim IPK_SockMerchant.cpp
+#1542211748
+python generate_data_test.py 
+#1542211758
+python3 generate_data_test.py 
+#1542211860
+python3 generate_data_test.py 
+#1542462963
+tmus ls
+#1542462966
+tmux ls
+#1542462981
+cd Code/Source/
+#1542462993
+mkdir Javascript
+#1542462998
+cd Javascript/
+#1542463000
+vim
+#1542463036
+node -v
+#1542463040
+node script.js
+#1542463110
+node script.js 
+#1542463184
+chmod +x script.js 
+#1542463337
+touch my_file.txt
+#1542463338
+lsp
+#1542463349
+echo "abc xyz" >> my_file.txt 
+#1542463352
+cat my_file.txt 
+#1542463358
+./script.js 
+#1542464395
+npm install -g js-beautify
+#1542464421
+sudo npm install -g js-beautify
+#1542465174
+chmod +x index.js 
+#1542465195
+echo "khai dep zai" | ./index.js 
+#1542465246
+ls | ./index.js  | not_found
+#1542465950
+npm login
+#1542466164
+npm about
+#1542466203
+npm whoami
+#1542466439
+node install
+#1542468033
+node script_with_arguments.js param1 param2=value
+#1542468051
+chmod +x script_with_arguments.js 
+#1542468059
+./script_with_arguments.js a b c d e f
+#1542468257
+mv *.json json/*.json
+#1542468262
+mkdir json
+#1542468268
+mv *.json json/
+#1542468275
+npm install commander save
+#1542468290
+npm uninstall
+#1542468345
+cp json/package.json .
+#1542468364
+rm -rf node_modules/
+#1542468367
+rm package-lock.json 
+#1542468379
+npm install
+#1542468397
+ls node_modules/
+#1542468457
+npm audit
+#1542468472
+npm audit fix
+#1542468585
+node commander_example.js help
+#1542468610
+node commander_example.js
+#1542468808
+npm install -g learnyounonde
+#1542468816
+npm install -g learnyounode
+#1542468905
+sudo npm install -g learnyounode
+#1542469036
+learnyounode 
+#1542469069
+npm install -g javascripting
+#1542469088
+sudo npm install -g javascripting
+#1542469176
+sudo npm install -g learnyoumongo
+#1542469211
+sudo npm install -g js-best-practices
+#1542469798
+ping google.com
+#1542634949
+cd javascripting/
+#1542634975
+javascripting  run introduction.js 
+#1542635011
+javascripting verify introduction.js 
+#1542635420
+javascripting verify variables.js 
+#1542635440
+javascripting run variables.js 
+#1542636997
+javascripting verify strings.js 
+#1542637007
+javascripting 
+#1543052457
+...
+#1543052464
+cd Courses/Pluralsight/modern-c-plus-plus-secure-coding-practices-const-correctness
+#1543057011
+cd Source/Cpp/
+#1543057017
+cd Training/
+#1543057019
+ll
+#1543075128
+cd grokking_algorithms/
+#1543075130
+cd 01
+#1543075134
+cd 01_introduction_to_algorithms/
+#1543075138
+cd python/
+#1543075142
+python 01_binary_search.py 
+#1543075305
+cd c++
+#1543075350
+gcc -o out 01_binary_search.cpp 
+#1543075359
+g++ -o out 01_binary_search.cpp 
+#1543076462
+cd c++11/
+#1543076526
+make
+#1543076557
+./main 
+#1543130016
+cd Cpp/Training/
+#1543130021
+mkdir dp
+#1543130022
+cd dp/
+#1543130572
+g++ -o out optimalStrategyGame.cpp 
+#1543131772
+g++ -o out optimalStrategyGame.cpp -std=c++11
+#1543159714
+ks
+#1543160166
+ls ~/Desktop/
+#1543160188
+cp 
+#1543160205
+cp ~/Desktop/zeroOneGame_* .
+#1543160220
+mv zeroOneGame_cpp14.txt zeroOneGame_cpp14.cpp
+#1543160357
+g++ -o out zeroOneGame.cpp 
+#1543160968
+g++ -o out zeroOneGame_ahmed_chams.cpp 
+#1543166364
+1
+#1543166612
+g++ -o out viDimensionQuestion.cpp 
+#1543167666
+..
+#1543167668
+cd hackerrank/
+#1543167669
+ls
+#1543167783
+g++ -o out IPK_SockMerchant.cpp 
+#1543167785
+./out 
+#1542634949
+cd javascripting/
+#1542634975
+javascripting  run introduction.js 
+#1542635011
+javascripting verify introduction.js 
+#1542635420
+javascripting verify variables.js 
+#1542635440
+javascripting run variables.js 
+#1542636997
+javascripting verify strings.js 
+#1542637007
+javascripting 
+#1543030028
+vim
+#1543075483
+lcd ~/.vim
+#1543075495
+cd ~/.vim
+#1543075498
+cd bundle/
+#1543075557
+..
+#1543075558
+ll
+#1543075581
+cd bundle/clang_complete/
+#1543075586
+cd plugin/
+#1543075587
+ls
+#1543130702
+tmux ls
+#1543130713
+tmux -a
+#1543130727
+tmux a
+#1543319028
+cd Code/Works/Fpt/Cluster/
+#1543319028
+ls
+#1543319032
+cd ConfigGenerator/
+#1543319203
+vim
+#1542637007
+javascripting 
+#1543030028
+vim
+#1543075483
+lcd ~/.vim
+#1543075495
+cd ~/.vim
+#1543075498
+cd bundle/
+#1543075557
+..
+#1543075558
+ll
+#1543075581
+cd bundle/clang_complete/
+#1543075586
+cd plugin/
+#1543130702
+tmux ls
+#1543130713
+tmux -a
+#1543130727
+tmux a
+#1543319381
+mv ~/Desktop/generate_data_test.py Code/Works/Fpt/Cluster/ConfigGenerator/
+#1543319389
+cd Code/Works/Fpt/Cluster/ConfigGenerator/
+#1543319396
+python generate_data_test.py 
+#1543319564
+./generate_data.py -h
+#1543319573
+python
+#1543319576
+python3
+#1543319590
+python3 --version
+#1543319594
+python3 --info
+#1543319608
+python3 generate_data.py -h
+#1543319705
+python3 generate_data_test.py 
+#1543320220
+pip3 install XlsxWriter
+#1543320280
+python3 generate_data.py -t "pcs" -o pcs.xlsx
+#1543320303
+python3 generate_data.py -t "lda" -o lda.xlsx
+#1543320565
+cp ~/Desktop/Debug_Default.cfg .
+#1543320585
+cp -f Debug_Default.cfg Default/
+#1543320635
+python3 create_config.py -h
+#1543320720
+python3 create_config.py -h -f tbt.xlsx  tbtConfig -t "tbt" -p "TBT_"
+#1543320744
+pip3 install xlrd
+#1543320753
+python3 create_config.py -f tbt.xlsx  tbtConfig -t "tbt" -p "TBT_"
+#1543320778
+python3 create_config.py -f pcs.xlsx  pcsConfig -t "pcs" -p "PCS_"
+#1543320798
+python3 create_config.py -f lda.xlsx  ldaConfig -t "lda" -p "LDA_"
+#1543320831
+python3 create_config.py -f lda.xlsx  -o ldaConfig -t "lda" -p "LDA_"
+#1543322228
+python3 generate_data.py -t "tbt" tbt.xlsx
+#1543322723
+python3 generate_data.py -t "tbt" -o tbt.xlsx
+#1543322793
+python3 create_config.py -f tbt.xlsx -o tbtConfig -t "tbt" -p "TBT_"
+#1543324787
+python3 create_config.py -f pcs.xlsx  -o pcsConfig -t "pcs" -p "PCS_"
+#1543324835
+cp ~/Desktop/PCS_Debug_S* .
+#1543324836
+ls
+#1543324865
+cp PCS_Debug_S* pcsConfig/Debug/
+#1543324871
+cp PCS_Debug_S* pcsConfig/Debug/ -f
+#1543319017
+tmux ls
+#1543319018
+tmux
+#1543743016
+screen -v
+#1543743024
+ls
+#1543743038
+ssh khaind@khaindPc
+#1543743052
+ssh khaind@192.168.1.88
+#1543743038
+ssh khaind@khaindPc
+#1543743052
+ssh khaind@192.168.1.88
+#1543744759
+pwd
+#1543744769
+whoami
+#1543744774
+hostname 
+#1543744808
+ssh aster@192.168.1.88
+#1543745443
+man screen
+#1543746265
+screen -r
+#1543746273
+ssh kaiji@192.168.1.88
+#1543747200
+ssh khaind@192.168.1.88
+#1543747590
+exit
+#1543968512
+cd Code/Source/Cpp/Training/
+#1543968512
+ls
+#1543968519
+vim leftRotation.cpp
+#1543968512
+cd Code/Source/Cpp/Training/
+#1543968519
+vim leftRotation.cpp
+#1544012268
+ls
+#1544012288
+g++ -o rotLeft leftRotation.cpp
+#1544013588
+g++ -o rotLeft leftRotation.cpp -std=c++11
+#1544013589
+./rotLeft 
+#1544016288
+g++ -o rotLeft leftRotation.cpp -std=c++11 -gmock -gtest
+#1544016394
+g++ -o rotLeft leftRotation.cpp -std=c++11
+#1544138870
+ping google.com
+#1544015589
+vim leftRotation.cpp 
+#1543968519
+vim leftRotation.cpp
+#1544012012
+vim leftRotation.cpp 
+#1544015460
+cd tdd_code/
+#1544015460
+ls
+#1544015461
+vim
+#1543968519
+vim leftRotation.cpp
+#1544011975
+cd Code/Source/Cpp/Training/
+#1544011976
+ls
+#1544011985
+tmux
+#1544223375
+cd Code/Source/Cpp/Training/
+#1544223376
+ls
+#1544223378
+tmux
+#1544265393
+cd ~
+#1544265393
+ls
+#1544265403
+find . -iname "*grok*"
+#1544011975
+cd Code/Source/Cpp/Training/
+#1544223375
+cd Code/Source/Cpp/Training/
+#1544264682
+cd Code/
+#1544265153
+cd Source/Cpp/Training/grokking_algorithms/
+#1544265154
+ls
+#1544265381
+tmux
+#1544016288
+g++ -o rotLeft leftRotation.cpp -std=c++11 -gmock -gtest
+#1544016394
+g++ -o rotLeft leftRotation.cpp -std=c++11
+#1544015589
+vim leftRotation.cpp 
+#1543968519
+vim leftRotation.cpp
+#1544012012
+vim leftRotation.cpp 
+#1544015460
+cd tdd_code/
+#1544015461
+vim
+#1543968519
+vim leftRotation.cpp
+#1544011975
+cd Code/Source/Cpp/Training/
+#1544011985
+tmux
+#1544232770
+ping google.com
+#1544264597
+..
+#1544264601
+df -h
+#1544264607
+cd Code/
+#1544264607
+ls
+#1543968519
+vim leftRotation.cpp
+#1544012288
+g++ -o rotLeft leftRotation.cpp
+#1544013588
+g++ -o rotLeft leftRotation.cpp -std=c++11
+#1544013589
+./rotLeft 
+#1544016288
+g++ -o rotLeft leftRotation.cpp -std=c++11 -gmock -gtest
+#1544016394
+g++ -o rotLeft leftRotation.cpp -std=c++11
+#1544138870
+ping google.com
+#1544015589
+vim leftRotation.cpp 
+#1543968519
+vim leftRotation.cpp
+#1544012012
+vim leftRotation.cpp 
+#1544015460
+cd tdd_code/
+#1544015461
+vim
+#1543968519
+vim leftRotation.cpp
+#1544011975
+cd Code/Source/Cpp/Training/
+#1544011985
+tmux
+#1544242450
+cd ML/
+#1544242452
+cd DeepSpeech/
+#1544242462
+git st
+#1544242465
+git status
+#1544242482
+du -h
+#1544242497
+rm -rf DeepSpeech/
+#1544242500
+du -sh
+#1544242504
+df -h
+#1544242521
+cd ~/Downloads/
+#1544242524
+ll
+#1544242921
+..
+#1544242925
+cd Code/
+#1544242940
+find . -iname "*stl*"
+#1544264557
+ls
+#1544348522
+ping google.com
+#1544348616
+ls
+#1544714641
+bundle exec jekyll build
+#1544714701
+bundle exec jekyll serve
+#1544242500
+du -sh
+#1544242504
+df -h
+#1544242521
+cd ~/Downloads/
+#1544242524
+ll
+#1544242921
+..
+#1544242925
+cd Code/
+#1544242940
+find . -iname "*stl*"
+#1544264557
+ls
+#1544348522
+ping google.com
+#1544348616
+ls
+#1544714641
+bundle exec jekyll build
+#1544714701
+bundle exec jekyll serve
+#1544717925
+git br
+#1544799470
+git push -u origin dev-khaind
+#1544799498
+git checkout master
+#1544799514
+git merge dev-khaind
+#1544799521
+git log -5
+#1544799826
+git log -2
+#1544799834
+git branch
+#1544799841
+git st
+#1544799855
+git add img/personal/16.jpg 
+#1544799857
+git status
+#1544799874
+git commit -m "Add footer image"
+#1544799878
+git push origin master
+#1544348484
+tmux
+#1544242521
+cd ~/Downloads/
+#1544242524
+ll
+#1544242921
+..
+#1544242940
+find . -iname "*stl*"
+#1544348491
+cd Code/
+#1544348495
+cd Source/
+#1544348498
+ssh khaind@192.168.1.88
+#1544455847
+cd Cpp/
+#1544455850
+cd Training/
+#1544455851
+ls
+#1544455860
+vim leftRotation.cpp 
+#1544455887
+vim hackerrank/
+#1544242450
+cd ML/
+#1544242452
+cd DeepSpeech/
+#1544242462
+git st
+#1544242482
+du -h
+#1544242497
+rm -rf DeepSpeech/
+#1544242500
+du -sh
+#1544242521
+cd ~/Downloads/
+#1544242524
+ll
+#1544242921
+..
+#1544242925
+cd Code/
+#1544242940
+find . -iname "*stl*"
+#1544656833
+cd Code/Source/
+#1544656842
+mkdir Github
+#1544656844
+cd Github/
+#1544656849
+git clone git@github.com:khaind/khaind.github.io.git
+#1544656868
+cd khaind.github.io/
+#1544656890
+git checkout -b dev-khaind
+#1544656958
+cat .gitignore 
+#1544656968
+ls
+#1544657074
+df -h
+#1544657237
+lsvirtualenv 
+#1544657257
+mkvirtualenv web
+#1544657294
+gem -v
+#1544657321
+xcode-select --install
+#1544657495
+gem install --user-install bundler jekyll
+#1544657779
+sw_vers  -productVersion
+#1544657859
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#1544657930
+brew install ruby
+#1544657955
+vim ~/.bashrc 
+#1544657978
+which ruby
+#1544657983
+ruby -v
+#1544657999
+gem install bundler jekyll
+#1544658103
+bundle update
+#1544658212
+bundle exec jekyll serve
+#1545230868
+git br
+#1545230872
+git branch
+#1545230876
+git lg -2
+#1545230882
+git log -2
+#1545230888
+git status
+#1545230900
+rsync 
+#1545232212
+ping google.com
+#1545471610
+ssh khaind@192.168.1.88
+#1545473007
+exit
+#1544657321
+xcode-select --install
+#1544657495
+gem install --user-install bundler jekyll
+#1544657779
+sw_vers  -productVersion
+#1544657859
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#1544657930
+brew install ruby
+#1544657955
+vim ~/.bashrc 
+#1544657978
+which ruby
+#1544657983
+ruby -v
+#1544657999
+gem install bundler jekyll
+#1545230872
+git branch
+#1545230876
+git lg -2
+#1545230882
+git log -2
+#1545230888
+git status
+#1545230900
+rsync 
+#1545232212
+ping google.com
+#1545471610
+ssh khaind@192.168.1.88
+#1545473007
+exit
+#1545495657
+ls
+#1545495713
+git commit -m "Add disqus and google analytics to site"
+#1545495733
+git br
+#1545496211
+gem install
+#1545496226
+bundle install
+#1545496272
+git add Gemfile
+#1545496290
+git add _includes/head
+#1545496295
+git add _includes/head.html 
+#1545496303
+bundle update
+#1545496366
+git commit -m "Add Jekyll seo tag"
+#1545529658
+bundle exec jekyll serve
+#1545531590
+git add _config.yml 
+#1545531602
+git commit -m "Add disqus shortname"
+#1545531603
+git st
+#1545531610
+git push origin master
+#1545232212
+ping google.com
+#1545263712
+cd Code/Source/Cpp/Training/
+#1545263713
+ls
+#1545263724
+vim negabinary.cpp
+#1545263853
+tmux
+#1545582617
+df -h
+#1545496226
+bundle install
+#1545496272
+git add Gemfile
+#1545496290
+git add _includes/head
+#1545496295
+git add _includes/head.html 
+#1545496303
+bundle update
+#1545496366
+git commit -m "Add Jekyll seo tag"
+#1545531590
+git add _config.yml 
+#1545531602
+git commit -m "Add disqus shortname"
+#1545536344
+bundle exec jekyll serve
+#1545537501
+git br
+#1545537505
+git lg -5
+#1545537539
+git co dev-khaind
+#1545537627
+git commit -m "Add new post effectivecpp 1"
+#1545537632
+git co master
+#1545537646
+git merge dev-khaind
+#1545537740
+git add _posts/2018-12-19-EffectiveCpp_1.md 
+#1545537752
+git cm -m "Fix image link"
+#1545537754
+git st
+#1545537759
+git push origin master
+#1545263889
+vim negabinary.cpp 
+#1544657321
+xcode-select --install
+#1544657495
+gem install --user-install bundler jekyll
+#1544657779
+sw_vers  -productVersion
+#1544657859
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#1544657930
+brew install ruby
+#1544657955
+vim ~/.bashrc 
+#1544657978
+which ruby
+#1544657983
+ruby -v
+#1544657999
+gem install bundler jekyll
+#1544658103
+bundle update
+#1544658212
+bundle exec jekyll serve
+#1545230872
+git branch
+#1545230876
+git lg -2
+#1545230882
+git log -2
+#1545230888
+git status
+#1545232212
+ping google.com
+#1545471622
+,.
+#1545471628
+cd Github/khaind.github.io/
+#1545471636
+git log -2 --online
+#1545471646
+git log -2 --oneline
+#1545471652
+git log -2 --oneline --graph
+#1545472575
+rsync 
+#1545472658
+mv khaind.github.io/ khaind.github.io_0
+#1545472673
+mkdir blog
+#1545472675
+cd blog/
+#1545472775
+rsync -avzhe ssh khaind@192.168.1.88:~/FILES/03_SourceCode/MyProjects/Github/khaind.github.io .
+#1545472805
+..
+#1545472895
+rsync -zvh ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472914
+rsync -zvhe ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472919
+ll
+#1545472935
+cat ~/.gitconfig 
+#1545472990
+ls
+#1545472994
+vim .gitconfig 
+#1545473062
+cd khaind.github.io/
+#1545473064
+git st
+#1545473068
+git br
+#1545473073
+git lg -10
+#1545576238
+df 0-h
+#1545576240
+df -h
+#1545230900
+rsync 
+#1545232212
+ping google.com
+#1545263858
+ls
+#1545263866
+g++ -o out negabinary.cpp 
+#1545263916
+g++ -o out negabinary.cpp -std=c++11
+#1545263918
+./out 
+#1546752111
+ssh khaind@192.168.1.88
+#1546752174
+rsync -avzhe ssh khaind@192.168.1.88:~/FILES/03_SourceCode/MyProjects/python/webCrawler .
+#1546752178
+ls
+#1545263916
+g++ -o out negabinary.cpp -std=c++11
+#1545263918
+./out 
+#1546750914
+ssh khaind@192.168.1.88
+#1546752063
+cd Code/Source/
+#1546752067
+mkdir Tools
+#1546752069
+cd Tools/
+#1546752070
+ls
+#1546752098
+tmux
+#1547042897
+exit
+#1545472775
+rsync -avzhe ssh khaind@192.168.1.88:~/FILES/03_SourceCode/MyProjects/Github/khaind.github.io .
+#1545472805
+..
+#1545472895
+rsync -zvh ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472914
+rsync -zvhe ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472919
+ll
+#1545472935
+cat ~/.gitconfig 
+#1545472990
+ls
+#1545472994
+vim .gitconfig 
+#1545473062
+cd khaind.github.io/
+#1545473073
+git lg -10
+#1545576238
+df 0-h
+#1545576240
+df -h
+#1545230900
+rsync 
+#1545263858
+ls
+#1545263866
+g++ -o out negabinary.cpp 
+#1545263916
+g++ -o out negabinary.cpp -std=c++11
+#1545263918
+./out 
+#1546680374
+ping google.com
+#1547114568
+git fetch
+#1547114605
+git co dev-khaind
+#1547114623
+git add _posts/2019-01-10-cpp_private-inheritance.md 
+#1547114648
+git commit -m "Add new post private inheritance vs composition"
+#1547114653
+git co master
+#1547114711
+gi tlog -2
+#1547114724
+git lg -2
+#1547114734
+git merge dev-khaind
+#1547114745
+git commit
+#1547114885
+git lg -3
+#1547114913
+git reset hard HEAD~1
+#1547115025
+git reset HEAD~1
+#1547115028
+git st
+#1547115030
+git br
+#1547115036
+git log -2
+#1547115038
+git pull
+#1547115050
+bundle exec jekyll serve
+#1546752067
+mkdir Tools
+#1546752069
+cd Tools/
+#1546752098
+tmux
+#1547133434
+..
+#1547133437
+cd scrapyTuts/
+#1547133441
+cd ..
+#1547133446
+ls
+#1547133461
+scrapy
+#1547133474
+lsvirtualenv 
+#1547133479
+workon web
+#1547133482
+exit
+#1546752098
+tmux
+#1547043476
+cd
+#1547043483
+ll
+#1547133430
+ls
+#1547133483
+exit
+#1546752067
+mkdir Tools
+#1546752069
+cd Tools/
+#1546752098
+tmux
+#1547042915
+deactivate
+#1547042936
+cd ...
+#1547042938
+...
+#1547042940
+..
+#1547042950
+cd Cpp/Training/
+#1547043442
+vim
+#1547133425
+ls
+#1547133484
+exit
+#1545263918
+./out 
+#1546750914
+ssh khaind@192.168.1.88
+#1546752063
+cd Code/Source/
+#1546752067
+mkdir Tools
+#1546752069
+cd Tools/
+#1546987080
+lsvirtualenv 
+#1546987085
+workon web
+#1546987097
+cd Code/Source/Tools/
+#1546987100
+cd webCrawler/
+#1546987113
+pip install Scrapy
+#1546991640
+scrapy 
+#1546991661
+python fileDownloader.py 
+#1546991665
+cd downloader/
+#1546991666
+ls
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547042601
+tmux
+#1547133486
+exit
+#1544657495
+gem install --user-install bundler jekyll
+#1544657779
+sw_vers  -productVersion
+#1544657859
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#1544657930
+brew install ruby
+#1544657955
+vim ~/.bashrc 
+#1544657978
+which ruby
+#1544657983
+ruby -v
+#1544657999
+gem install bundler jekyll
+#1544658103
+bundle update
+#1545230872
+git branch
+#1545230888
+git status
+#1545471622
+,.
+#1545471628
+cd Github/khaind.github.io/
+#1545471636
+git log -2 --online
+#1545471646
+git log -2 --oneline
+#1545471652
+git log -2 --oneline --graph
+#1545472575
+rsync 
+#1545472658
+mv khaind.github.io/ khaind.github.io_0
+#1545472673
+mkdir blog
+#1545472675
+cd blog/
+#1545472775
+rsync -avzhe ssh khaind@192.168.1.88:~/FILES/03_SourceCode/MyProjects/Github/khaind.github.io .
+#1545472805
+..
+#1545472895
+rsync -zvh ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472914
+rsync -zvhe ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472919
+ll
+#1545472935
+cat ~/.gitconfig 
+#1545472994
+vim .gitconfig 
+#1545473062
+cd khaind.github.io/
+#1545576238
+df 0-h
+#1545576240
+df -h
+#1545230900
+rsync 
+#1545263866
+g++ -o out negabinary.cpp 
+#1545263916
+g++ -o out negabinary.cpp -std=c++11
+#1545263918
+./out 
+#1546680374
+ping google.com
+#1547114568
+git fetch
+#1547114623
+git add _posts/2019-01-10-cpp_private-inheritance.md 
+#1547114648
+git commit -m "Add new post private inheritance vs composition"
+#1547114711
+gi tlog -2
+#1547114724
+git lg -2
+#1547114745
+git commit
+#1547114885
+git lg -3
+#1547114913
+git reset hard HEAD~1
+#1547115025
+git reset HEAD~1
+#1547115036
+git log -2
+#1547115038
+git pull
+#1547115160
+mv _posts/2019-01-10-cpp_private-inheritance.md _posts/2019-01-10-cpp_private-inheritance___
+#1547115173
+git lg -10
+#1547115308
+rm _posts/2019-01-10-cpp_private-inheritance___ 
+#1547115312
+bundle exec jekyll serve
+#1547131472
+ls
+#1547131510
+git co dev-khaind
+#1547131522
+git add _posts/2019-01-03-cpp_faq_using-namespace-std.md 
+#1547131577
+git commit -m "Add new posts cpp_faq_usingnamespace"
+#1547131583
+git co master
+#1547131699
+git br
+#1547131701
+git st
+#1547131731
+git merge dev-khaind
+#1547131773
+git push origin master
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547042601
+tmux
+#1547163459
+cd
+#1547163474
+find . -type f -iname "*screen*"
+#1547163578
+find . -type d -iname "screenshots"
+#1547163600
+find . -iname "*screenshots*"
+#1547564511
+ping google.com
+#1547952103
+df -h
+#1547952137
+ls
+#1547952157
+exit
+#1547134143
+workon web
+#1547952161
+exit
+#1547134116
+workon web
+#1547134155
+scrapy crawl quotes
+#1547134161
+ls
+#1547134311
+scrapy shell 'http://quotes.toscrape.com/page/1/'
+#1547952167
+exit
+#1546752069
+cd Tools/
+#1546987080
+lsvirtualenv 
+#1546987097
+cd Code/Source/Tools/
+#1546987100
+cd webCrawler/
+#1546987113
+pip install Scrapy
+#1546991640
+scrapy 
+#1546991661
+python fileDownloader.py 
+#1546991665
+cd downloader/
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547133514
+cd Code/
+#1547133566
+cd Source/
+#1547133571
+cd Tools/webCrawler/
+#1547133576
+scra[py
+#1547133584
+workon web
+#1547133590
+scrapy
+#1547133602
+scrapy startproject tutorial
+#1547133619
+cd tutorial/
+#1547133854
+scrapy genspider example example.com
+#1547133859
+tree
+#1547133930
+ls
+#1547133936
+vim
+#1547134104
+deactivate 
+#1547134112
+tmux
+#1547952168
+exit
+#1547134104
+deactivate 
+#1547952168
+exit
+#1547952665
+lsvfs 
+#1547952680
+df -h
+#1547958541
+node
+#1547958572
+cd Code/Source/Javascript/
+#1547958572
+ls
+#1547958581
+tmux
+#1547133619
+cd tutorial/
+#1547133854
+scrapy genspider example example.com
+#1547133859
+tree
+#1547133936
+vim
+#1547134104
+deactivate 
+#1547134112
+tmux
+#1547952168
+exit
+#1547958638
+node script.js 
+#1547958647
+node  commander_example.js 
+#1547958652
+node  commander_example.js asdjkf
+#1547958855
+javascripting
+#1547958879
+cd javascripting/
+#1547958880
+ls
+#1547959048
+node string-length.js 
+#1547959057
+javascripting verify string-length.js 
+#1547981330
+javascripting verify revising-string.js 
+#1547981414
+javascripting verify number.js 
+#1547981571
+javascripting verify rounding-numbers.js 
+#1547981685
+node rounding-numbers.js 
+#1547981692
+node number-to-string.js 
+#1547981706
+javascripting verify number-to-string.js 
+#1547981713
+javascripting 
+#1548000200
+node --version
+#1547958584
+ls
+#1547958589
+vim
+#1547958589
+vim
+#1548535487
+git reset --hard
+#1548535489
+git st
+#1547959057
+javascripting verify string-length.js 
+#1547981330
+javascripting verify revising-string.js 
+#1547981414
+javascripting verify number.js 
+#1547981571
+javascripting verify rounding-numbers.js 
+#1547981685
+node rounding-numbers.js 
+#1547981692
+node number-to-string.js 
+#1547981706
+javascripting verify number-to-string.js 
+#1547981713
+javascripting 
+#1548000200
+node --version
+#1547958589
+vim
+#1548748842
+cd Code/Source/Javascript/samples/fileUpload/file-upload-api/
+#1548748861
+npm install
+#1548748889
+touch .gitignore
+#1548748899
+echo "*.swp" >> .gitignore 
+#1548748913
+git diff package-lock.json 
+#1548748937
+git add .gitignore 
+#1548748947
+git commit -m "Add .gitignore file"
+#1548748952
+git lg
+#1548748984
+tree
+#1548749015
+git add node_modules/
+#1548749016
+git st
+#1548749031
+git commit -m "npm install"
+#1548749046
+npm install cors express-fileupload
+#1548749064
+npm audit fix
+#1548749075
+npm audit
+#1548749559
+..
+#1548749560
+sl
+#1548756264
+npx
+#1548756318
+sudo npm install -g create-react-app
+#1548756790
+cd file-upload-react/
+#1548756791
+ls
+#1548756802
+npm start
+#1548771910
+exit
+#1547981414
+javascripting verify number.js 
+#1547981571
+javascripting verify rounding-numbers.js 
+#1547981685
+node rounding-numbers.js 
+#1547981692
+node number-to-string.js 
+#1547981706
+javascripting verify number-to-string.js 
+#1547981713
+javascripting 
+#1548000200
+node --version
+#1547958589
+vim
+#1547958589
+vim
+#1548535487
+git reset --hard
+#1548757679
+ld
+#1548757689
+cd file-upload-react/
+#1548757704
+git init .
+#1548757765
+cat package-lock.json 
+#1548757777
+git add *
+#1548757784
+git add .gitignore 
+#1548757792
+git rm package-lock.json 
+#1548757807
+git rm package-lock.json --cached
+#1548757822
+git commit -m "First commit, sample app"
+#1548757823
+git st
+#1548757824
+git br
+#1548758581
+cd ..
+#1548758583
+cd file-upload-api/
+#1548758584
+ls
+#1546991640
+scrapy 
+#1546991661
+python fileDownloader.py 
+#1546991665
+cd downloader/
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547042601
+tmux
+#1547133486
+exit
+#1544657495
+gem install --user-install bundler jekyll
+#1544657779
+sw_vers  -productVersion
+#1544657859
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#1544657930
+brew install ruby
+#1544657955
+vim ~/.bashrc 
+#1544657978
+which ruby
+#1544657983
+ruby -v
+#1544657999
+gem install bundler jekyll
+#1544658103
+bundle update
+#1545230872
+git branch
+#1545230888
+git status
+#1545471622
+,.
+#1545471628
+cd Github/khaind.github.io/
+#1545471636
+git log -2 --online
+#1545471646
+git log -2 --oneline
+#1545471652
+git log -2 --oneline --graph
+#1545472575
+rsync 
+#1545472658
+mv khaind.github.io/ khaind.github.io_0
+#1545472673
+mkdir blog
+#1545472675
+cd blog/
+#1545472775
+rsync -avzhe ssh khaind@192.168.1.88:~/FILES/03_SourceCode/MyProjects/Github/khaind.github.io .
+#1545472895
+rsync -zvh ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472914
+rsync -zvhe ssh khaind@192.168.1.88:~/.gitconfig .
+#1545472919
+ll
+#1545472935
+cat ~/.gitconfig 
+#1545472994
+vim .gitconfig 
+#1545473062
+cd khaind.github.io/
+#1545576238
+df 0-h
+#1545230900
+rsync 
+#1545263866
+g++ -o out negabinary.cpp 
+#1545263916
+g++ -o out negabinary.cpp -std=c++11
+#1545263918
+./out 
+#1546680374
+ping google.com
+#1547114568
+git fetch
+#1547114623
+git add _posts/2019-01-10-cpp_private-inheritance.md 
+#1547114648
+git commit -m "Add new post private inheritance vs composition"
+#1547114711
+gi tlog -2
+#1547114745
+git commit
+#1547114885
+git lg -3
+#1547114913
+git reset hard HEAD~1
+#1547115025
+git reset HEAD~1
+#1547115036
+git log -2
+#1547115038
+git pull
+#1547115160
+mv _posts/2019-01-10-cpp_private-inheritance.md _posts/2019-01-10-cpp_private-inheritance___
+#1547115173
+git lg -10
+#1547115308
+rm _posts/2019-01-10-cpp_private-inheritance___ 
+#1547115312
+bundle exec jekyll serve
+#1547131510
+git co dev-khaind
+#1547131522
+git add _posts/2019-01-03-cpp_faq_using-namespace-std.md 
+#1547131577
+git commit -m "Add new posts cpp_faq_usingnamespace"
+#1547131731
+git merge dev-khaind
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547042601
+tmux
+#1547163459
+cd
+#1547163474
+find . -type f -iname "*screen*"
+#1547163578
+find . -type d -iname "screenshots"
+#1547163600
+find . -iname "*screenshots*"
+#1547564511
+ping google.com
+#1547952157
+exit
+#1547952161
+exit
+#1547134155
+scrapy crawl quotes
+#1547134311
+scrapy shell 'http://quotes.toscrape.com/page/1/'
+#1547952167
+exit
+#1546752069
+cd Tools/
+#1546987080
+lsvirtualenv 
+#1546987097
+cd Code/Source/Tools/
+#1546987100
+cd webCrawler/
+#1546987113
+pip install Scrapy
+#1546991640
+scrapy 
+#1546991661
+python fileDownloader.py 
+#1546991665
+cd downloader/
+#1546991670
+ls downloader/
+#1546991695
+scrapy runspider downloader/spiders/pdf_spider.py 
+#1547133514
+cd Code/
+#1547133566
+cd Source/
+#1547133571
+cd Tools/webCrawler/
+#1547133576
+scra[py
+#1547133590
+scrapy
+#1547133602
+scrapy startproject tutorial
+#1547133619
+cd tutorial/
+#1547133854
+scrapy genspider example example.com
+#1547134112
+tmux
+#1547952168
+exit
+#1547952168
+exit
+#1547952665
+lsvfs 
+#1547958541
+node
+#1547958572
+cd Code/Source/Javascript/
+#1547958581
+tmux
+#1547133619
+cd tutorial/
+#1547133854
+scrapy genspider example example.com
+#1547134112
+tmux
+#1547952168
+exit
+#1547958638
+node script.js 
+#1547958647
+node  commander_example.js 
+#1547958652
+node  commander_example.js asdjkf
+#1547958855
+javascripting
+#1547958879
+cd javascripting/
+#1547959048
+node string-length.js 
+#1547959057
+javascripting verify string-length.js 
+#1547981330
+javascripting verify revising-string.js 
+#1547981414
+javascripting verify number.js 
+#1547981571
+javascripting verify rounding-numbers.js 
+#1547981685
+node rounding-numbers.js 
+#1547981692
+node number-to-string.js 
+#1547981706
+javascripting verify number-to-string.js 
+#1548000200
+node --version
+#1548171322
+ssh khaind@192.168.1.88
+#1548427058
+df -h
+#1548535264
+cd Code/Source/Github/
+#1548535270
+git clone git@github.com:khaind/RollingCircle.git
+#1548535281
+cd RollingCircle/
+#1548535394
+git checkout -b dev
+#1548535441
+cp -r ~/Desktop/KixeyeCodeTest_RollingCircle/ProjectSettings/ .
+#1548535554
+git reset --hard
+#1548535579
+git clean -df
+#1548535589
+cp -r ~/Desktop/KixeyeCodeTest_RollingCircle/Assets Assets
+#1548535597
+cp -r ~/Desktop/KixeyeCodeTest_RollingCircle/ProjectSettings/ ProjectSettings
+#1548535612
+git add ProjectSettings/
+#1548535648
+git commit -m "Add version 1.0 of game"
+#1548535810
+git add .gitignore
+#1548535823
+touch .gitignore
+#1548535878
+echo "Library/" >> .gitignore 
+#1548535882
+cat .git
+#1548535894
+ls Packages/
+#1548535902
+cat Packages/manifest.json 
+#1548535993
+echo "Packages/" >> .gitignore 
+#1548535997
+cat .gitignore 
+#1548536018
+git commit -m "Add .gitignore file"
+#1548536034
+git diff
+#1548536103
+git checkout Assets/Scripts/Data/UserData.asset
+#1548536110
+git co master
+#1548536120
+git merge dev
+#1548536128
+git log
+#1548536131
+git lg -5
+#1548580502
+gt st
+#1548580528
+git commit -m "Update README.md for game play"
+#1548580715
+gi tst
+#1548580719
+git add README.md 
+#1548580730
+git commit -m "Formate REAME.md"
+#1548605435
+echo "*.csproj" >> .gitignore 
+#1548605463
+echo "*.sln" >> .gitignore 
+#1548605477
+echo "Temp/" >> .gitignore 
+#1548605488
+echo "obj/" >> .gitignore 
+#1548605531
+git diff Assets/Scripts/FloorScroller.cs
+#1548605618
+git add .gitignore 
+#1548605646
+git commit -m "Using Object Pooler for square generator"
+#1548731524
+git add Assets/
+#1548731547
+git commit -m "Refactor: Remove GameObject.Find()"
+#1548731553
+git push origin master
+#1548748360
+cd java
+#1548748362
+cd Javascript/
+#1548748390
+mkdir samples
+#1548748392
+cd samples/
+#1548748401
+mkdir fileUpload
+#1548748411
+workon web
+#1548748418
+node -v
+#1548748509
+npm 
+#1548748530
+npm install express-generator --global
+#1548748554
+sudo npm install express-generator --global
+#1548748581
+express -v
+#1548748597
+express-generator file-upload-api
+#1548748602
+express file-upload-api
+#1548748642
+git init .
+#1548748647
+git add *
+#1548748678
+git commit -m "Init. create sample api with express"
+#1548748682
+git lg -2
+#1548748689
+tree
+#1548756397
+sudo npm install -g create-react-app
+#1548756422
+create-react-app file-upload-react
+#1548756583
+cd fileUpload/
+#1548756633
+git diff app.js 
+#1548756650
+git add app.js 
+#1548756664
+git commit -m "Add upload post api"
+#1548756671
+git diff package.json 
+#1548756680
+git add package.json 
+#1548756700
+git commit --amend
+#1548756729
+git br
+#1548756731
+git lg
+#1548756779
+mv file-upload-react/ ../file-upload-react
+#1548756781
+git st
+#1548756783
+..
+#1548756827
+cd file-upload-react/
+#1548756829
+vim
+#1548758138
+npm install axios
+#1548758596
+j
+#1548758683
+cd ..
+#1548758686
+cd file-upload-api/
+#1548758691
+express 
+#1548758704
+express -h
+#1548758712
+npm start
+#1548771916
+deactivate 
+#1548771922
+...
+#1548771933
+cd Javascript/javascripting/
+#1548771933
+ls
+#1548771939
+javascripting 
+#1548772166
+"The fruit name has more than five
+#1548171314
+tmux
+#1548757822
+git commit -m "First commit, sample app"
+#1548757823
+git st
+#1548757824
+git br
+#1548758581
+cd ..
+#1548758583
+cd file-upload-api/
+#1548758584
+ls
+#1548772267
+javascripting verify if-statement.js 
+#1548772441
+javascripting verify for-loop.js 
+#1548772690
+javascripting verify arrays.js 
+#1548773068
+node arrays.js 
+#1548773881
+javascripting verify array-filters.js 
+#1548774004
+javascripting verify accesing-array-value.js 
+#1548774156
+javascripting verify looping-through-arrays.js 
+#1548774360
+javascripting verify objects.js 
+#1548774367
+node objects.js 
+#1548774378
+javascripting 
+#1548977404
+df -h
+#1550066185
+exit
+#1548774378
+javascripting 
+#1550066302
+df =j
+#1550066305
+df -h
+#1550066498
+exit
+#1550066503
+df -h
+#1550066505
+exit
+#1550066514
+df -h
+#1550066517
+exit
+#1550932282
+git st
+#1550066505
+exit
+#1550066517
+exit
+#1550442800
+df -h
+#1550590741
+..
+#1550590748
+cd Source/Cpp/Training/
+#1550590749
+ls
+#1550590760
+mkdir thread
+#1550590762
+cd thread/
+#1550590764
+tmxu
+#1550590767
+tmux
+#1550590782
+vim
+#1548774156
+javascripting verify looping-through-arrays.js 
+#1548774360
+javascripting verify objects.js 
+#1548774367
+node objects.js 
+#1548774378
+javascripting 
+#1548977404
+df -h
+#1550066185
+exit
+#1548774378
+javascripting 
+#1550066302
+df =j
+#1550066305
+df -h
+#1550066498
+exit
+#1550066503
+df -h
+#1550066505
+exit
+#1550066514
+df -h
+#1550066517
+exit
+#1550592499
+g++ createThread.cpp -o test -lpthread -std=c++11
+#1550592501
+./test 
+#1551367474
+clear
+#1551367504
+what cpu_profiler.d
+#1551367510
+what vim
+#1551367515
+which vim
+#1551367522
+man what
+#1551367529
+which
+#1551367533
+man which
+#1551367640
+which cpu_profiler.d
+#1551367645
+cpu_profiler.d 
+#1551367529
+which
+#1551367533
+man which
+#1551367640
+which cpu_profiler.d
+#1551367645
+cpu_profiler.d 
+#1551581178
+npm -v
+#1551581187
+cls
+#1551581198
+df -0h
+#1551581201
+df -h
+#1551581215
+workon web
+#1551581224
+deactivate 
+#1551581234
+npm install youtube-dl
+#1551581468
+cd Code/Courses/Pluralsight/
+#1551581482
+mkdir modernCppLib
+#1551581484
+cd modern
+#1551581487
+cd modernCppLib/
+#1551581534
+cd
+#1551581536
+ls
+#1551581542
+youtube-dl
+#1551581545
+exit
+#1551581482
+mkdir modernCppLib
+#1551581484
+cd modern
+#1551581487
+cd modernCppLib/
+#1551581534
+cd
+#1551581545
+exit
+#1551581595
+npm install -g npm
+#1551581608
+sudo npm install -g npm
+#1551581623
+npm install youtube-dl
+#1551581642
+youtube-dl
+#1551581663
+clear
+#1551581679
+npm uninstall youtube-dl
+#1551581687
+brew
+#1551581701
+brew install youtube-dl
+#1551582038
+cd Code/Courses/Pluralsight/modernCppLib/
+#1551582042
+youtube-dl --username "justdoit@outlook.com" --password "Kh@i2011" --verbose --sleep-interval 120 "https://app.pluralsight.com/library/courses/beautiful-cplusplus-stl-algorithms/"
+#1551582074
+youtube-dl --username "justdoit90@outlook.com" --password "Kh@i2011" --verbose --sleep-interval 120 "https://app.pluralsight.com/library/courses/beautiful-cplusplus-stl-algorithms/"
+#1551594790
+ls
+#1551622641
+cd Code/Courses/Pluralsight/
+#1551622648
+17
+#1551622655
+mkdir cpp14_17
+#1551622658
+cd cpp14_17/
+#1551622695
+youtube-dl --username "justdoit90@outlook.com" --password "Kh@i2011" --verbose --sleep-interval 120 "https://app.pluralsight.com/library/courses/cplusplus-14-practical-features/"
+#1551803782
+df -h
+#1552140819
+df -h

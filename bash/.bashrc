@@ -116,7 +116,7 @@ fi
 
 stty -ixon
 
-cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
+#cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
 
 export PATH=/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/khaind/.vimpkg/bin
 
@@ -169,3 +169,8 @@ function gentag()
     find $PWD | egrep -i "\.(c|h|cpp)$" > cscope.files
     ctags -R . *.c *.h *.cpp --tag-relative=yes ./
 }
+
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:$PATH
+

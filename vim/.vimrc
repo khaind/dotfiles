@@ -96,6 +96,9 @@ Plugin 'tpope/vim-commentary'
 " Snippets are separated from the engine. Add this if you want them:
 " Plugin 'honza/vim-snippets'
 
+" Format documents with F3
+Plugin 'Chiel92/vim-autoformat'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -295,4 +298,13 @@ inoremap <leader>s <C-c>:w<cr>
 " Quit file with leader - q
 noremap <leader>q :q<cr>
 
+" Auto Format document with F3
+noremap <F3> :Autoformat<CR>
+" disabled the fallback to vim'indent, retab, remove trailing space
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
+
 filetype plugin indent on    " required
+let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+

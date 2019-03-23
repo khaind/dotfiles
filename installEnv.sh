@@ -19,6 +19,9 @@ BASH_HIST=.bash_history
 BASH_ALIAS=.bash_aliases
 BASH_PRO=.bash_profile
 
+GIT_DIR=git
+GIT_CONF=.gitconfig
+
 # VIM
 echo "============>Linking vimrc..."
 #ln -s $BASE_DIR/$VIM_DIR ~/.$VIM_DIR
@@ -44,3 +47,7 @@ ln -s $BASE_DIR/$BASH_DIR/$BASH_CONF ~/$BASH_CONF
 ln -s $BASE_DIR/$BASH_DIR/$BASH_HIST ~/$BASH_HIST
 ln -s $BASE_DIR/$BASH_DIR/$BASH_ALIAS ~/$BASH_ALIAS
 ln -s $BASE_DIR/$BASH_DIR/$BASH_PRO ~/$BASH_PRO
+
+# GIT
+echo "============>Linking git config ... "
+ln -s $BASE_DIR/$GIT_DIR/$GIT_CONF ~/$GIT_CONF
