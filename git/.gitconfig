@@ -7,7 +7,7 @@
 	log1 = log --oneline --graph --all --decorate
 	co = checkout
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	cm = commit
+	ci = commit
 [color]
 	ui = auto
 [filter "lfs"]
