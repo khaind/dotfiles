@@ -91,3 +91,5 @@ if [ -f ~/.gitconfig ]; then
     mv ~/.gitconfig ~/.gitconfig.bak
 fi
 ln -s $BASE_DIR/$GIT_DIR/$GIT_CONF ~/$GIT_CONF
+
+echo "== i3 setup is not support. Please link manually =="
