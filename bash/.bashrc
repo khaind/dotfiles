@@ -120,8 +120,13 @@ stty -ixon
 
 export PATH=/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/khaind/.vimpkg/bin
 
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
 # Hide long path name in terminal
-MY_PROMPT=$'\n\[\e[34m\]\u \[\e[33m\]\w\[\e[0m\]'
+MY_PROMPT='\n\[\e[35m\]$(parse_git_branch)\[\e[0m\] '
+MY_PROMPT+=$'\[\e[34m\]\u \[\e[33m\]\w\[\e[0m\]'
 MY_PROMPT+=$'$(if [[ $? == 0 ]]; then echo "\\[\e[32m\\]\n> "; else echo "\\[\e[31m\\]\n> "; fi)\[\e[0m\]'
 export PS1=$MY_PROMPT
 # PS1=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\e[0m\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \u \w \n$ '
