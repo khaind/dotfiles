@@ -116,16 +116,20 @@ fi
 
 stty -ixon
 
-cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
+#cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
 
 export PATH=/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/khaind/.vimpkg/bin
 
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
 # Hide long path name in terminal
-# MY_PROMPT=$'\[\e[34m\u\e[0m@\e[36m\h\e[0m:\e[33m\w\]\n'
-# MY_PROMPT=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \w'
-# MY_PROMPT+=$'\n> '
-# export PS1=$MY_PROMPT
-PS1=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\e[0m\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \u \w \n$ '
+MY_PROMPT='\n\[\e[35m\]$(parse_git_branch)\[\e[0m\] '
+MY_PROMPT+=$'\[\e[34m\]\u \[\e[33m\]\w\[\e[0m\]'
+MY_PROMPT+=$'$(if [[ $? == 0 ]]; then echo "\\[\e[32m\\]\n> "; else echo "\\[\e[31m\\]\n> "; fi)\[\e[0m\]'
+export PS1=$MY_PROMPT
+# PS1=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\e[0m\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \u \w \n$ '
 PROMPT_DIRTRIM=3
 
 # USER ENVIRONMENT & SHELL VARIABLES
@@ -134,7 +138,7 @@ HISTSIZE=500000
 HISTFILESIZE=500000
 
 # Erase duplicate in history
-export HISTCONTROL="ignoreboth:erasedups"
+export HISTCONTROL=ignoreboth:erasedups
 
 # Do not save history of history or ls command
 export HISTIGNORE="history*"
@@ -169,3 +173,35 @@ function gentag()
     find $PWD | egrep -i "\.(c|h|cpp)$" > cscope.files
     ctags -R . *.c *.h *.cpp --tag-relative=yes ./
 }
+
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:$PATH
+
+# set -o vi
+
+# Color schema
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0222222" #black
+    echo -en "\e]P8222222" #darkgrey
+    echo -en "\e]P1803232" #darkred
+    echo -en "\e]P9982b2b" #red
+    echo -en "\e]P25b762f" #darkgreen
+    echo -en "\e]PA89b83f" #green
+    echo -en "\e]P3aa9943" #brown
+    echo -en "\e]PBefef60" #yellow
+    echo -en "\e]P4324c80" #darkblue
+    echo -en "\e]PC2b4f98" #blue
+    echo -en "\e]P5706c9a" #darkmagenta
+    echo -en "\e]PD826ab1" #magenta
+    echo -en "\e]P692b19e" #darkcyan
+    echo -en "\e]PEa1cdcd" #cyan
+    echo -en "\e]P7ffffff" #lightgrey
+    echo -en "\e]PFdedede" #white
+    clear #for background artifacting
+fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+
+eval $(thefuck --alias)

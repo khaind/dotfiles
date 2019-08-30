@@ -49,7 +49,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 
 " Fuzzy finder
-Plugin 'kien/ctrlp.vim'
+" Plugin 'kien/ctrlp.vim'
+Plugin 'junegunn/fzf.vim'
 
 " Color schemes
 Plugin 'jnurmine/Zenburn'
@@ -96,6 +97,12 @@ Plugin 'tpope/vim-commentary'
 " Snippets are separated from the engine. Add this if you want them:
 " Plugin 'honza/vim-snippets'
 
+" Format documents with F3
+Plugin 'Chiel92/vim-autoformat'
+
+" Zen mode - distraction free writing
+Plugin 'junegunn/goyo.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -123,6 +130,9 @@ set visualbell
 " Nerdtree toogle
 map <silent> <C-n> :NERDTreeToggle<CR>
 
+" Use netrw instead of nerdtree
+ " map <silent> <C-n> :Vexplore<CR>
+
 " Smarter tab line
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
@@ -145,8 +155,8 @@ endif
 " Syntastic settings
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 nnoremap <silent> <leader>ln :lnext<CR>
@@ -183,6 +193,7 @@ let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
 " clang complete
+" Ubuntu's path
 let g:clang_library_path='/usr/lib/llvm-6.0/lib'
 
 " ============= GENERAL SETTINGS ===========
@@ -219,6 +230,7 @@ set wildmode=list:longest
 
 " Change tab and eol character when 'set list' is used
 set listchars=tab:▸\ ,eol:¬
+set list
 
 " Python indentation PEP8
 if !exists("autocommands_loaded")
@@ -272,7 +284,9 @@ nnoremap <C-H> <C-W><C-H>
 nmap <F8> :TagbarToggle<CR>
 
 " Map leader . to search tag with CtrlP
-nnoremap <leader>. :CtrlPTag<cr>
+" nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <leader>. :Tags<cr>
+nnoremap <C-P> :Files<cr>
 
 " Map F7 to indent the whole file
 map <F7> mzgg=G`z
@@ -294,5 +308,56 @@ inoremap <leader>s <C-c>:w<cr>
 
 " Quit file with leader - q
 noremap <leader>q :q<cr>
+noremap <leader>x :qa<cr>
+
+" Auto Format document with F3
+noremap <F3> :Autoformat<CR>
+" disabled the fallback to vim'indent, retab, remove trailing space
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
 
 filetype plugin indent on    " required
+"clang path for Macos
+let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+
+" netrw settings
+" let g:netrw_banner = 0
+" let g:netrw_liststyle = 3
+" let g:netrw_browse_split = 4
+" let g:netrw_altv = 1
+" let g:netrw_winsize = 25
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Vexplore
+" augroup END
+
+" Change buffer with g prefix
+" Move to the previous buffer with "gp"
+nnoremap gp :bp<CR>
+" Move to the next buffer with "gn"
+nnoremap gn :bn<CR>
+" List all possible buffers with "gl"
+nnoremap gl :ls<CR>
+" List all possible buffers with "gb" and accept a new buffer argument [1]
+nnoremap gb :ls<CR>:b
+
+set rtp+=/usr/local/opt/fzf
+
+" The Silver Searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor\ --word-regexp\ --case-sensitive
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  " let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  " let g:ctrlp_use_caching = 0
+endif
+
+" bind K to grep word under cursor
+" nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap K :Ag! <C-R><C-W><CR>:cw<CR>
+
+nnoremap \ :Ag<SPACE>
