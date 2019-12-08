@@ -47,6 +47,7 @@ if [ -d ~/.tmux ]; then
     mv ~/.tmux ~/.tmux.bak
 fi
 ln -s $BASE_DIR/$TMUX_DIR ~/.$TMUX_DIR
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 if [ -f ~/.tmux.conf ]; then
     echo "======> tmux conf existed, backing up"
