@@ -5060,3 +5060,518 @@ youtube-dl --username "justdoit90@outlook.com" --password "Kh@i2011" --verbose -
 df -h
 #1552140819
 df -h
+#1575712839
+openssl version
+#1575712854
+locate openssl
+#1575723896
+brew update
+#1575733279
+brew link --force openssl
+#1575733310
+openssl version -a
+#1575733511
+ls /usr/local/etc/
+#1575733573
+cd /usr/local/etc/
+#1575733662
+tmux
+#1575734597
+brew uninstall macvim
+#1575734612
+brew uninstall chunkwm
+#1575734623
+brew uninstall skhd
+#1575734635
+brew uninstall youtube-dl
+#1575734644
+brew upgrade
+#1575736909
+brew uninstall zsh
+#1575736927
+vim
+#1575736927
+vim
+#1575776925
+df -h
+#1575777136
+cowsay
+#1575777146
+vim ~/.bashrc 
+#1575777250
+tmux
+#1575777250
+tmux
+#1575777977
+tmux version
+#1575777983
+man tmux
+#1575777996
+tmux -V
+#1575778139
+vim ~/.tmux.conf 
+#1575779643
+cd .tmux
+#1575779645
+cd plugins/
+#1575779655
+..
+#1575779663
+cd Code/config/dotfiles
+#1575779673
+ll
+#1575779680
+cat ubuntu-xenial-16.04-cloudimg-console.log 
+#1575779705
+git diff
+#1575779719
+git diff bash/.bash_profile 
+#1575779738
+git diff bash/.bashrc 
+#1575779794
+git co -b tmux
+#1575779797
+git add tmux/
+#1575779872
+git co -- tmux/*
+#1575779883
+git restore --staged
+#1575779891
+git restore --staged tmux/plugins/
+#1575779920
+git ci -m 'updated tmux 3.0a config on macos'
+#1575779927
+git diff vim/.vimrc 
+#1575780014
+vim installEnv.sh 
+#1575780059
+git add installEnv.sh 
+#1575780062
+git ci --amend
+#1575780073
+git push origin tmux
+#1575781268
+git diff vim/
+#1575781286
+git stash
+#1575781292
+git br
+#1575781297
+git co master
+#1575781300
+git pull
+#1575781346
+gitk
+#1575781526
+brew cask install retinizer
+#1575781639
+open /System/Library/Frameworks/Tk.framework/Versions/Current/Resources/
+#1575781793
+gitk&
+#1575781811
+git config --list
+#1575781896
+git merge tmux
+#1575781905
+igt st
+#1575786016
+ls
+#1575786017
+cd -
+#1575786019
+git st
+#1575786026
+git push
+#1575786037
+git log -1
+#1575786045
+cd
+#1575786118
+brew cleanup
+#1575786153
+brew doctor
+#1575786170
+exit
+#1575712123
+eixt
+#1575712264
+df -h
+#1575712301
+brew uninstall conan
+#1575712707
+echo $LD_LIBRARY_PATH
+#1575712765
+openssl --version
+#1575712769
+openssl
+#1575712776
+openssl -v
+#1575712778
+openssl -V
+#1575712786
+openssl --Version
+#1575712791
+openssl --help
+#1575712799
+help
+#1575712839
+openssl version
+#1575712854
+locate openssl
+#1575723896
+brew update
+#1575733279
+brew link --force openssl
+#1575733310
+openssl version -a
+#1575733511
+ls /usr/local/etc/
+#1575733573
+cd /usr/local/etc/
+#1575734597
+brew uninstall macvim
+#1575734612
+brew uninstall chunkwm
+#1575734623
+brew uninstall skhd
+#1575734635
+brew uninstall youtube-dl
+#1575734644
+brew upgrade
+#1575736909
+brew uninstall zsh
+#1575736927
+vim
+#1575736927
+vim
+#1575776925
+df -h
+#1575777136
+cowsay
+#1575777146
+vim ~/.bashrc 
+#1575777334
+tmux help
+#1575777339
+tmux --help
+#1575777586
+vim 
+#1575779172
+vim ~/.tmux.conf 
+#1575779405
+cd
+#1575779413
+cd Code/config/dotfiles
+#1575779423
+cd tmux/
+#1575779440
+..
+#1575779501
+cd 
+#1575779517
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#1575779524
+ll
+#1575779527
+rm tmux
+#1575779534
+cd .tmux
+#1575779542
+ls plugins/
+#1575779554
+tmux source ~/.tmux.conf 
+#1575779579
+cd ..
+#1575779579
+ls
+#1575779580
+tmux
+#1575786172
+exit
+#1575786203
+ls
+#1575786210
+sjdfljsfwieo
+#1575786213
+thefuck
+#1575779423
+cd tmux/
+#1575779501
+cd 
+#1575779517
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#1575779524
+ll
+#1575779527
+rm tmux
+#1575779534
+cd .tmux
+#1575779542
+ls plugins/
+#1575779554
+tmux source ~/.tmux.conf 
+#1575779579
+cd ..
+#1575793384
+tmux
+#1575793388
+tmux ls
+#1575793439
+echo "export CLICOLOR=1" >> ~/.bash_profile 
+#1575793500
+brew list
+#1575793510
+brew info boost
+#1575793544
+vim ~/.bash_profile 
+#1575793571
+cd Code/
+#1575793574
+cd Program/
+#1575793578
+ls boost_1_68_0/
+#1575793594
+cd boost_1_68_0/
+#1575793607
+ls status/
+#1575793614
+rm -rf boost_1_68_0/
+#1575793626
+df -h
+#1575793631
+..
+#1575793632
+ls
+#1575793638
+eit
+#1575793639
+exit
+#1575796633
+vim /Users/khaind/.bashrc 
+#1575818994
+cd
+#1575819000
+vim /Users/khaind/.tmux.conf 
+#1575819837
+df -h
+#1575900424
+exit
+#1575779517
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#1575779524
+ll
+#1575779527
+rm tmux
+#1575779534
+cd .tmux
+#1575779542
+ls plugins/
+#1575779554
+tmux source ~/.tmux.conf 
+#1575779579
+cd ..
+#1575793384
+tmux
+#1575793388
+tmux ls
+#1575793439
+echo "export CLICOLOR=1" >> ~/.bash_profile 
+#1575793510
+brew info boost
+#1575793544
+vim ~/.bash_profile 
+#1575793571
+cd Code/
+#1575793574
+cd Program/
+#1575793578
+ls boost_1_68_0/
+#1575793594
+cd boost_1_68_0/
+#1575793607
+ls status/
+#1575793614
+rm -rf boost_1_68_0/
+#1575793631
+..
+#1575793638
+eit
+#1575794583
+tree
+#1575794586
+tree -L 1
+#1575794591
+tree -L 2
+#1575794705
+fd() {   local dir;   dir=$(find ${1:-.} -path '*/\.*' -prune \
+                  -o -type d -print 2> /dev/null | fzf +m) &&   cd "$dir"; }
+#1575794735
+fd
+#1575795020
+cd Code/config/dotfiles
+#1575795025
+find . | wc -1
+#1575795030
+find . | wc -l
+#1575795045
+find .
+#1575795249
+ack
+#1575795252
+ack --dump
+#1575795330
+ag
+#1575795432
+git version
+#1575795436
+which git
+#1575795481
+ls -la ~/.ssh/
+#1575795490
+cat ~/.ssh/known_hosts 
+#1575795546
+vim ~/.ssh/config 
+#1575795683
+brew list | grep bash
+#1575795687
+brew list
+#1575795835
+cd /usr/local/etc/bash_completion.d/
+#1575795856
+vim git-completion.bash 
+#1575795874
+cd -
+#1575795876
+brew install bash-completion
+#1575795919
+echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+#1575795930
+source ~/.bash_profile 
+#1575795954
+brew search completion
+#1575796098
+pip --version
+#1575796149
+brew install yarn-completion
+#1575796167
+brew install tmuxinator-completion
+#1575796384
+brew install pip-completion
+#1575796448
+c++ --version
+#1575796483
+node --version
+#1575796516
+cd go/
+#1575796545
+cd src/
+#1575796553
+cd hello/
+#1575796558
+go run hello.go
+#1575796771
+source ~/.bashrc 
+#1575796773
+go
+#1575796777
+go version
+#1575796794
+rm hello
+#1575796797
+go build
+#1575796801
+./hello 
+#1575796887
+vagrant 
+#1575796893
+vagrant -v
+#1575796906
+vagrant global-status
+#1575797267
+docker system df
+#1575799055
+pip install stronghold
+#1575801016
+df -h
+#1575803790
+gcc
+#1575803795
+gcc -v
+#1575803931
+cd
+#1575803935
+cd Code/Source/Docker
+#1575803935
+ls
+#1575803944
+docker pull conanio/gcc49
+#1575818906
+docker pull conanio/gcc49:1.20.5
+#1575818949
+docker rmi conanio/gcc49:latest
+#1575818959
+docker images
+#1575900425
+exit
+#1575793672
+cd Code/config/dotfiles
+#1575793692
+vim ~/.bashrc 
+#1575793805
+git br
+#1575793811
+parse_git_branch 
+#1575793829
+tmux
+#1575900428
+exit
+#1575900483
+exit
+#1575901305
+who
+#1577521756
+typescript
+#1577521759
+tsc
+#1577521767
+npm install -g elm
+#1577521783
+whoami
+#1577521822
+cat /Users/khaind/.npm/_logs/2019-12-28T08_29_29_414Z-debug.log
+#1575793805
+git br
+#1575793811
+parse_git_branch 
+#1575793829
+tmux
+#1575900428
+exit
+#1575900495
+ksjlaflsdf
+#1575901065
+tty
+#1575901232
+who
+#1577289523
+df -h
+#1577289538
+tmux ls
+#1577463706
+vim
+#1577521492
+cd Code/Source/
+#1577521502
+cd Javascript/
+#1577521519
+mkdir Elm
+#1577521521
+cd Elm/
+#1577521522
+ls
+#1577521531
+git clone https://github.com/auth0-blog/elm-with-jwt-api.git
+#1577521535
+elm
+#1577523071
+exit

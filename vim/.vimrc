@@ -40,7 +40,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 
 " Syntax checking/hightlighting
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
+Plugin 'dense-analysis/ale'
 
 " Surround
 Plugin 'tpope/vim-surround'
@@ -103,6 +104,10 @@ Plugin 'Chiel92/vim-autoformat'
 " Zen mode - distraction free writing
 Plugin 'junegunn/goyo.vim'
 
+Plugin 'fatih/vim-go'
+
+Plugin 'ryanoasis/vim-devicons'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -131,7 +136,7 @@ set visualbell
 map <silent> <C-n> :NERDTreeToggle<CR>
 
 " Use netrw instead of nerdtree
- " map <silent> <C-n> :Vexplore<CR>
+" map <silent> <C-n> :Vexplore<CR>
 
 " Smarter tab line
 let g:airline#extensions#tabline#enabled = 1
@@ -153,14 +158,14 @@ else
 endif
 
 " Syntastic settings
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 2
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 1
-let g:syntastic_cpp_compiler = 'g++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
-nnoremap <silent> <leader>ln :lnext<CR>
-nnoremap <silent> <leader>lp :lprevious<CR>
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 2
+" let g:syntastic_check_on_open = 0
+" let g:syntastic_check_on_wq = 1
+" let g:syntastic_cpp_compiler = 'g++'
+" let g:syntastic_cpp_compiler_options = ' -std=c++11'
+nnoremap <silent> <leader>ln :ALENext<CR>
+nnoremap <silent> <leader>lp :ALEPrevious<CR>
 
 " Vim-test
 " these 'Ctrl mappings' work well when Caps Lock is mapped to Ctrl
@@ -193,8 +198,16 @@ let g:cpp_class_decl_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
 " clang complete
-" Ubuntu's path
-let g:clang_library_path='/usr/lib/llvm-6.0/lib'
+if has("unix")
+    " Ubuntu's path
+    let g:clang_library_path='/usr/lib/llvm-6.0/lib'
+
+    let s:uname = system("uname -s")
+    if s:uname == "Darwin"
+        "clang path for Macos
+        let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+    endif
+endif
 
 " ============= GENERAL SETTINGS ===========
 " Set tab setting
@@ -236,13 +249,13 @@ set list
 if !exists("autocommands_loaded")
     let autocommands_loaded = 1
     au BufNewFile,BufRead *.py
-        \ set tabstop=4 |
-        \ set softtabstop=4 |
-        \ set shiftwidth=4 |
-        \ set textwidth=79 |
-        \ set expandtab |
-        \ set autoindent |
-        \ set fileformat=unix
+                \ set tabstop=4 |
+                \ set softtabstop=4 |
+                \ set shiftwidth=4 |
+                \ set textwidth=79 |
+                \ set expandtab |
+                \ set autoindent |
+                \ set fileformat=unix
 
     " Flag unnecessary whitespace
     " highlight BadWhitespace ctermbg=black guibg=darkred
@@ -250,9 +263,9 @@ if !exists("autocommands_loaded")
 
     " web indentation
     au BufNewFile,BufRead *.js,*.html,*.css
-        \ set tabstop=2 |
-        \ set softtabstop=2 |
-        \ set shiftwidth=2
+                \ set tabstop=2 |
+                \ set softtabstop=2 |
+                \ set shiftwidth=2
 endif
 
 " ============= KEY MAPPINGS =============
@@ -318,8 +331,7 @@ let g:autoformat_retab = 0
 let g:autoformat_remove_trailing_spaces = 0
 
 filetype plugin indent on    " required
-"clang path for Macos
-let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+
 
 " netrw settings
 " let g:netrw_banner = 0
@@ -346,14 +358,14 @@ set rtp+=/usr/local/opt/fzf
 
 " The Silver Searcher
 if executable('ag')
-  " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor\ --word-regexp\ --case-sensitive
+    " Use ag over grep
+    set grepprg=ag\ --nogroup\ --nocolor\ --word-regexp\ --case-sensitive
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  " let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+    " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+    " let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
-  " ag is fast enough that CtrlP doesn't need to cache
-  " let g:ctrlp_use_caching = 0
+    " ag is fast enough that CtrlP doesn't need to cache
+    " let g:ctrlp_use_caching = 0
 endif
 
 " bind K to grep word under cursor
@@ -361,3 +373,6 @@ endif
 nnoremap K :Ag! <C-R><C-W><CR>:cw<CR>
 
 nnoremap \ :Ag<SPACE>
+
+" bind <leader>wt to toogle list vimwiki
+" nnoremap <leader>wt :VimwikiToggleListItem<CR>

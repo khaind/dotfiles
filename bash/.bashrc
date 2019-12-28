@@ -177,6 +177,7 @@ function gentag()
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
 
 # set -o vi
 
@@ -205,3 +206,7 @@ fi
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 eval $(thefuck --alias)
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
