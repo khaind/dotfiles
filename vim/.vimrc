@@ -1,5 +1,6 @@
 inoremap jk <Esc>
 let mapleader = ','
+let maplocalleader = "\<space>"
 
 syntax on
 set encoding=utf-8
@@ -108,6 +109,8 @@ Plugin 'fatih/vim-go'
 
 Plugin 'ryanoasis/vim-devicons'
 
+Plugin 'elmcast/elm-vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -199,13 +202,13 @@ let g:cpp_experimental_template_highlight = 1
 
 " clang complete
 if has("unix")
-    " Ubuntu's path
-    let g:clang_library_path='/usr/lib/llvm-6.0/lib'
-
     let s:uname = system("uname -s")
-    if s:uname == "Darwin"
+    if s:uname == "Darwin\n"
         "clang path for Macos
         let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+    else
+        " Ubuntu's path
+        let g:clang_library_path='/usr/lib/llvm-6.0/lib'
     endif
 endif
 
@@ -281,8 +284,8 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
-" Enable folding with the spacebar
-nnoremap <space> za
+" Enable folding with the leader-f
+nnoremap <leader>f za
 
 " split navigations
 nnoremap <C-J> <C-W><C-J>
