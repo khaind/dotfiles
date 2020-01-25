@@ -1,6 +1,21 @@
 #!/bin/bash
 # set -x
 
+echo "==> Installing necessary softs"
+sudo apt-get -y install vim
+sudo apt-get -y install tmux
+sudo apt install -y cowsay
+sudo apt-get install -y thefuck
+sudo apt install -y python-pip
+pip install setuptools
+pip install virtualenvwrapper
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+sudo apt install -y i3
+sudo apt-get install -y libconfuse-dev libyajl-dev libasound2-dev libiw-dev asciidoc libpulse-dev libnl-genl-3-dev
+sudo apt-get install -y feh
+sudo apt install -y i3blocks
+
 # Script to link all dot files
 echo "==>Install environment by linking dot files"
 BASE_DIR=`pwd`
