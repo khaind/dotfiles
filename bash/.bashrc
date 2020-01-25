@@ -104,7 +104,9 @@ if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/path.bash.inc' ]; then sou
 if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/completion.bash.inc' ]; then source '/home/khaind/FILES/05_Setup/google-cloud-sdk/completion.bash.inc'; fi
 
 # Virtual Environment Wrapper
-source /usr/local/bin/virtualenvwrapper.sh
+if [[ "$OSTYPE" == "linux-gnu" ]]; then source "$HOME/.local/bin/virtualenvwrapper.sh";
+elif [[ "$OSTYPE" == "darwin"* ]]; then source '/usr/local/bin/virtualenvwrapper.sh';
+fi
 
 ############################# FUNCTION #################################
 function gentag()
