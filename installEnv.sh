@@ -15,6 +15,7 @@ sudo apt install -y i3
 sudo apt-get install -y libconfuse-dev libyajl-dev libasound2-dev libiw-dev asciidoc libpulse-dev libnl-genl-3-dev
 sudo apt-get install -y feh
 sudo apt install -y i3blocks
+sudo apt install -y rxvt-unicode
 
 # Script to link all dot files
 echo "==>Install environment by linking dot files"
@@ -35,6 +36,8 @@ BASH_PRO=.bash_profile
 
 GIT_DIR=git
 GIT_CONF=.gitconfig
+
+RXVT_CONF=.Xdefaults
 
 # VIM
 echo "====>Linking vimrc..."
@@ -108,4 +111,4 @@ if [ -f ~/.gitconfig ]; then
 fi
 ln -s $BASE_DIR/$GIT_DIR/$GIT_CONF ~/$GIT_CONF
 
-echo "== i3 setup is not support. Please link manually =="
+echo "== i3 setup is not support. Please link manually i3 config and rxvt-unicode default config=="
