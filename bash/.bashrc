@@ -8,10 +8,6 @@ case $- in
     *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-# HISTCONTROL=ignoreboth
-
 # append to the history file, don't overwrite it
 shopt -s histappend
 
@@ -75,7 +71,6 @@ fi
 
 stty -ixon
 
-#cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
 
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -86,10 +81,9 @@ parse_git_branch() {
 # MY_PROMPT+=$'\[\e[34m\]\u \[\e[33m\]\w\[\e[0m\]'
 # MY_PROMPT+=$'$(if [[ $? == 0 ]]; then echo "\\[\e[32m\\]\n> "; else echo "\\[\e[31m\\]\n> "; fi)\[\e[0m\]'
 # export PS1=$MY_PROMPT
-# PS1=$'$(if [[ $? == 0 ]]; then echo "\[\e[32m\xe2\x98\xba\e[0m\]"; else echo "\[\e[31m\xe2\x98\xb9\]"; fi)\[\e[0m\]  \u \w \n$ '
 export PS1='
 \[\e[34m\]\u \[\e[33m\]\w\[\e[0m\]
-$(if [[ $? == 0 ]]; then echo "\[\e[32m\]> "; else echo "\[\e[31m\]> "; fi)\[\e[0m\]'
+$(parse_git_branch) $(if [[ $? == 0 ]]; then echo "\[\e[32m\]> "; else echo "\[\e[31m\]> "; fi)\[\e[0m\]'
 PROMPT_DIRTRIM=3
 
 # USER ENVIRONMENT & SHELL VARIABLES
@@ -104,7 +98,7 @@ if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/path.bash.inc' ]; then sou
 if [ -f '/home/khaind/FILES/05_Setup/google-cloud-sdk/completion.bash.inc' ]; then source '/home/khaind/FILES/05_Setup/google-cloud-sdk/completion.bash.inc'; fi
 
 # Virtual Environment Wrapper
-if [[ "$OSTYPE" == "linux-gnu" ]]; then source "$HOME/.local/bin/virtualenvwrapper.sh";
+if [[ "$OSTYPE" == "linux-gnu" ]]; then source "$HOME/.local/bin/virtualenvwrapper.sh"; cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1);
 elif [[ "$OSTYPE" == "darwin"* ]]; then source '/usr/local/bin/virtualenvwrapper.sh';
 fi
 

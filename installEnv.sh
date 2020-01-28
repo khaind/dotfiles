@@ -33,6 +33,7 @@ BASH_CONF=.bashrc
 BASH_HIST=.bash_history
 BASH_ALIAS=.bash_aliases
 BASH_PRO=.bash_profile
+BASH_PRO_BIONIC=.profile
 
 GIT_DIR=git
 GIT_CONF=.gitconfig
@@ -99,9 +100,14 @@ if [ -f ~/.bash_profile ]; then
     echo "======> bash profile existed, backing up"
     mv ~/.bash_profile ~/.bash_profile.bak
 fi
+if [ -f ~/.profile ]; then
+    echo "======> bash profile existed, backing up"
+    mv ~/.profile ~/.profile.bak
+fi
 ln -s $BASE_DIR/$BASH_DIR/$BASH_PRO ~/$BASH_PRO
+ln -s $BASE_DIR/$BASH_DIR/$BASH_PRO_BIONIC ~/$BASH_PRO
 echo "======> Sourcing bashrc"
-source ~/$BASH_CONF
+source ~/$BASH_PRO
 
 # GIT
 echo "====>Linking git config ... "
