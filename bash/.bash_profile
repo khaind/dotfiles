@@ -26,6 +26,7 @@ export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/snap/bin
 
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 # export FZF_DEFAULT_COMMAND='ag --hidden --depth 15 --ignore .git -f -g ""'

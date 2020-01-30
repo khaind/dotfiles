@@ -212,8 +212,11 @@ bar {
                 inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
                 urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
         }
+    # tray_output primary
     position top
 }
+# in case of layout change event - send signal to i3blocks
+# bindsym ISO_Next_Group exec pkill -RTMIN+1 i3blocks
 
 bindsym $mod+shift+x exec i3lock --color 475263
 
@@ -235,5 +238,6 @@ bindsym XF86AudioPrev exec playerctl previous
 exec --no-startup-id compton -f
 # Copy paste
 exec --no-startup-id clipit
-
+# exec --no-startup-id setxkbmap -layout us,vn -option grp:alt_shift_toggle
 exec --no-startup-id setxkbmap -option 'ctrl:nocaps,shift:both_capslock_cancel'
+exec --no-startup-id ibus-daemon --xim -d -r
