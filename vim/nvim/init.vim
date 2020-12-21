@@ -3,6 +3,7 @@ let &packpath = &runtimepath
 
 source ~/.config/nvim/.vimrc
 
+source $HOME/.config/nvim/float_term.vim
 source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/coc.vim
 " source $HOME/.config/nvim/languageClient.vim

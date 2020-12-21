@@ -13,6 +13,10 @@ set rtp+=~/.fzf
 "nnoremap <leader>/ :Ag! <C-R><C-W><CR>
 "":cw<CR>
 
+if executable("rg") 
+    set grepprg=rg\ --vimgrep 
+endif
+
 " This is the default extra key bindings
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
