@@ -19,8 +19,8 @@
     "diagnostic.errorSign": "•",
     "diagnostic.warningSign": "•",
     "diagnostic.infoSign": "•",
-    "list.maxHeight": 18,
     "list.maxPreviewHeight": 24,
     "yaml.trace.server": "verbose",
-    "coc.preferences.extensionUpdateCheck": "daily"
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "tsserver.trace.server": "verbose"
 }

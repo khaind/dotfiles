@@ -32,7 +32,6 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 map <C-p> :Files<CR>
 map gb :Buffers<CR>
 nnoremap <leader>g :Rg<CR>
-nnoremap \ :Rg<SPACE>
 nnoremap <leader>t :Tags<CR>
 nnoremap <leader>m :Marks<CR>
 

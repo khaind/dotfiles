@@ -112,8 +112,8 @@ omap ac <Plug>(coc-classobj-a)
 
 " Use CTRL-S for selections ranges.
 " Requires 'textDocument/selectionRange' support of LS, ex: coc-tsserver
-nmap <silent> <C-s> <Plug>(coc-range-select)
-xmap <silent> <C-s> <Plug>(coc-range-select)
+nmap <silent> <leader>r <Plug>(coc-range-select)
+xmap <silent> <leader>r <Plug>(coc-range-select)
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
@@ -150,7 +150,7 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 " Show all diagnostics.
 nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
 " Manage extensions.
-nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
+nnoremap <silent> <space>x  :<C-u>CocList extensions<cr>
 " Show commands.
 nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
 " Find symbol of current document.
@@ -163,7 +163,11 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+" listing directory as tree
+nnoremap <space>e :CocCommand explorer<CR>
 
 " C++ switch source header
 nnoremap <leader>sh :CocCommand clangd.switchSourceHeader<CR>
+
+nnoremap \ :CocSearch<SPACE>
 
