@@ -29,3 +29,19 @@
 [mergetool "meld"]
     trustExitCode = true
     cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
+[tig "bind"]
+    # Amend last commit in status view
+    status = A !?git commit --amend
+    #Create a branch
+    main = B !?git checkout -b %(prompt)
+    #Push to Remote repository
+    main = P !?git push origin
+    #Stash modifications
+    status = Y !@git stash save
+    stash = P !@git stash pop
+    stash = A !?git stash apply --index %(prompt)
+    #Fetch
+    main = T !?git fetch --all --prune
+    #Rebase
+    main = _ !?git rebase -i %(prompt)
+
