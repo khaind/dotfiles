@@ -26,8 +26,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" Syntax checking/hightlighting
-" Plugin 'dense-analysis/ale'
+Plugin 'sheerun/vim-polyglot'
 
 " Surround
 Plugin 'tpope/vim-surround'
@@ -38,18 +37,18 @@ Plugin 'tpope/vim-surround'
 " Fuzzy finder
 Plugin 'junegunn/fzf.vim'
 
+Plugin 'mhinz/vim-signify'
+
 " Color schemes
 Plugin 'morhetz/gruvbox'
-" Plugin 'jnurmine/Zenburn'
+Plugin 'jnurmine/Zenburn'
+Plugin 'jacoborus/tender.vim'
 " Plugin 'altercation/vim-colors-solarized'
 
 " Python PEP8 syntax checking
 " Plugin 'nvie/vim-flake8'
 
 Plugin 'itchyny/lightline.vim'
-
-" Display tag in a window
-" Plugin 'majutsushi/tagbar'
 
 " VIM WIKI
 Plugin 'vimwiki/vimwiki'
@@ -82,8 +81,6 @@ Plugin 'ryanoasis/vim-devicons'
 " Plugin 'elmcast/elm-vim'
 
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
-" Plugin 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh', }
-" Plugin 'neovim/nvim-lsp'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -99,36 +96,18 @@ set showcmd
 set visualbell
 
 " =========== PLUGIN CONFIGURATION ==============
-" Use netrw instead of nerdtree
-map <silent> <C-n> :Lexplore<CR>
-
-" netrw settings
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 25
-" augroup ProjectDrawer
-"   autocmd!
-"   autocmd VimEnter * :Vexplore
-" augroup END
-
 " let python_hightlight_all=1
 syntax enable
 set laststatus=2
 " 256 color
-set t_Co=256
+" set t_Co=256
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
-
-" nnoremap <silent> <leader>ln :ALENext<CR>
-" nnoremap <silent> <leader>lp :ALEPrevious<CR>
-" nnoremap <silent> <F12> :ALEGoToDefinition<CR>
-" let g:ale_fixers = {
-" \   '*': ['remove_trailing_lines', 'trim_whitespace'],
-" \   'javascript': ['eslint'],
-" \}
-
-" let g:ale_fix_on_save = 1
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 " let g:UltiSnipsExpandTrigger="<tab>"
@@ -173,6 +152,12 @@ set wildmode=list:longest
 " Change tab and eol character when 'set list' is used
 set listchars=tab:▸\ ,eol:¬
 set list
+
+" javascript uses 2 spacing indentation
+autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype javascriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype typescript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype typescriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " ============= KEY MAPPINGS =============
 " Disable Arrow keys in Escape mode
@@ -233,5 +218,6 @@ nnoremap gl :ls<CR>
 " nohup to discard highlight search
 nnoremap <leader><ESC> :noh<cr>
 
-tnoremap <Esc> <C-\><C-n>
+" return to normal mode in vim term
+tnoremap <Esc> <C-\><C-n> :close<cr>
 
