@@ -37,8 +37,6 @@ Plugin 'tpope/vim-surround'
 " Fuzzy finder
 Plugin 'junegunn/fzf.vim'
 
-Plugin 'mhinz/vim-signify'
-
 " Color schemes
 Plugin 'morhetz/gruvbox'
 Plugin 'jnurmine/Zenburn'
