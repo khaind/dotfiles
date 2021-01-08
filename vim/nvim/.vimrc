@@ -136,6 +136,9 @@ set nu
 set hlsearch
 set incsearch
 
+" set inccommand=split
+" set redrawtime=3000
+
 " Show matching brances
 set showmatch
 set matchtime=3
@@ -156,6 +159,9 @@ autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabsto
 autocmd Filetype javascriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype typescript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype typescriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
+" Correct hightlight comment for json
+autocmd FileType json syntax match Comment +\/\/.\+$+
 
 " ============= KEY MAPPINGS =============
 " Disable Arrow keys in Escape mode

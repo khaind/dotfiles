@@ -51,8 +51,8 @@ else
 endif
 
 " Use `[g` and `]g` to navigate diagnostics
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> [d <Plug>(coc-diagnostic-prev)
+nmap <silent> ]d <Plug>(coc-diagnostic-next)
 
 " GoTo code navigation.
 nmap <leader>cd <Plug>(coc-definition)
@@ -61,7 +61,8 @@ nmap <leader>cm <Plug>(coc-implementation)
 nmap <leader>cr <Plug>(coc-references)
 
 " Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>cn <Plug>(coc-rename)
+nmap <leader>. <Plug>(coc-refactor)
 
 " Formatting selected code.
 xmap <leader>f  <Plug>(coc-format-selected)
@@ -73,31 +74,40 @@ xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
 " Remap keys for applying codeAction to the current buffer.
-nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader>A  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader>cf  <Plug>(coc-fix-current)
 
 " Use CTRL-S for selections ranges.
 " Requires 'textDocument/selectionRange' support of LS, ex: coc-tsserver
 nmap <silent> <leader>r <Plug>(coc-range-select)
 xmap <silent> <leader>r <Plug>(coc-range-select)
 
-" COC-GIT
+"############# COC-GIT
 " navigate chunks of current buffer
-nmap [c <Plug>(coc-git-prevchunk)
-nmap ]c <Plug>(coc-git-nextchunk)
-" " navigate conflicts of current buffer
-" nmap [c <Plug>(coc-git-prevconflict)
-" nmap ]c <Plug>(coc-git-nextconflict)
-" show chunk diff at current position
-nmap <leader>gd <Plug>(coc-git-chunkinfo)
-" show commit contains current position
-nmap <leader>gc <Plug>(coc-git-commit)
+nmap [g <Plug>(coc-git-prevchunk)
+nmap ]g <Plug>(coc-git-nextchunk)
+" navigate conflicts of current buffer
+nmap [c <Plug>(coc-git-prevconflict)
+nmap ]c <Plug>(coc-git-nextconflict)
+
 " create text object for git chunks
 omap ig <Plug>(coc-git-chunk-inner)
 xmap ig <Plug>(coc-git-chunk-inner)
 omap ag <Plug>(coc-git-chunk-outer)
 xmap ag <Plug>(coc-git-chunk-outer)
+
+" Commands
+" show chunk diff at current position
+nmap <leader>gi <Plug>(coc-git-chunkinfo)
+" show commit contains current position
+nmap <leader>gc <Plug>(coc-git-commit)
+nnoremap <leader>zg :CocCommand git.foldUnchanged<CR>
+nnoremap <leader>gd :CocCommand git.diffCached<CR>
+nnoremap <leader>gs :CocCommand git.chunkStage<CR>
+nnoremap <leader>gu :CocCommand git.chunkUndo<CR>
+command! -nargs=0 GPush :CocCommand git.push<CR>
+"######################
 
 " C++ switch source header
 nnoremap <leader>sh :CocCommand clangd.switchSourceHeader<CR>
@@ -124,6 +134,20 @@ augroup mygroup
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
 
+" Multiple cursors support
+hi CocCursorRange guibg=#b16286 guifg=#ebdbb2
+nmap <silent> <C-c> <Plug>(coc-cursors-position)
+" use normal command like `<leader>xi(`
+nmap <leader>x  <Plug>(coc-cursors-operator)
+xmap <silent> <leader>d <Plug>(coc-cursors-range)
+nmap <expr> <silent> <leader>d <SID>select_current_word()
+function! s:select_current_word()
+  if !get(b:, 'coc_cursors_activated', 0)
+    return "\<Plug>(coc-cursors-word)"
+  endif
+  return "*\<Plug>(coc-cursors-word):nohlsearch\<CR>"
+endfunc
+
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
 xmap if <Plug>(coc-funcobj-i)
@@ -143,6 +167,9 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
+
+" Format with Prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Mappings using CoCList:
 " Show all diagnostics.
@@ -164,5 +191,8 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " listing directory as tree
 nnoremap <space>e :CocCommand explorer<CR>
 
-nnoremap \ :CocSearch<SPACE>
+nnoremap \ :CocSearch<SPACE>-w<SPACE>
+nnoremap <leader>* :CocSearch <C-R>=expand("<cword>")<CR><CR>
+" TODO
+" vnoremap <leader>* y:CocSearch -F <C-R>"
 
