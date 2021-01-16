@@ -28,13 +28,13 @@ let g:lightline = {
 
 function! GitStatus() abort
   let status = get(g:, 'coc_git_status', '')
-  return winwidth(0) > 120 ? status : 'no st'
+  return winwidth(0) > 100 ? status : 'no st'
 endfunction
 
 function! LightlineGitBlame() abort
   let blame = get(b:, 'coc_git_blame', '')
   " return blame
-  return winwidth(0) > 120 ? blame : 'no blame'
+  return winwidth(0) > 100 ? blame : 'no blame'
 endfunction
 
 " Use auocmd to force lightline update.

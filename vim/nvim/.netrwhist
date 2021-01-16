@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/khaind/Code/Source/Github/cpp-project-blueprint/src'
 let g:netrw_dirhist_3='/Users/khaind/Code/Source/Github/cpp-project-blueprint'
 let g:netrw_dirhist_2='/Users/khaind/Code/Source/Github/cpp-project-blueprint/tools'
 let g:netrw_dirhist_1='/Users/khaind/Code/Source/Github/cpp-project-blueprint'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/Users/khaind/Code/Source/Github/cpp-project-blueprint'
 let g:netrw_dirhist_7='/Users/khaind/Code/Source/Github/cpp-project-blueprint/build'
 let g:netrw_dirhist_6='/Users/khaind/Code/Source/Github/cpp-project-blueprint'
 let g:netrw_dirhist_5='/Users/khaind/Code/Source/Github/cpp-project-blueprint/cmake'
-let g:netrw_dirhist_4='/Users/khaind/Code/Source/Github/cpp-project-blueprint'

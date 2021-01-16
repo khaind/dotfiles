@@ -25,5 +25,6 @@
   "tsserver.trace.server": "verbose",
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "git.enableGutters": true
+  "git.enableGutters": true,
+  "snippets.ultisnips.usePythonx": false
 }

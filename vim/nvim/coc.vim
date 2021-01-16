@@ -109,6 +109,16 @@ nnoremap <leader>gu :CocCommand git.chunkUndo<CR>
 command! -nargs=0 GPush :CocCommand git.push<CR>
 "######################
 
+"############# COC-SNIPPETS
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
+" Use <C-j> for both expand and jump (make expand higher priority.)
+imap <C-j> <Plug>(coc-snippets-expand-jump)
+"######################
+
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
+
 " C++ switch source header
 nnoremap <leader>sh :CocCommand clangd.switchSourceHeader<CR>
 
@@ -191,8 +201,26 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " listing directory as tree
 nnoremap <space>e :CocCommand explorer<CR>
 
-nnoremap \ :CocSearch<SPACE>-w<SPACE>
-nnoremap <leader>* :CocSearch <C-R>=expand("<cword>")<CR><CR>
-" TODO
-" vnoremap <leader>* y:CocSearch -F <C-R>"
+" Search enhancements
+nnoremap \ :CocSearch<SPACE>-w<SPACE>--hidden<SPACE>
+nnoremap <leader>* :CocSearch<SPACE>-w<SPACE>--hidden<SPACE><C-R>=expand("<cword>")<CR><CR>
+vnoremap <leader>* y:Rg <C-R>"<CR>
+
+let g:coc_global_extensions = [
+      \ 'coc-explorer',
+      \ 'coc-tsserver',
+      \ 'coc-html',
+      \ 'coc-css',
+      \ 'coc-clangd',
+      \ 'coc-prettier',
+      \ 'coc-eslint',
+      \ 'coc-json',
+      \ 'coc-git',
+      \ 'coc-react-refactor',
+      \ 'coc-lists',
+      \ 'coc-yaml',
+      \ 'coc-flutter',
+      \ 'coc-python',
+      \ 'coc-snippets',
+      \ ]
 

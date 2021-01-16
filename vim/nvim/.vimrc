@@ -39,8 +39,8 @@ Plugin 'junegunn/fzf.vim'
 
 " Color schemes
 Plugin 'morhetz/gruvbox'
-Plugin 'jnurmine/Zenburn'
-Plugin 'jacoborus/tender.vim'
+" Plugin 'jnurmine/Zenburn'
+" Plugin 'jacoborus/tender.vim'
 " Plugin 'altercation/vim-colors-solarized'
 
 " Python PEP8 syntax checking
@@ -67,16 +67,12 @@ Plugin 'tpope/vim-commentary'
 " Plugin 'townk/vim-autoclose'
 
 " Snippets are separated from the engine. Add this if you want them:
-" Plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
 
 " Zen mode - distraction free writing
 " Plugin 'junegunn/goyo.vim'
 
-" Plugin 'fatih/vim-go'
-
 Plugin 'ryanoasis/vim-devicons'
-
-" Plugin 'elmcast/elm-vim'
 
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -92,6 +88,9 @@ set showcmd
 
 " Error bells are displayed visually.
 set visualbell
+
+" " Default set case insensitive
+" set ignorecase
 
 " =========== PLUGIN CONFIGURATION ==============
 " let python_hightlight_all=1
@@ -194,7 +193,7 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " Paste command. Set to paste mode, paste from clipboard, then re-set to
 " nopaste mode.
 " Note: This only work if vim installed with +clipboard feature
-map <leader>pp :set paste<CR>o<esc>"+p:set nopaste<CR>
+map <leader>p :set paste<CR>o<esc>"+p:set nopaste<CR>
 
 " toogle paste mode
 " set pastetoggle=<F2>
