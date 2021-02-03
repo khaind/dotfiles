@@ -3,6 +3,7 @@ let &packpath = &runtimepath
 
 if !exists('g:vscode')
     source ~/.config/nvim/.vimrc
+    source ~/.config/nvim/treesitter.vim
     source $HOME/.config/nvim/float_term.vim
     source $HOME/.config/nvim/fzf.vim
     source $HOME/.config/nvim/coc.vim

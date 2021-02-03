@@ -206,6 +206,12 @@ nnoremap \ :CocSearch<SPACE>-w<SPACE>--hidden<SPACE>
 nnoremap <leader>* :CocSearch<SPACE>-w<SPACE>--hidden<SPACE><C-R>=expand("<cword>")<CR><CR>
 vnoremap <leader>* y:Rg <C-R>"<CR>
 
+" Scroll floating menu
+nnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+nnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
+inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
+
 let g:coc_global_extensions = [
       \ 'coc-explorer',
       \ 'coc-tsserver',

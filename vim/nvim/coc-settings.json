@@ -26,5 +26,6 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "git.enableGutters": true,
-  "snippets.ultisnips.usePythonx": false
+  "snippets.ultisnips.usePythonx": false,
+  "git.addGBlameToBufferVar": true
 }

@@ -32,13 +32,14 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-surround'
 
 " Remap . with repeat plugin
-" Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-repeat'
 
 " Fuzzy finder
 Plugin 'junegunn/fzf.vim'
 
 " Color schemes
-Plugin 'morhetz/gruvbox'
+" Plugin 'morhetz/gruvbox'
+Plugin 'christianchiarulli/nvcode-color-schemes.vim'
 " Plugin 'jnurmine/Zenburn'
 " Plugin 'jacoborus/tender.vim'
 " Plugin 'altercation/vim-colors-solarized'
@@ -60,11 +61,8 @@ Plugin 'tpope/vim-commentary'
 " Compiler plugin
 " Plugin 'tpope/vim-dispatch'
 
-" Snippet
-" Plugin 'SirVer/ultisnips'
-
 " Auto close
-" Plugin 'townk/vim-autoclose'
+Plugin 'townk/vim-autoclose'
 
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
@@ -75,6 +73,8 @@ Plugin 'honza/vim-snippets'
 Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plugin 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -103,8 +103,8 @@ if (has("termguicolors"))
  set termguicolors
 endif
 
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+" let g:gruvbox_contrast_dark='hard'
+" colorscheme gruvbox
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 " let g:UltiSnipsExpandTrigger="<tab>"
@@ -180,6 +180,10 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" resize windows vertically
+nnoremap <leader>+ :vert res +10<CR>
+nnoremap <leader>- :vert res -10<CR>
 
 " Enable VIM in the Shell
 " set editing-mode vi
