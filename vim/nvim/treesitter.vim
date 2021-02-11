@@ -2,7 +2,7 @@ lua <<EOF
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   highlight = {
-    enable = true,              -- false will disable the whole extension
+    enable = false,              -- false will disable the whole extension
     disable = { "c", "rust" },  -- list of language that will be disabled
   },
   indent = {
@@ -20,6 +20,10 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
+" if (has("termguicolors"))
+"  set termguicolors
+" endif
+
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
 
@@ -27,5 +31,5 @@ set foldexpr=nvim_treesitter#foldexpr()
 let g:nvcode_termcolors=256
 
 syntax on
-colorscheme nvcode " Or whatever colorscheme you make
+colorscheme gruvbox " Or whatever colorscheme you make
 

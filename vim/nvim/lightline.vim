@@ -34,7 +34,7 @@ endfunction
 function! LightlineGitBlame() abort
   let fullBlame = get(b:, 'coc_git_blame', '')
   " return blame
-  return winwidth(0) > 100 ? fullBlame[0:80] : '~~~'
+  return winwidth(0) > 100 ? fullBlame[0:50] . ' ..' : '~~~'
 endfunction
 
 " Use auocmd to force lightline update.

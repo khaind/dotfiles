@@ -40,7 +40,7 @@ Plugin 'junegunn/fzf.vim'
 " Color schemes
 " Plugin 'morhetz/gruvbox'
 Plugin 'christianchiarulli/nvcode-color-schemes.vim'
-" Plugin 'jnurmine/Zenburn'
+Plugin 'jnurmine/Zenburn'
 " Plugin 'jacoborus/tender.vim'
 " Plugin 'altercation/vim-colors-solarized'
 
@@ -99,9 +99,7 @@ set laststatus=2
 " 256 color
 " set t_Co=256
 
-if (has("termguicolors"))
- set termguicolors
-endif
+colorscheme zenburn
 
 " let g:gruvbox_contrast_dark='hard'
 " colorscheme gruvbox
