@@ -26,7 +26,7 @@
     "html",
     "elm"
   ],
-  "eslint.filetypes": [
+  "eslint.validate": [
     "javascript",
     "typescript",
     "typescriptreact",
@@ -46,5 +46,6 @@
   "git.enableGutters": true,
   "snippets.ultisnips.usePythonx": false,
   "git.addGBlameToBufferVar": true,
-  "explorer.icon.enableVimDevicons": true
+  "explorer.icon.enableNerdfont": true,
+  "explorer.icon.source": "vim-devicons"
 }
