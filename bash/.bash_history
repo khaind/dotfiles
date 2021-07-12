@@ -14196,3 +14196,41 @@ sudo vim /etc/ssh/sshd_config
 cd Desktop/Ongoing
 #1538150295
 ls
+#1538148402
+sudo vim /etc/ssh/sshd_config 
+#1538151264
+last | head -2
+#1538148402
+sudo vim /etc/ssh/sshd_config 
+#1538150295
+cd Desktop/Ongoing
+#1618559754
+docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
+#1618559788
+docker cp repo:/git/getting-started/ .
+#1618559803
+cd getting-started/
+#1618559808
+git log
+#1618559814
+df -sh
+#1618559824
+df -h
+#1618559830
+du -sh
+#1618559866
+docker ps -a
+#1618559906
+docker build -t docker101tutorial .
+#1618560053
+docker images
+#1618560068
+docker scan
+#1618560093
+docker scan docker101tutorial
+#1618560115
+ls
+#1618560172
+docker run -d -p 80:80 --name docker-tutorial docker101tutorial
+#1618560177
+docker ps

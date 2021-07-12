@@ -34,15 +34,13 @@ Plugin 'tpope/vim-surround'
 " Remap . with repeat plugin
 Plugin 'tpope/vim-repeat'
 
+Plugin 'tpope/vim-fugitive'
+
 " Fuzzy finder
 Plugin 'junegunn/fzf.vim'
 
 " Color schemes
-" Plugin 'morhetz/gruvbox'
-Plugin 'christianchiarulli/nvcode-color-schemes.vim'
-Plugin 'jnurmine/Zenburn'
-" Plugin 'jacoborus/tender.vim'
-" Plugin 'altercation/vim-colors-solarized'
+Plugin 'morhetz/gruvbox'
 
 " Python PEP8 syntax checking
 " Plugin 'nvie/vim-flake8'
@@ -76,6 +74,8 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plugin 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+" Plugin 'elmcast/elm-vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -99,10 +99,17 @@ set laststatus=2
 " 256 color
 " set t_Co=256
 
-colorscheme zenburn
+" colorscheme zenburn
 
-" let g:gruvbox_contrast_dark='hard'
-" colorscheme gruvbox
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
+
+" Disable creation of temporary wikis
+let g:vimwiki_global_ext=0
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'ext': '.md'}]
+
+" disable default elm plugin for elm-vim
+" let g:polyglot_disabled = ['elm']
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 " let g:UltiSnipsExpandTrigger="<tab>"
@@ -226,3 +233,13 @@ nnoremap <leader><ESC> :noh<cr>
 " return to normal mode in vim term
 tnoremap <Esc> <C-\><C-n> :close<cr>
 
+" Treat all json file as jsonc for allowing comments
+augroup JsonToJsonc
+    autocmd! FileType json set filetype=jsonc
+augroup END
+
+" Set tab size to specific file type
+augroup FileTypeSpecificAutocommands
+    autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+augroup END

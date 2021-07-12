@@ -30,6 +30,6 @@ set foldexpr=nvim_treesitter#foldexpr()
 " configure nvcode-color-schemes
 let g:nvcode_termcolors=256
 
-syntax on
+" syntax on
 colorscheme gruvbox " Or whatever colorscheme you make
 

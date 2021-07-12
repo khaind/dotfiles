@@ -1,5 +1,5 @@
 [user]
-    name = Ken Nguyen
+	name = Khai Nguyen
     email = khaindk@gmail.com
 [alias]
     st = status
@@ -45,3 +45,5 @@
     #Rebase
     main = _ !?git rebase -i %(prompt)
 
+[core]
+	editor = vim
